@@ -1,6 +1,6 @@
 site_name: PrintVis Documentation
 site_url: https://printvis.github.io/documentation
-site_author: PrintVis
+site_author: PrintVis, Inc.
 nav:
   - Welcome: index.md
   - PrintVis Setup:
