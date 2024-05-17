@@ -1,0 +1,46 @@
+site_name: PrintVis Documentation
+site_url: https://learn.printvis.com
+site_author: PrintVis
+nav:
+  - Home: index.md
+  - PrintVis Setup:
+    - Setup Overview: PrintVis/setup.md
+    - General Setup: PrintVis/generalsetup.md
+  - PrintVis Usage:
+    - Usage Overview: PrintVis/usage.md
+  - Apparel:
+    - Apparel Setup: Apparel/apparelsetup.md
+    - Apparel Usage: Apparel/apparelusage.md
+  - LoyaltyLoop:
+    - LoyaltyLoop Setup: LoyaltyLoop/llsetup.md
+    - LoyaltyLoop Usage: LoyaltyLoop/llusage.md
+
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.expand
+    - navigation.tracking
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+  language: en
+  palette:
+    scheme: white
+    primary: white
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: img/logo.png
+  favicon: img/bee.jpg
+
+extra:
+  homepage: https://printvis.com
+  generator: false
+
+copyright: Copyright &copy; PrintVis All rights reserved.
