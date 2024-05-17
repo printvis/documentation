@@ -1,4 +1,5 @@
 site_name: PrintVis Documentation
+site_url: https://printvis.github.io/documentation
 site_author: PrintVis
 nav:
   - Welcome: index.md
