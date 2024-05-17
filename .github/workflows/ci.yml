@@ -45,6 +45,7 @@ jobs:
       - name: Install dependencies
         # Alternatively: pip install mkdocs
         run: pip install -r requirements.txt
+        run: pip install mkdocs-material
       - name: Build Docs
         run: mkdocs build
       - name: Configure GitHub Pages
