@@ -1,5 +1,4 @@
 site_name: PrintVis Documentation
-site_url: https://learn.printvis.com
 site_author: PrintVis
 nav:
   - Home: index.md
