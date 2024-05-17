@@ -1,0 +1,947 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="PrintVis">
+      
+      
+        <link rel="canonical" href="https://printvis.github.io/documentation/Apparel/apparelsetup/">
+      
+      
+        <link rel="prev" href="../../PrintVis/usage/">
+      
+      
+        <link rel="next" href="../apparelusage/">
+      
+      
+      <link rel="icon" href="../../img/bee.jpg">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.23">
+    
+    
+      
+        <title>Apparel Setup - PrintVis Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6543a935.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="white" data-md-color-primary="white" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#apparel-installation-and-setup" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://printvis.com" title="PrintVis Documentation" class="md-header__button md-logo" aria-label="PrintVis Documentation" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PrintVis Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Apparel Setup
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://printvis.com" title="PrintVis Documentation" class="md-nav__button md-logo" aria-label="PrintVis Documentation" data-md-component="logo">
+      
+  <img src="../../img/logo.png" alt="logo">
+
+    </a>
+    PrintVis Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    PrintVis Setup
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            PrintVis Setup
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PrintVis/setup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Setup Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PrintVis/generalsetup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    PrintVis Usage
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            PrintVis Usage
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../PrintVis/usage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Usage Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Apparel
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Apparel
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Apparel Setup
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Apparel Setup
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      General Setup
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apparel-setup-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Apparel Setup Structure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Apparel Setup Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-new-setup-areas" class="md-nav__link">
+    <span class="md-ellipsis">
+      The new setup areas:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The new setup areas:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decoration-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Decoration Setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-up-sizes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set up Sizes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-up-gender" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set up Gender
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-up-brands" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set up Brands
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-up-brand-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set up Brand Color
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#set-up-styles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Set up Styles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#calculation-setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calculation Setup
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../apparelusage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Apparel Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    LoyaltyLoop
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            LoyaltyLoop
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LoyaltyLoop/llsetup/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LoyaltyLoop Setup
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../LoyaltyLoop/llusage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LoyaltyLoop Usage
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="apparel-installation-and-setup">Apparel Installation and Setup</h1>
+<p>PrintVis must be installed prior to installing the Apparel app.</p>
+<h2 id="installation">Installation</h2>
+<ol>
+<li>Go to the Extension Marketplace and search PrintVis. Select “Get it now” below the PrintVis Apparel app and agree to the terms.
+   <em>Add screenshot here</em></li>
+</ol>
+<h2 id="general-setup">General Setup</h2>
+<ol>
+<li>Search for “Industry Captions” and select the PrintVis Industry Captions page.</li>
+<li>
+<p>Click + New and create a caption set with the Industry Segment set to Apparel. The Caption Set and Description can be set to whatever you would like it to be. Once the Industry Segment is selected, click Manage -&gt; Generate Industry Lines to set the default caption fields for the selected industry. Once completed you can return to the previous screen.</p>
+</li>
+<li>
+<p>Click Usage on the PrintVis Industry Captions page. If your company is an apparel only company, leave Order Type and Product Group blank and select your newly created apparel caption set:</p>
+</li>
+</ol>
+<p>If your company has apparel and non-apparel products, different caption sets can be set based on Order Type or Product Group. Always include a line with a blank Order Type and Product Group that will be used as the default caption set.</p>
+<h2 id="apparel-setup-structure">Apparel Setup Structure</h2>
+<p>If you have worked with PrintVis for other types of companies before there are a couple of new setup tables to know and a use of existing fields, tables and pages to learn to use in a different way.</p>
+<p>The apparel business is unique in the way that the quantities are small, the processes takes an extraordinarily long time per piece produced and several different decoration processes are performed on the same substrate.</p>
+<p>Here is an overview of the tables involved in the Apparel specific manufacturing process:</p>
+<ol>
+<li>
+<p>We create jobs in the same way as in normal printing, BUT in apparel, the Quantity Ordered field will be a drill-down to a new page (Jobs/materials) where you can add more garments in several sizes to the estimation. One item per size of a garment is best practice.</p>
+</li>
+<li>
+<p>New table: Style is for handling a certain garment in several sizes. For example, the Style can be ‘Short Sleeve Polo in blue’. This style can have several sizes from XS to 4L and these are all tied in with it from setup. If you pick a Style, you will get all items within this style presented on the Jobs/materials page.</p>
+</li>
+<li>
+<p>New use of the Products table, now called Designs and Decorations. A Design is a BOM of decorations. Decorations are also using the Product table and are the real placeholders for product information. A good deal of information is tied to the decoration, which will flow into the job item when chosen on a decoration/job item line.
+   <img alt="Figure 1: Example of Designs and Decorations, where Designs serve as BOMs for the decorations." src="path/to/image" /></p>
+</li>
+<li>
+<p>Placements - This is a new table, explained below.</p>
+</li>
+<li>Decoration Types - This is a new table, explained below.</li>
+<li>Gender - This is a new table, explained below.</li>
+<li>Sizes - This is a new table, explained below.</li>
+</ol>
+<p>It will be helpful to see a video on how to input an apparel estimation and follow the super user script on how to create a PrintVis Apparel quote and order in an Apparel company, before moving into setup.</p>
+<h3 id="the-new-setup-areas">The new setup areas:</h3>
+<h4 id="decoration-setup">Decoration Setup</h4>
+<p>PrintVis Apparel uses Decoration Types and Decoration Placements and other smaller supporting tables to determine methods that can be used on each raw material type and where on that material artwork can be placed. </p>
+<p><strong>Set up Decoration Types:</strong>
+1. Search for “Decoration Types” and select the PrintVis Decoration Types page.
+2. Click + New and enter a code and description for each of the decoration types possible in your company. It is also possible to set a default list of units, finishing type, scrap %, minimum scrap, or item type code for each decoration type. These defaults are automatically added to the case when the decoration type is selected.</p>
+<p><strong>Set up Placements:</strong>
+Placements is an assisting table which refers to where the decoration is placed. For example Front, Left sleeve or Side panel – depending on what type of garment or material we are decorating.
+1. Search for “Placements” and select the PrintVis Placements page.
+2. Click + New and enter a code and description for each of the different places artwork can be placed on your different products. Here, we should have a complete list. It is also possible to set default max width, max height, and item type code for each placement. These defaults are used to perform checks to make sure artwork does not exceed the max size for the placement.</p>
+<h4 id="set-up-sizes">Set up Sizes</h4>
+<p>Freely definable supporting table for sizes, which can be sizes for all types of products, for example the normal S/M/L, children's sizes, bag or cap sizes etc. It will be normal to have a longer list of sizes which are used in different contexts. This is used on the Items setup.
+<img alt="Figure 2: Sizes on the Item Card. Size is related to the individual item." src="path/to/image" /></p>
+<h4 id="set-up-gender">Set up Gender</h4>
+<p>Freely definable supporting table for managing ladies’ or men’s wear – or children or unisex. This is used on the Styles setup. It will in many cases replicate the naming convention used from the vendor of the garments.
+<img alt="Figure 3: Gender is set on the Style Card" src="path/to/image" /></p>
+<h4 id="set-up-brands">Set up Brands</h4>
+<p>Freely definable supporting table for clothing brands as they are presented by the vendor. Same vendor can easily have a dozen different brands. This is used on the Styles setup.
+<img alt="Figure 4: Brands are set on the Style Card." src="path/to/image" /></p>
+<h4 id="set-up-brand-color">Set up Brand Color</h4>
+<p>Brand Color is a given from the vendor. The style has both Brand Color and Color.
+<img alt="Figure 5: Brand Color on Style Card." src="path/to/image" /></p>
+<h4 id="set-up-styles">Set up Styles</h4>
+<ol>
+<li>PrintVis Apparel uses a setup field for items called Style.</li>
+<li>The Style is tied to the item through a field on the Item record.
+   <img alt="Figure 6: The items are connected to 1 style, and this is through the Style field on the item card." src="path/to/image" /></li>
+<li>The PrintVis Styles list page.
+   <img alt="Figure 7: The Style list has filtering options so the user can narrow in the list of possible garment styles for the customer request. As you click on one of the styles you will see which items are related to this." src="path/to/image" /></li>
+<li>The PrintVis Style Card.
+   <img alt="Figure 8: The Style Card. Use the Style Card to enter relevant information in the fields." src="path/to/image" /></li>
+</ol>
+<table>
+<thead>
+<tr>
+<th><strong>Section</strong></th>
+<th><strong>Field</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>General</td>
+<td>Code</td>
+<td>Style Code</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Description</td>
+<td>Style Description</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Brand</td>
+<td>The Style Brand as given from the vendor</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Date Established</td>
+<td>The date of creation</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Gender</td>
+<td>Gender as given from the vendor</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Brand Color</td>
+<td>Brand color as given from the vendor</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Color</td>
+<td>Company classification</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Base Required</td>
+<td>This is an important field</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Item Type Code</td>
+<td>Item Type Code for searching</td>
+</tr>
+</tbody>
+</table>
+<h4 id="calculation-setup">Calculation Setup</h4>
+<p><strong>Material Calculation Unit</strong>
+1. A calculation unit needs to be set up that will be the carrier for all materials used on an apparel job.
+2. Apply the materials calculation unit to the Apparel setup.</p>
+<p><strong>Apparel Calculation Formulae</strong></p>
+<p>![Figure 11: Extension calculation formulae.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; PrintVis All rights reserved.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.sections", "navigation.top", "navigation.expand", "navigation.tracking", "toc.integrate", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.ebd0bdb7.min.js"></script>
+      
+    
+  </body>
+</html>
