@@ -45,6 +45,7 @@ jobs:
       - name: Install dependencies
         # Alternatively: pip install mkdocs
         run: pip install -r requirements.txt
+      - name: Install Materials theme  
         run: pip install mkdocs-material
       - name: Build Docs
         run: mkdocs build
