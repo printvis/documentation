@@ -1,7 +1,7 @@
 site_name: PrintVis Documentation
 site_author: PrintVis
 nav:
-  - Home: index.md
+  - Welcome: index.md
   - PrintVis Setup:
     - Setup Overview: PrintVis/setup.md
     - General Setup: PrintVis/generalsetup.md
