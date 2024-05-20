@@ -10,7 +10,7 @@ PrintVis must be installed prior to installing the Apparel app.
 1. Search for “Industry Captions” and select the PrintVis Industry Captions page.
 2. Click + New and create a caption set with the Industry Segment set to Apparel. The Caption Set and Description can be set to whatever you would like it to be. Once the Industry Segment is selected, click Manage -> Generate Industry Lines to set the default caption fields for the selected industry. Once completed you can return to the previous screen.
 
-![Industry Caption](assets\AppSetup.jpg)
+![Industry Caption](assets/AppSetup.jpg)
 
 3. Click Usage on the PrintVis Industry Captions page. If your company is an apparel only company, leave Order Type and Product Group blank and select your newly created apparel caption set:
    
