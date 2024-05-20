@@ -85,6 +85,7 @@ The size of the garment or item.
 PrintVis Apparel supports each size being unique items or variants on a single item.
 a. If you are using an item for every size, you will assign the style to each size item for that style and add the size in the PrintVis apparel section of the item card.
 b. If you are using variants on a single item for size, you will have a 1-to-1 relationship between style and item. Use the variant code and/or description to represent the size of each item.
+![Item Card](./assets/AppSetup14.jpg)
 
 
 #### Calculation Setup
@@ -93,12 +94,12 @@ b. If you are using variants on a single item for size, you will have a 1-to-1 r
 The way we handle the garment items is completely different from normal PrintVis. It can take a bit of time to get used to. Possibly investigate the Apparel Company demo setup for reference.
 
 1. A calculation unit needs to be set up that will be the carrier for all materials used on an apparel job. We recommend creating a cost center and configuration specifically for this to avoid any confusion. Assign for example the the Admin department, have a dedicated cost center/configuration and leave the process type blank. No details are required on this unit besides code, text description, department, cost center, and configuration. No calculation detail lines should be setup on this particular unit.
-![Figure 9: Calculation unit header for the Materials calculation unit](./assets/AppSetup14.jpg)
+![Figure 9: Calculation unit header for the Materials calculation unit](./assets/AppSetup15.jpg)
 2. Apply the materials calculation unit to the Apparel setup. Search "PrintVis Apparel Setup" and on this page assign the above calculation unit to the "Calculation unit for Material Lines" field.
-![Figure 10: The field for connecting the materials calculation unit to the apparel setup](./assets/AppSetup15.jpg)
+![Figure 10: The field for connecting the materials calculation unit to the apparel setup](./assets/AppSetup16.jpg)
 
 **Apparel Calculation Formula**
 
 With the extension is also brought some specific calculation formulas for fetching data to the estimation.
 
-![Figure 11: Extension calculation formula.](./assets/AppSetup16.jpg)
+![Figure 11: Extension calculation formula.](./assets/AppSetup17.jpg)
