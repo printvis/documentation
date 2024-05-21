@@ -23,6 +23,8 @@ theme:
     - navigation.indexes
     - navigation.sections
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.expand
     - navigation.tracking
     - toc.integrate
