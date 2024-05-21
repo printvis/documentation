@@ -1,4 +1,4 @@
-## Sending Data to LoyaltyLoop
+## Sending data to LoyaltyLoop
 
 The LoyaltyLoop integration will use the email address from the Sell-To Contact when sending data to LoyaltyLoop. If the case does not have a contact or the contact email is blank sending to LoyaltyLoop will be skipped.
 
@@ -9,22 +9,23 @@ The email address is setup in the communication section of the contact.
 ![Contact Card](./assets/LLUsage2.jpg)
 
 Once the case moves to the Status Code with the LoyaltyLoop checkbox checked, the following case data will automatically be sent to LoyaltyLoop:
-- Sell-to contact email
-- Sell-to contact name
-- Sell-to contact organizational level
-- Sell-to contact company name
-- Sell-to contact address
-- Sell-to contact phone
-- Sell-to contact mobile phone
-- Send date/time
-- Case coordinator
-- Case salesperson
-- Case sell-to number
-- Case order number
-- Case order type
-- Case job name
-- Case your reference (PO)
-- Sum of all active order job lines quote price
+
+* Sell-to contact email
+* Sell-to contact name
+* Sell-to contact organizational level
+* Sell-to contact company name
+* Sell-to contact address
+* Sell-to contact phone
+* Sell-to contact mobile phone
+* Send date/time
+* Case coordinator
+* Case salesperson
+* Case sell-to number
+* Case order number
+* Case order type
+* Case job name
+* Case your reference (PO)
+* Sum of all active order job lines quote price
 
 ## Viewing responses within PrintVis:
 
