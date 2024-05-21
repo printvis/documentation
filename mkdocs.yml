@@ -2,7 +2,8 @@ site_name: PrintVis Documentation
 site_url: https://printvis.github.io/documentation
 site_author: PrintVis, Inc.
 nav:
-  - Welcome: index.md
+  - Welcome: 
+    - PrintVis documentation: index.md
     - Get started: getstart.md
   - PrintVis setup:
     - Setup overview: PrintVis/setup.md
