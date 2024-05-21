@@ -16,8 +16,8 @@ nav:
     - LoyaltyLoop Overview: LoyaltyLoop/LLoverview.md
     - LoyaltyLoop Setup: LoyaltyLoop/llsetup.md
     - LoyaltyLoop Usage: LoyaltyLoop/llusage.md
+  - Community User Group: pug.md  
     
-
 theme:
   name: material
   features:
@@ -25,7 +25,6 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.expand
     - navigation.tracking
     - toc.integrate
