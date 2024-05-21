@@ -1,4 +1,4 @@
-# Connect to the LoyaltyLoop API
+## Connect to the LoyaltyLoop API
 
 These setup steps will make the overall connection to LoyaltyLoop for sending PrintVis data to LoyaltyLoop and getting LoyaltyLoop response data back into PrintVis.
 
