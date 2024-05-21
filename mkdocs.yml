@@ -3,24 +3,25 @@ site_url: https://printvis.github.io/documentation
 site_author: PrintVis, Inc.
 nav:
   - Welcome: index.md
-  - PrintVis Setup:
-    - Setup Overview: PrintVis/setup.md
-    - General Setup: PrintVis/generalsetup.md
+    - Get started: getstart.md
+  - PrintVis setup:
+    - Setup overview: PrintVis/setup.md
+    - General setup: PrintVis/generalsetup.md
     - User: PrintVis/user.md
-  - PrintVis Usage:
-    - Usage Overview: PrintVis/usage.md
+  - PrintVis usage:
+    - Usage overview: PrintVis/usage.md
     - Salesperson: PrintVis/sales.md
     - Coordinator: PrintVis/coordinator.md
     - Scheduler: PrintVis/scheduler.md
   - Apparel:
-    - Apparel Overview: Apparel/appareloverview.md
-    - Apparel Setup: Apparel/apparelsetup.md
-    - Apparel Usage: Apparel/apparelusage.md
+    - Apparel overview: Apparel/appareloverview.md
+    - Apparel setup: Apparel/apparelsetup.md
+    - Apparel usage: Apparel/apparelusage.md
   - LoyaltyLoop:
-    - LoyaltyLoop Overview: LoyaltyLoop/LLoverview.md
-    - LoyaltyLoop Setup: LoyaltyLoop/llsetup.md
-    - LoyaltyLoop Usage: LoyaltyLoop/llusage.md
-  - Community User Group: pug.md  
+    - LoyaltyLoop overview: LoyaltyLoop/LLoverview.md
+    - LoyaltyLoop setup: LoyaltyLoop/llsetup.md
+    - LoyaltyLoop usage: LoyaltyLoop/llusage.md
+  - PrintVis User Group: pug.md  
     
 theme:
   name: material

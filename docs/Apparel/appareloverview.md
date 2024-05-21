@@ -1,3 +1,7 @@
-# Apparel Demonstration
+# Apparel Overview
+
+Whether you’re in the business of apparel printing or creating promotional products using techniques like screen printing, direct-to-garment, direct-to-film, sublimation, or embroidery, PrintVis is your partner for business optimization. It’s not just another software; it’s a game-changer. By seamlessly integrating and monitoring crucial data encompassing estimates, orders, costs, inventory, delivery dates, invoicing, and shipping, PrintVis takes your business to new heights.
+
+Our comprehensive end-to-end solution is purposefully crafted to manage every facet of your business operations. PrintVis becomes the driving force behind streamlined processes, elevated efficiency, and the arsenal you require to flourish in your industry.
 
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/945910644?h=85e82c88b1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="PrintVis Apparel App Webinar"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
