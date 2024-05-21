@@ -1,3 +1,3 @@
-Join the PrintVis User Group at: [printvis.network](https://printvis.network)
+Join the PrintVis User Group at: [printvis.network](https://printvis.network){:target="_blank"}
 
 Interact and network with fellow users to ask questions and share ideas with each other.
