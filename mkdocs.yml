@@ -16,6 +16,7 @@ nav:
     - LoyaltyLoop Overview: LoyaltyLoop/LLoverview.md
     - LoyaltyLoop Setup: LoyaltyLoop/llsetup.md
     - LoyaltyLoop Usage: LoyaltyLoop/llusage.md
+    
 
 theme:
   name: material
