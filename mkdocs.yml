@@ -6,8 +6,12 @@ nav:
   - PrintVis Setup:
     - Setup Overview: PrintVis/setup.md
     - General Setup: PrintVis/generalsetup.md
+    - User: PrintVis/user.md
   - PrintVis Usage:
     - Usage Overview: PrintVis/usage.md
+    - Salesperson: PrintVis/sales.md
+    - Coordinator: PrintVis/coordinator.md
+    - Scheduler: PrintVis/scheduler.md
   - Apparel:
     - Apparel Overview: Apparel/appareloverview.md
     - Apparel Setup: Apparel/apparelsetup.md
