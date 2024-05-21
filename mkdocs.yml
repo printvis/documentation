@@ -9,9 +9,11 @@ nav:
   - PrintVis Usage:
     - Usage Overview: PrintVis/usage.md
   - Apparel:
+    - Apparel Overview: Apparel/appareloverview.md
     - Apparel Setup: Apparel/apparelsetup.md
     - Apparel Usage: Apparel/apparelusage.md
   - LoyaltyLoop:
+    - LoyaltyLoop Overview: LoyaltyLoop/LLoverview.md
     - LoyaltyLoop Setup: LoyaltyLoop/llsetup.md
     - LoyaltyLoop Usage: LoyaltyLoop/llusage.md
 
