@@ -44,8 +44,8 @@ theme:
     primary: white
     accent: blue
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Roboto Slab
+    code: Roboto Slab
   logo: img/logo.png
   favicon: img/bee.jpg
 
