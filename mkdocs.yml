@@ -15,8 +15,8 @@ nav:
     - Coordinator: PrintVis/coordinator.md
     - Scheduler: PrintVis/scheduler.md
   - PrintVis Pages:
-    - Pages overview: pages.md
-    - Case management: pvscasemanagement.md
+    - Pages overview: Pages/pages.md
+    - Case management: Pages/pvscasemanagement.md
   - Apparel:
     - Apparel overview: Apparel/appareloverview.md
     - Apparel setup: Apparel/apparelsetup.md
