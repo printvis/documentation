@@ -1,7 +1,7 @@
-h1 {
+.md-typeset h1 {
     font-size: 14px;
   }
 
-body {
+.md-typeset body {
     font-size: 12px;
 }
