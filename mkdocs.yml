@@ -42,6 +42,7 @@ theme:
     - content.tabs.link
     - content.code.annotate
   language: en
+  extra_css: stylesheets/extra.css
   palette:
     scheme: white
     primary: white
@@ -55,8 +56,5 @@ theme:
 extra:
   homepage: https://printvis.com
   generator: false
-
-extra_css:
-  - stylesheets/extra.css
 
 copyright: Copyright &copy; PrintVis All rights reserved.
