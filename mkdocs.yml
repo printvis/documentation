@@ -42,7 +42,6 @@ theme:
     - content.tabs.link
     - content.code.annotate
   language: en
-  extra_css: stylesheets/extra.css
   palette:
     scheme: white
     primary: white
@@ -52,6 +51,8 @@ theme:
     code: Roboto Slab
   logo: img/logo.png
   favicon: img/bee.jpg
+
+extra_css: stylesheets/extra.css
 
 extra:
   homepage: https://printvis.com
