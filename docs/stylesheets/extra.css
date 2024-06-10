@@ -1,11 +1,11 @@
-.md-content__inner md-typeset h1 {
+.md-typeset h1 {
     font-size: 14px;
   }
 
-.md-content__inner md-typeset h2 {
+.md-typeset h2 {
     font-size: 12px;
   }
 
-.md-content__inner md-typeset p {
+.md-typeset p {
     font-size: 12px;
 }
