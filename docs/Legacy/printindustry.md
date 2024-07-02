@@ -27,9 +27,9 @@ The information above is just the beginning of learning the print industry. Like
 
 The next step is to become familiar with PrintVis. Click ![PrintVis Overview](./printvisoverview.md) to continue learning about PrintVis and what the software entails.
 
-![Glossary of printing](./assets/a-glossary-of-printing.pdf)
-![Printing Industry Overview](./assets/Printing Industry Overview.pdf)
-![Glossary of Printing Terms](./assets/Glossary of Printing Terms 2.pdf)
-![Glossary of Printing Terms Continued](./assets/Glossary of Printing Terms 3.pdf)
+<a href="./assets/a-glossary-of-printing.pdf" target="_blank">Glossary of Printing</a>
+<a href="./assets/Printing Industry Overview.pdf" target="_blank">Print Industry Overview</a>
+<a href="./assets/Glossary of Printing Terms 2.pdf" target="_blank">Glossary of Printing Terms</a>
+<a href="./assets/Glossary of Printing Terms 3.pdf" target="_blank">Glossary of Printing Terms Continued</a>
 
 
