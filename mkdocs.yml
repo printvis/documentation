@@ -25,10 +25,10 @@ nav:
     - LoyaltyLoop overview: LoyaltyLoop/LLoverview.md
     - LoyaltyLoop setup: LoyaltyLoop/llsetup.md
     - LoyaltyLoop usage: LoyaltyLoop/llusage.md
+  - PrintVis legacy support:
+    - PrintVis overview: Legacy/printvisoverview.md
+    - Print industry: Legacy/printindustry.md
   - PrintVis User Group: pug.md
-  - PrintVis Legacy Support: Legacy/Legacyoverview.md
-    - PrintVis Overview: Legacy/printvisoverview.md
-    - Print Industry: Legacy/printindustry.md
     
 theme:
   name: material
