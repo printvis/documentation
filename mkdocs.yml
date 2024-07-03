@@ -28,6 +28,7 @@ nav:
   - PrintVis legacy support:
     - PrintVis overview: Legacy/printvisoverview.md
     - Print industry: Legacy/printindustry.md
+    - Sales Order integration: Legacy/salesorder.md
   - PrintVis User Group: pug.md
     
 theme:
