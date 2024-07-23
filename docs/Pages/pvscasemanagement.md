@@ -40,3 +40,4 @@ The **Info** section displays some statistics such as request completed date/tim
 - Product Versions
 - Quality Assurance
 - Commission
+- <a href="../ordertype.md" target="_self">Order Types</a>
