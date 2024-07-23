@@ -14,7 +14,7 @@ In our **Responsibility Area** setup, you have the option of building different 
 
 ## See Also
 
-- <a href="../pvscasemanagement.md" target="_self">Case Management</a>
+- <a href="../pvscasemanagement/" target="_self">Case Management</a>
 - Product Groups
 - Status Code
 - Responsiblity Areas
