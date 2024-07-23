@@ -17,6 +17,7 @@ nav:
   - PrintVis Pages:
     - Pages overview: Pages/pages.md
     - Case management: Pages/pvscasemanagement.md
+    - Order Types: Pages/pvsordertype.md
   - Apparel:
     - Apparel overview: Apparel/appareloverview.md
     - Apparel setup: Apparel/apparelsetup.md
