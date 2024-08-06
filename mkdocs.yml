@@ -18,6 +18,15 @@ nav:
     - Pages overview: Pages/pages.md
     - Case management: Pages/pvscasemanagement.md
     - Order Types: Pages/pvsordertype.md
+    - Status Codes: Pages/pvsstatuscode.md
+    - Responsibility Areas: Pages/pvsresponsibilityareas.md
+    - Quick Quote: Pages/pvsquickquote.md
+    - Quality Assurance: Pages/pvsqa.md
+    - Project Management: Pages/pvsprojectmanagement.md
+    - Product Groups: Pages/pvsproductgroups.md
+    - Industry Captions: Pages/pvsindustrycaptions.md
+    - Cost Center: Pages/pvscostcenter.md
+    - Complaints: Pages/pvscomplaints.md
   - Apparel:
     - Apparel overview: Apparel/appareloverview.md
     - Apparel setup: Apparel/apparelsetup.md

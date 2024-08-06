@@ -15,7 +15,7 @@ In our **Responsibility Area** setup, you have the option of building different 
 ## See Also
 
 - <a href="../pvscasemanagement/" target="_self">Case Management</a>
-- Product Groups
-- Status Code
+- <a href="../pvsproductgroups/" target="_self">Product Groups</a>
+- <a href="../pvsstatuscode/" target="_self">Status Code</a>
 - Responsiblity Areas
 - ECO-Labels

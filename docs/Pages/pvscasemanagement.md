@@ -24,6 +24,7 @@ The **Info** section displays some statistics such as request completed date/tim
 
 ## See also
 
+- <a href="../pvsstatuscode/" target="_self">Status Codes</a>
 - Copying
 - Job Costing
 - Material Requirements
@@ -38,6 +39,7 @@ The **Info** section displays some statistics such as request completed date/tim
 - Shipments
 - Milestones
 - Product Versions
-- Quality Assurance
+- <a href="../pvsqa/" target="_self">Quality Assurance</a>
 - Commission
 - <a href="../pvsordertype/" target="_self">Order Types</a>
+- <a href="../pvsproductgroups/" target="_self">Product Groups</a>
