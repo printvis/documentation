@@ -207,8 +207,6 @@ The PrintVis General Setup page allows the company to set a number of standard p
 | Report for Quote Description               | If a Quote Description text is too complex to generate through Merge Codes, a report can be made and addressed through this field. This will be a custom report and be used on one or more custom Quote reports. It may also be used on the Case Card through the function "Build Invoice Text," and, from here, be editable before generating the quote report. Not typically used with Document Management generated quotes. |
 | Report Production Plan Milestones          | PrintVis comes with a standard report called Milestones. Sometimes, this report is customized. This field is used to replace the original report with the customized version. The report can be printed from the Production Plan page as well as the production menu. |
 
-																|
-
 ## System
 
 ![General Setup 13](./assets/printvis General Setup 13.jpg)
