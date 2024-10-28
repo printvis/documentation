@@ -188,12 +188,8 @@ The PrintVis General Setup page allows the company to set a number of standard p
 |Field		|Description 																								|
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Purchase Order No. from Sales Order  | A selection in this field means that a purchase order, which is created directly from a sales order, receives the same number as the sales order.				|
-| Purchase Order No. Format	       | If you want a specific formatting of the purchase order number, which is taken from the no. series, you may enter text before and/or after the concerned number.
-The number is placed where it says %1 in the text
-e.g.: CASE-%1-DK (to order no. 8856) will give the result:
-
+| Purchase Order No. Format	       | If you want a specific formatting of the purchase order number, which is taken from the no. series, you may enter text before and/or after the concerned number. The number is placed where it says %1 in the text e.g.: CASE-%1-DK (to order no. 8856) will give the result:
     - CASE-8856-DK (as purchase order number).																						|
-
 | Dim1 Purchasing			| If the setup demands that Dimension 1 is mandatory on the purchase order, this field helps determine the dimension value which is set on it.
 - Manual: The user manually sets the value or has help of system settings.
 - PV Case: The value is set from the Case Card Field Dimension 1 value
