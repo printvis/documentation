@@ -16,6 +16,7 @@ nav:
     - Scheduler: PrintVis/scheduler.md
   - PrintVis Pages:
     - Pages overview: Pages/pages.md
+    - Opportunities/CRM: Pages/crm.md
     - Case management: Pages/pvscasemanagement.md
     - Order Types: Pages/pvsordertype.md
     - Status Codes: Pages/pvsstatuscode.md
@@ -27,6 +28,17 @@ nav:
     - Industry Captions: Pages/pvsindustrycaptions.md
     - Cost Center: Pages/pvscostcenter.md
     - Complaints: Pages/pvscomplaints.md
+    - Location: Pages/location.md
+    - Items: Pages/item.md
+    - Item Type Code: Pages/itemtypecode.md
+    - Item Type Code Filter: Pages/itemtypefilter.md
+    - Tools: Pages/pvstools.md
+    - Material Requirements: Pages/pvsmaterialreq.md
+    - Purchase Guide: Pages/pvspurchaseguide.md
+    - Job Material Movement/Pick: Pages/pvsjobmaterialmove.md
+    - WIP Setup: Pages/pvswipsetup.md
+    - WIP Journal: Pages/pvswipjournal.md
+    - Posted WIP Entries: Pages/pvspostedwip.md
   - Apparel:
     - Apparel overview: Apparel/appareloverview.md
     - Apparel setup: Apparel/apparelsetup.md
