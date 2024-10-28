@@ -185,47 +185,35 @@ The PrintVis General Setup page allows the company to set a number of standard p
 
 ![General Setup 11](./assets/printvis General Setup 11.jpg)
 
-|Field		|Description 																								|
-|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Purchase Order No. from Sales Order  | A selection in this field means that a purchase order, which is created directly from a sales order, receives the same number as the sales order.				|
-| Purchase Order No. Format	       | If you want a specific formatting of the purchase order number, which is taken from the no. series, you may enter text before and/or after the concerned number. The number is placed where it says %1 in the text e.g.: CASE-%1-DK (to order no. 8856) will give the result:
-- CASE-8856-DK (as purchase order number). |
-| Dim1 Purchasing			| If the setup demands that Dimension 1 is mandatory on the purchase order, this field helps determine the dimension value which is set on it.
-- Manual: The user manually sets the value or has help of system settings.
-- PV Case: The value is set from the Case Card Field Dimension 1 value
-- Department: The value is set from the department of the calculation line which this purchase is generated from. For instance, PRINT (if specific paper) or EXTERNAL (if ordering external treatment)
-- User Department: The value is set from the user setup, department field.
-- Purchaser Dimension: The value is set from the Sales Person table, which is also used for purchasers. On user settings, there is a standard Purchaser field. This Purchaser will be set on the PO and the department set accordingly. |
-| Dim1 Purchasing Mandatory		| Tick this field if all Purchase Orders must have a Dimension 1 code.															|
-| Purch. Order Paper Automatic	        | If eProcurement for Paper purchase is required and set up, tick this field to activate automated paper purchase.								|
-| Purch. Order Paper Documents eProcurement | Tick to activate paper purchase automation using eProcurement (OnLine functionality)											|
+| Field                                      | Description |
+|--------------------------------------------|-------------|
+| Purchase Order No. from Sales Order        | A selection in this field means that a purchase order, which is created directly from a sales order, receives the same number as the sales order. |
+| Purchase Order No. Format                  | If you want a specific formatting of the purchase order number, which is taken from the no. series, you may enter text before and/or after the concerned number. The number is placed where it says %1 in the text – e.g.: CASE-%1-DK (to order no. 8856) will give the result: CASE-8856-DK (as purchase order number). |
+| Dim1 Purchasing                            | If the setup demands that Dimension 1 is mandatory on the purchase order, this field helps determine the dimension value which is set on it. <ul><li>Manual: The user manually sets the value or has help of system settings.</li><li>PV Case: The value is set from the Case Card Field Dimension 1 value</li><li>Department: The value is set from the department of the calculation line which this purchase is generated from. For instance, PRINT (if specific paper) or EXTERNAL (if ordering external treatment)</li><li>User Department: The value is set from the user setup, department field.</li><li>Purchaser Dimension: The value is set from the Sales Person table, which is also used for purchasers. On user settings, there is a standard Purchaser field. This Purchaser will be set on the PO and the department set accordingly.</li></ul> |
+| Dim1 Purchasing Mandatory                   | Tick this field if all Purchase Orders must have a Dimension 1 code. |
+| Purch. Order Paper Automatic                | If eProcurement for Paper purchase is required and set up, tick this field to activate automated paper purchase. |
+| Purch. Order Paper Documents eProcurement   | Tick to activate paper purchase automation using eProcurement (OnLine functionality). |
+|
 
 ## Special
 
 ![General Setup 12](./assets/printvis General Setup 12.jpg)
 
-| Field		| Description																									|
-|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Scheduling Locked Behavior	| Default setting: "Stop Manual Move". When a planning unit is marked as "locked" and user is trying to move the planning unit (manually) to another timeslot, by default the unit will not be able to be moved. If the planning unit is desired to be moved, then please unlock the planning unit before moving it. Then the unit can be marked as locked after the movement has been completed.					
+| Field                                     | Description |
+|-------------------------------------------|-------------|
+| Scheduling Locked Behavior                 | Default setting: "Stop Manual Move". When a planning unit is marked as "locked" and the user is trying to move the planning unit (manually) to another timeslot, by default the unit will not be able to be moved. If the planning unit is desired to be moved, then please unlock the planning unit before moving it. Then the unit can be marked as locked after the movement has been completed. "Allow Manual Move"- This option is only to be used if there is customization done around the scheduling, specifically the locked functionality. By using this setting, the system will respect the customization that was previously completed. |
+| Case Milestone 1 …10 Ok                  | Up to 10 milestones from the planning setup may be chosen for presentation in the Production plan and in the Case Management overview. Here, you pick the milestones wanted. |
+| Report Production Plan                     | PrintVis comes with a standard report called Production Plan. Sometimes this report is customized. This field is used to replace the original report with the customized version. The report can be printed from the Production Plan page as well as the production menu. |
+| Report for Quote Description               | If a Quote Description text is too complex to generate through Merge Codes, a report can be made and addressed through this field. This will be a custom report and be used on one or more custom Quote reports. It may also be used on the Case Card through the function "Build Invoice Text," and, from here, be editable before generating the quote report. Not typically used with Document Management generated quotes. |
+| Report Production Plan Milestones          | PrintVis comes with a standard report called Milestones. Sometimes, this report is customized. This field is used to replace the original report with the customized version. The report can be printed from the Production Plan page as well as the production menu. |
 
-"Allow Manual Move"- This option is only to be used if there is customization done around the scheduling, specifically the locked functionality. By using this setting, the system will respect the customization that was previously completed.																										|
-| Case Milestone 1 …10 Ok	| Up to 10 milestones from the planning setup may be chosen for presentation in the Production plan and in the Case Management overview. Here, you pick the milestones wanted.		|
-| Report Production Plan	| PrintVis comes with a standard report called Production Plan.		
-Sometimes this report is customized. This field is used to replace the original report with the customized version.
-The report can be printed from the Production Plan page as well as the production menu.																	|
-| Report for Quote Description	| If a Quote Description text is too complex to generate through Merge Codes, a report can be made and addressed through this field.
-This will be a custom report and be used on one or more custom Quote reports. It may also be used on the Case Card through the function "Build Invoice Text," and, from here, be editable before generating the quote report.
-Not typically used with Document Management generated quotes.																				|
-| Report Production Plan Milestones    |
-	PrintVis comes with a standard report called Milestones.
-Sometimes, this report is customized. This field is used to replace the original report with the customized version.
-The report can be printed from the Production Plan page as well as the production menu.																	|
+																|
 
 ## System
 
 ![General Setup 13](./assets/printvis General Setup 13.jpg)
 
-| Field                               | Description                                                                                                                                                                                                 |
+| Field                               | Description                                                                                                                                                                                                |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Batch Manager Timer                 | This field determines the general timer of the Batch Manager. Input is in seconds. The setting here should be the largest acceptable to make sure the batch manager is not disturbing daily use.                                                  The Batch Manager setup may override this value for individual purposes. The Batch Manager is used to run various automated jobs in the background to automate internal processes.                           |
 | Rounding Type                       | This field impacts how the Quoted Price field on the Job line is rounded: - No Rounding - Up - Down - Nearest                                                                                             |
@@ -242,7 +230,6 @@ The report can be printed from the Production Plan page as well as the productio
 | Abbr. Work-and-Turn                | In this field, you can put your own internal abbreviation for the printing process of Turning. This will be visible on the Job Ticket Report.                                                               |
 | Abbr. Work-and-Tumble              | In this field, you can put your own internal abbreviation for the printing process of Tumbling. This will be visible on the Job Ticket Report.                                                              |
 | Abbr. Perfecting                   | In this field, you can put your own internal abbreviation for the printing process of Perfecting. This will be visible on the Job Ticket Report.                                                            |
-
 
 ## Job Queues
 
