@@ -22,7 +22,7 @@ Checking the Calculate Estimated Footprint checkbox will send all jobs for the c
 
 Checking the Calculate Actual Footprint checkbox will send the case job costing data to CarbonQuota to calculate an actual carbon footprint based on time recorded and materials consumed for the job. 
 
-# Viewing CarbonQuota carbon calculations within PrintVis
+## Viewing CarbonQuota carbon calculations within PrintVis
 
 There are several places on the PrintVis case card where it is possible to view the CarbonQuota calculated values. 
 
@@ -50,13 +50,13 @@ It is possible to manually add the CarbonQuota carbon data to these reports usin
 
 - Use a **Powered by** CarbonQuota logo on any document that features their data.
 
-![PoweredBy](.assets/PoweredBy1.jpg)
-![PoweredBy](.assets/PoweredBy2.jpg)
-![PoweredBy](.assets/PoweredBy3.jpg)
-![PoweredBy](.assets/PoweredBy4.jpg)
-![PoweredBy](.assets/PoweredBy5.jpg)
-![PoweredBy](.assets/PoweredBy6.jpg)
+![PoweredBy](.assets/PoweredBy1.png)
+![PoweredBy](.assets/PoweredBy2.png)
+![PoweredBy](.assets/PoweredBy3.png)
+![PoweredBy](.assets/PoweredBy4.png)
+![PoweredBy](.assets/PoweredBy5.png)
+![PoweredBy](.assets/PoweredBy6.png)
 
-- The unit of measure (KGC02e) must be used when displaying the carbon footprint value. Example: 25,434 KGCO2e
+- The unit of measure (KGCO2e) must be used when displaying the carbon footprint value. Example: 25,434 KGCO2e
 
 - Correctly label or caption the value (Carbon Footprint). Example: Carbon Footprint: 25,434 KGCO2e
