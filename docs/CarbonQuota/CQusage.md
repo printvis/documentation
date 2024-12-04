@@ -42,7 +42,7 @@ There are several places on the PrintVis case card where it is possible to view 
 
 On the Service Connections, CarbonQuota Setup option there is an action that can be used to **Update PrintVis Report Setup** automatically.
 
-![CarbonQuota](.assets/CQSetup15.jpg)
+![CarbonQuota](./assets/CQSetup15.jpg)
 
 Using this automatic function ensures the quote and order confirmation reports conform to the CarbonQuota requirements for using their data on these external reports.
 
@@ -50,12 +50,12 @@ It is possible to manually add the CarbonQuota carbon data to these reports usin
 
 - Use a **Powered by** CarbonQuota logo on any document that features their data.
 
-![PoweredBy](.assets/PoweredBy1.png)
-![PoweredBy](.assets/PoweredBy2.png)
-![PoweredBy](.assets/PoweredBy3.png)
-![PoweredBy](.assets/PoweredBy4.png)
-![PoweredBy](.assets/PoweredBy5.png)
-![PoweredBy](.assets/PoweredBy6.png)
+![PoweredBy](./assets/PoweredBy1.png)
+![PoweredBy](./assets/PoweredBy2.png)
+![PoweredBy](./assets/PoweredBy3.png)
+![PoweredBy](./assets/PoweredBy4.png)
+![PoweredBy](./assets/PoweredBy5.png)
+![PoweredBy](./assets/PoweredBy6.png)
 
 - The unit of measure (KGCO2e) must be used when displaying the carbon footprint value. Example: 25,434 KGCO2e
 
