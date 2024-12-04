@@ -1,8 +1,8 @@
-## Connect to the CarbonQuota API
+# Connect to the CarbonQuota API
 
 These setup steps will make the overall connection to CarbonQuota for sending PrintVis data to CarbonQuota and getting carbon footprint data back into PrintVis.
 
-# Setting up the free trial
+## Setting up the free trial
 
 1. **Install PrintVis CarbonQuota Integration app** from AppSource.
 
@@ -24,7 +24,7 @@ These setup steps will make the overall connection to CarbonQuota for sending Pr
 
 ![AppSource](.assets/CQSetup8.jpg)
 
-# Converting your free trial into a CarbonQuota subscription
+## Converting your free trial into a CarbonQuota subscription
 
 At any time during the trial process, it is possible to convert your free trial into a CarbonQuota subscription. 
 
@@ -44,7 +44,7 @@ At any time during the trial process, it is possible to convert your free trial 
 
 ![AppSource](.assets/CQSetup14.jpg)
 
-# Adding carbon data to Quote and/or Order confirmation reports
+## Adding carbon data to Quote and/or Order confirmation reports
 
 On the Service Connections, CarbonQuota Setup option there is an action that can be used to **Update PrintVis Report Setup** automatically.
 
@@ -56,9 +56,9 @@ On the Service Connections, CarbonQuota Setup option there is an action that can
 ![AppSource](.assets/CQSetup17.jpg)
 ![AppSource](.assets/CQSetup18.jpg)
 
-2. This will add a *Powered by CarbonQuota* logo to the report layout and the KGC02e value to the pricing grid on the report setup for the selected report types.
+2. This will add a *Powered by CarbonQuota* logo to the report layout and the KGCO2e value to the pricing grid on the report setup for the selected report types.
 
-# Cancelling the CarbonQuota subscription
+## Cancelling the CarbonQuota subscription
 
 It is possible to cancel the CarbonQuota subscription directly within PrintVis.
 

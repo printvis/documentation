@@ -1,4 +1,4 @@
-## CarbonQuota: Automated Product Carbon Footprints
+# CarbonQuota: Automated Product Carbon Footprints
 
 PrintVis has partnered with CarbonQuota to integrate their market leading automated carbon footprint calculator, CarbonConnect, directly into the PrintVis platform.
 
