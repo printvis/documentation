@@ -26,15 +26,15 @@ Checking the Calculate Actual Footprint checkbox will send the case job costing 
 
 There are several places on the PrintVis case card where it is possible to view the CarbonQuota calculated values. 
 
-1. It is possible to add CarbonQuota KGC02e and CarbonQuota Additional Quantity KGCO2e values directly to the job line. These are the KGCO2e values calculated based on the job estimate.
+- It is possible to add CarbonQuota KGC02e and CarbonQuota Additional Quantity KGCO2e values directly to the job line. These are the KGCO2e values calculated based on the job estimate.
 
 ![CarbonQuota](./assets/CQUsage4.jpg)
 
-2. In the CarbonQuota menu in the jobs section of the case card, it is possible to **View Estimated Entries** to see the KGC02e values. If upgraded to the CarbonQuota CarbonConnect+ product, here is where the detailed breakdown of the KGCO2e values will reside.
+- In the CarbonQuota menu in the jobs section of the case card, it is possible to **View Estimated Entries** to see the KGC02e values. If upgraded to the CarbonQuota CarbonConnect+ product, here is where the detailed breakdown of the KGCO2e values will reside.
 
 ![CarbonQuota](./assets/CQUsage5.jpg)
 
-3. In the Case Card factbox there is a CarbonQuota Factbox section. This section will show the Estimated KGC02e and additional quantity KGCO2e values for the selected job line and will also show the actual, or job costing, KGCO2e value for the case.
+- In the Case Card factbox there is a CarbonQuota Factbox section. This section will show the Estimated KGC02e and additional quantity KGCO2e values for the selected job line and will also show the actual, or job costing, KGCO2e value for the case.
 
 ![CarbonQuota](./assets/CQUsage6.jpg)
 
