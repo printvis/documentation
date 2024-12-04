@@ -43,6 +43,10 @@ nav:
     - Apparel overview: Apparel/appareloverview.md
     - Apparel setup: Apparel/apparelsetup.md
     - Apparel usage: Apparel/apparelusage.md
+  - CarbonQuota:
+    - CarbonQuota overview: CarbonQuota/CQoverview.md
+    - CarbonQuota setup: CarbonQuota/CQsetup.md
+    - CarbonQuota usage: CarbonQuota/CQusage.md
   - LoyaltyLoop:
     - LoyaltyLoop overview: LoyaltyLoop/LLoverview.md
     - LoyaltyLoop setup: LoyaltyLoop/llsetup.md
