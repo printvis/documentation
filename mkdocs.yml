@@ -18,6 +18,7 @@ nav:
     - Pages overview: Pages/pages.md
     - Opportunities/CRM: Pages/crm.md
     - Case management: Pages/pvscasemanagement.md
+    - Job Version / Product Parts: Pages/pvsversionparts.md
     - Order Types: Pages/pvsordertype.md
     - Status Codes: Pages/pvsstatuscode.md
     - Responsibility Areas: Pages/pvsresponsibilityareas.md
@@ -27,6 +28,8 @@ nav:
     - Product Groups: Pages/pvsproductgroups.md
     - Industry Captions: Pages/pvsindustrycaptions.md
     - Cost Center: Pages/pvscostcenter.md
+    - Cost Center Configurations: Pages/pvscostcenterconfig.md
+    - Tool Selection: Pages/pvstoolselection.md
     - Complaints: Pages/pvscomplaints.md
     - Location: Pages/location.md
     - Items: Pages/item.md
