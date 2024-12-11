@@ -6,7 +6,7 @@ These setup steps will make the overall connection to CarbonQuota for sending Pr
 
 - **Install PrintVis CarbonQuota Integration app** from AppSource.
 
----Appsource Image---
+![CarbonQuota](./assets/CQSetup1.jpg)
 
 - Select the **Create Trial Subscription** link in the Notification ribbon **OR** go to Service Connections, open the CarbonQuota Setup option, and click **Create Subscription**.
 
