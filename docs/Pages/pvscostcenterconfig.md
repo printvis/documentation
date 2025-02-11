@@ -74,8 +74,8 @@ Set different rates for the operation only if required, but generally, use the h
 ## See Also
 
 - <a href="../pvscostcenter/" target="_self">Cost Center</a>
-- Calculation Unit
-- Price List
-- Calculation Formulas
+- <a href="../pvscalculationunits/" target="_self">Calculation Units</a>
+- <a href="../pvspricelists/" target="_self">Price Lists</a>
+- <a href="../pvscalcformulas/" target="_self">Calculation Formulas</a>
 - Scrap Table
 - Speed Table
