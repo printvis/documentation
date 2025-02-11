@@ -18,7 +18,11 @@ nav:
     - Pages overview: Pages/pages.md
     - Opportunities/CRM: Pages/crm.md
     - Case management: Pages/pvscasemanagement.md
+    - Copying a Case or Job: Pages/pvscasecopy.md
     - Job Version / Product Parts: Pages/pvsversionparts.md
+    - Product Variants: Pages/pvsvariants.md
+    - Combined Sheets: Pages/pvscombinedsheets.md
+    - Plate Changes: Pages/pvsplatechanges.md
     - Order Types: Pages/pvsordertype.md
     - Status Codes: Pages/pvsstatuscode.md
     - Responsibility Areas: Pages/pvsresponsibilityareas.md
@@ -29,6 +33,8 @@ nav:
     - Industry Captions: Pages/pvsindustrycaptions.md
     - Cost Center: Pages/pvscostcenter.md
     - Cost Center Configurations: Pages/pvscostcenterconfig.md
+    - Calculation Units: Pages/pvscalculationunits.md
+    - Calculation Formulas: Pages/pvscalcformulas.md
     - Tool Selection: Pages/pvstoolselection.md
     - Complaints: Pages/pvscomplaints.md
     - Location: Pages/location.md
@@ -37,6 +43,7 @@ nav:
     - Item Type Code Filter: Pages/itemtypefilter.md
     - Tools: Pages/pvstools.md
     - Material Requirements: Pages/pvsmaterialreq.md
+    - Price Lists: Pages/pvspricelists.md
     - Purchase Guide: Pages/pvspurchaseguide.md
     - Job Material Movement/Pick: Pages/pvsjobmaterialmove.md
     - WIP Setup: Pages/pvswipsetup.md

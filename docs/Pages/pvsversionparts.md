@@ -91,5 +91,5 @@ Refer to: **Combine Variants**.
 ## See Also
 
 - <a href="../pvscasemanagement/" target="_self">Case Management</a>
-- Create Variants
-- Combine Sheets / Variants
+- <a href="../pvsvariants/" target="_self">Product Variants</a>
+- <a href="../pvscombinedsheets/" target="_self">Combined Sheets</a>
