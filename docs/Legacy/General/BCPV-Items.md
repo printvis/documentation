@@ -60,11 +60,11 @@ These fields are required to specify:
 Example of an item card with PrintVis tabs:
 
 
-![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 1.jpg](.assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 1.jpg)
+![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 1.jpg](./assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 1.jpg)
 
-![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 2.jpg](.assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 2.jpg)
+![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 2.jpg](./assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 2.jpg)
 
-![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 3.jpg](.assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 3.jpg)
+![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 3.jpg](./assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 3.jpg)
 
 
 ## Item Costing on PrintVis Calculations and Job Costing
@@ -111,7 +111,7 @@ PrintVis has Case ID information and quantity/price conversions added to Purchas
 
 PrintVis price units:
 
-![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 4.jpg](.assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 4.jpg)
+![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 4.jpg](./assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 4.jpg)
 
 
 ### PrintVis impact on BC Purchase Orders
@@ -152,7 +152,7 @@ The reason for that is, many print companies having price lists for print substr
 This line will act as BC standard regarding pricing etc. but the PrintVis fields are active and showing quantities and Units based on PV item card fields.
 
 
-![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 5.jpg](.assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 5.jpg)
+![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 5.jpg](./assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 5.jpg)
 
 
 ### Purchase lines created from the Business Central Requisition Worksheet
@@ -169,9 +169,9 @@ If this line is created from PrintVis Material requirements, a PV Order No. is a
 
 Example:
 
-![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 6.jpg](.assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 6.jpg)
+![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 6.jpg](./assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 6.jpg)
 
-![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 7.jpg](.assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 7.jpg)
+![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 7.jpg](./assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 7.jpg)
 
 
 ### Purchase lines created by the PrintVis Purchase Guide
@@ -180,7 +180,7 @@ The purchase lines contain a PrintVis Order No. and the PrintVis Quantity and Un
 
 Example:
 
-![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 8.jpg](.assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 8.jpg)
+![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 8.jpg](./assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 8.jpg)
 
 ## Reservations
 
@@ -191,7 +191,7 @@ PrintVis can create Business Central Reservations based on Reservation settings 
 
 If items are required for production in PrintVis, they can be posted to PrintVis Job Costing and creates related Item Ledger Entries of type "Sale". A specific G/L posting setup is required for that. Please see the G/L posting setup article.
 
-![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 9.jpg](.assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 9.jpg)
+![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 9.jpg](./assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 9.jpg)
 
 
 Every PrintVis Job Costing Entry is connected to the related Item Ledger Entry and item cost adjusting could adjust the job costing entry.
@@ -230,7 +230,7 @@ An item ledger entry of type â€œPurchaseâ€ is being created.
 
 Example for an item ledger entry created from PrintVis Release Finished Goods:
 
-![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 10.jpg](.assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 10.jpg)
+![Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 10.jpg](./assets/Items, Purchase, Reservation, Inventory - Touchpoints between Business Central and PrintVis 10.jpg)
 
 
 Please note: Item cost is not being adjusted if costing in PrintVis is changing.

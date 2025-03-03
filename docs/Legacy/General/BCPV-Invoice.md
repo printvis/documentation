@@ -28,7 +28,7 @@ Other options for building invoices consist of:
 PrintVis G/L Posting Setup is required as well.
 
 
-![Invoice - Touchpoints between Business Central and PrintVis.jpg](.assets/Invoice - Touchpoints between Business Central and PrintVis.jpg)
+![Invoice - Touchpoints between Business Central and PrintVis.jpg](./assets/Invoice - Touchpoints between Business Central and PrintVis.jpg)
 
 
 It is also possible to create invoices using the Invoicing Guide through the PrintVis Case Card, which also can use PrintVis Invoice Template Codes.

@@ -30,5 +30,5 @@ Product and Inventory Posting Groups should be Production related:
 - Finished Goods
 - Outwork / Subcontracting
 
-![G-L Posting Setup - Touchpoints between Business Central and PrintVis.jpg](.assets/G-L Posting Setup - Touchpoints between Business Central and PrintVis.jpg)
+![G-L Posting Setup - Touchpoints between Business Central and PrintVis](./assets/G-L Posting Setup - Touchpoints between Business Central and PrintVis.jpg)
 

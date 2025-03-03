@@ -17,7 +17,7 @@ It is not a technical requirement to post the opening statement before using the
 - Create a general journal for open customers:
  Create opening lines for each customer, preferably one line per open invoice.
   
-![Opening finance books in PrintVis 1.jpg](.assets/Opening finance books in PrintVis 1.jpg)
+![Opening finance books in PrintVis 1.jpg](./assets/Opening finance books in PrintVis 1.jpg)
 
 - Fields of Interest:
 - **Posting Date:** Invoiced date from the old system.
@@ -52,7 +52,7 @@ When the **Opening Statement** is posted, the Customer Balance from the previous
 Create opening lines for each vendor, preferably one line per open invoice.
 This posting is done in a general journal.
 
-![Opening finance books in PrintVis 2.jpg](.assets/Opening finance books in PrintVis 2.jpg)
+![Opening finance books in PrintVis 2.jpg](./assets/Opening finance books in PrintVis 2.jpg)
 
  Fields of Interest:
 - **Posting Date:** Invoiced date from the old system.
@@ -79,7 +79,7 @@ When the **Opening Statement** is posted, the Vendor Balance from the previous s
 4. **Set the date** for all postings as the first day of the first open period (e.g., January 2, 2015).
 5. **For each account with a balance** in the old system’s closing statement, create a journal line in the new system.
 
-![Opening finance books in PrintVis 3.jpg](.assets/Opening finance books in PrintVis 3.jpg)
+![Opening finance books in PrintVis 3.jpg](./assets/Opening finance books in PrintVis 3.jpg)
 
 6. **For some accounts, enable Direct Posting** to enter the opening statement value. Remember to disable it afterward.
 7. **For Customer and Vendor Balance Accounts**, use **Manual Balance Accounts** instead of regular ones.
