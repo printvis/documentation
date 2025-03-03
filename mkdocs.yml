@@ -62,10 +62,16 @@ nav:
     - LoyaltyLoop setup: LoyaltyLoop/llsetup.md
     - LoyaltyLoop usage: LoyaltyLoop/llusage.md
   - PrintVis legacy support:
-    - PrintVis overview: Legacy/printvisoverview.md
-    - Print industry: Legacy/printindustry.md
-    - General Setup: Legacy/General365/GeneralSetup.md
-    - Sales Order integration: Legacy/salesorder.md
+    - General:
+      - PrintVis overview: Legacy/General/printvisoverview.md
+      - Print industry: Legacy/General/printindustry.md
+      - Opening finance in PrintVis: Legacy/General/Openingfinance.md
+      - BC PV Touchpoints Overview: Legacy/General/BCPV-Overview.md
+      - BC PV Touchpoints CRM: Legacy/General/BCPV-CRM.md
+      - BC PV Touchpoints GLPosting: Legacy/General/BCPV-GLPosting.md
+      - BC PV Touchpoints Items: Legacy/General/BCPV-Items.md
+      - BC PV Touchpoints Shipments: Legacy/General/BCPV-Shipments.md
+      - BC PV Touchpoints Invoice: Legacy/General/BCPV-Invoice.md
   - PrintVis User Group: pug.md
     
 theme:
