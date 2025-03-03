@@ -34,6 +34,7 @@ The Manual Customer balance account will not be very busy in daily life but can 
 As a result of posting a customer ledger entry with balance in this Manual customer balance account, we will create 3 ledger entries:
 
  Ledger Entries Created:
+ 
 | Ledger Entry | Amount |
 |-------------|--------|
 | Customer Ledger Entry | 1,056.00 |
@@ -63,6 +64,7 @@ This posting is done in a general journal.
 - **Amount:** Open vendor entry amount from the old system.
 
  Ledger Entries Created:
+
 | Ledger Entry | Amount |
 |-------------|--------|
 | Vendor Ledger Entry | -6,000.00 |
