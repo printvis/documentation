@@ -16,6 +16,7 @@ The PrintVis General Setup page allows the company to set a number of standard p
 ## Case Management
 
 ![printvis General Setup 2.jpg](./assets/printvis General Setup 2.jpg)
+
 | Field | Description |
 |--------|------------|
 | Application Type | PrintVis applies to Printing companies but also to other types of companies which may not use very specific printing pages and fields. PrintVis does not use BOMs or traditional routing. It defines job parts (called job "items") and the cost centers used for production. If a company has subsidiaries that do not use PrintVis, it can be disabled for those. |
