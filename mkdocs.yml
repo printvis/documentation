@@ -65,13 +65,23 @@ nav:
     - General:
       - PrintVis overview: Legacy/General/printvisoverview.md
       - Print industry: Legacy/General/printindustry.md
-      - Opening finance in PrintVis: Legacy/General/Openingfinance.md
       - BC PV Touchpoints Overview: Legacy/General/BCPV-Overview.md
       - BC PV Touchpoints CRM: Legacy/General/BCPV-CRM.md
       - BC PV Touchpoints GL Posting: Legacy/General/BCPV-GLPosting.md
       - BC PV Touchpoints Items: Legacy/General/BCPV-Items.md
       - BC PV Touchpoints Shipments: Legacy/General/BCPV-Shipments.md
       - BC PV Touchpoints Invoice: Legacy/General/BCPV-Invoice.md
+      - BC PV Touchpoints Relationship Management: Legacy/General/BC-RelationMgmt.md
+      - Role Centers: Legacy/General/RoleCenters.md
+      - Opening finance in PrintVis: Legacy/General/Openingfinance.md
+      - General Setup: Legacy/General/GeneralSetup.md
+      - Industry Captions: Legacy/General/IndustryCaptions.md
+      - Permission Sets: Legacy/General/PermissionSets.md
+      - User Types: Legacy/General/UserTypes.md
+      - User Rights and Restrictions: Legacy/General/UserRandR.md
+      - User Setup: Legacy/General/UserSetup.md
+      - QA Setup: Legacy/General/QASetup.md
+      - Rejection Codes: Legacy/General/RejectionCodes.md
   - PrintVis User Group: pug.md
     
 theme:
