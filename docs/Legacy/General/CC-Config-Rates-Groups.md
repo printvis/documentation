@@ -25,7 +25,7 @@ To edit the PrintVis Cost Centers search for `PrintVis Cost Centers`.
 
 #### Create a Cost Center from Reference Company (PrintVis Assisted Setup)
 
-![Cost Center Setup - Configuration - Rates - Groups 2.jpg](./asseets/Cost Center Setup - Configuration - Rates - Groups 2.jpg)
+![Cost Center Setup - Configuration - Rates - Groups 2.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 2.jpg)
 
 There are two options to import data from a reference environment:
 
@@ -79,7 +79,7 @@ Action on Cost Center list and Cost Center Card.
 #### Export/Import Cost Center
 Actions on the Cost Center list.
 
-![Cost Center Setup - Configuration - Rates - Groups 9.jpg](./asset/Cost Center Setup - Configuration - Rates - Groups 9.jpg)
+![Cost Center Setup - Configuration - Rates - Groups 9.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 9.jpg)
 
 ##### Export Cost Center
 - The `Export Cost Center` action creates an XML `.txt` file.
@@ -422,12 +422,10 @@ Price = Direct Cost (=Variable + Labor Cost) + Overhead (=> Direct Cost + Overhe
 ### "Rates" action
 The rates are displayed or can be entered for the Configuration the rates are opened from.
 
-![Cost Center Setup - Configuration - Rates - Groups 32.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 32.jpg)
 
 ### "All Rates" action
 The rates are displayed or can be entered for all Configurations of "this" cost center.
 
-![Cost Center Setup - Configuration - Rates - Groups 33.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 33.jpg)
 
 ### "Rates" action on Operations Subpage
 The rates are displayed or can be entered for the operation that was selected when hitting the rates action button.
@@ -436,7 +434,6 @@ In some special cases, it might be useful to set up a rate for an operation that
 
 **Please note:** When entering this rate area but no rate is required, make sure there is no entry with rates = 0 that will override the rate from the configuration with 0 cost/price. To be sure, press the "Delete" Action button before closing the page.
 
-![Cost Center Setup - Configuration - Rates - Groups 34.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 34.jpg)
 
 ## Cost Center Groups
 Cost Center Groups can be assigned to each Cost Center and can be used in custom reports.
@@ -444,5 +441,3 @@ Cost Center Groups can be assigned to each Cost Center and can be used in custom
 If totals for a group of Cost Centers (the total cost for all presses of one or more facilities/plants) are required, a report can be built based on the Cost Center Group setup.
 
 The usage of Cost Center Groups is not mandatory.
-
-![Cost Center Setup - Configuration - Rates - Groups 35.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 35.jpg)
