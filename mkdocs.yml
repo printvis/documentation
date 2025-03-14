@@ -72,6 +72,11 @@ nav:
       - BC PV Touchpoints Shipments: Legacy/General/BCPV-Shipments.md
       - BC PV Touchpoints Invoice: Legacy/General/BCPV-Invoice.md
       - BC PV Touchpoints Relationship Management: Legacy/General/BC-RelationMgmt.md
+      - Dynamic Date Filters: Legacy/General/DynamicDateFilters.md
+      - Find Hidden Fields: Legacy/General/HiddenFields.md
+      - Reset User Customizations: Legacy/General/ResetUserCustom.md
+      - Searching in Business Central: Legacy/General/Searching.md
+      - Tile Brick View: Legacy/General/TileBrickView.md
       - Role Centers: Legacy/General/RoleCenters.md
       - Opening finance in PrintVis: Legacy/General/Openingfinance.md
       - General Setup: Legacy/General/GeneralSetup.md
@@ -82,6 +87,9 @@ nav:
       - User Setup: Legacy/General/UserSetup.md
       - QA Setup: Legacy/General/QASetup.md
       - Rejection Codes: Legacy/General/RejectionCodes.md
+      - Departments: Legacy/General/Departments.md
+      - Cost Center Configurations Rates Groups: Legacy/General/CC-Config-Rates-Groups.md
+      - How-to Simple Cost Center: Legacy/General/SimpleCC-Howto.md
   - PrintVis User Group: pug.md
     
 theme:
