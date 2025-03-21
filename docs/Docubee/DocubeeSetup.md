@@ -163,6 +163,10 @@ to PrintVis folders.
 
 ![Image](./SetupAssets/image16.png)
 
+-   On the **PrintVis Report Setup** page for each report you will also need to make sure the Folder Group Code is filled in with the appropriate folder group
+
+![Image](./SetupAssets/image19.png)
+
 ### Creating a Job Queue Entry to check for document status
 
 For PrintVis to automatically check sent document for status updates, a
