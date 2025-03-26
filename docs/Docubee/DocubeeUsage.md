@@ -1,6 +1,6 @@
 # Docubee Usage
 
-Once Docubee is setup (see Docubee Setup article) using Docubee is very
+Once Docubee is setup (see <a href="../DocubeeSetup/" target="_self">Docubee Setup article</a>) using Docubee is very
 straight-forward.
 
 ## Sending a document for signature
