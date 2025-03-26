@@ -94,6 +94,31 @@ nav:
       - Departments: Legacy/General/Departments.md
       - Cost Center Configurations Rates Groups: Legacy/General/CC-Config-Rates-Groups.md
       - How-to Simple Cost Center: Legacy/General/SimpleCC-Howto.md
+      - PrintVis Assisted Setup: Legacy/General/PrintVisAssistedSetup.md
+      - PrintVis Assisted Setup - Users: Legacy/General/PVUserSetup-AS.md
+      - PrintVis Assisted Setup - Status Codes: Legacy/General/StatusCodes-AS.md
+      - PrintVis Assisted Setup - Component Types: Legacy/General/ComponentTypes-AS.md
+      - PrintVis Assisted Setup - Format Codes: Legacy/General/FormatCodes-AS.md
+      - PrintVis Assisted Setup - Item Type Codes: Legacy/General/ItemTypeCodes-AS.md
+      - PrintVis Assisted Setup - Item Qualities: Legacy/General/ItemQualities-AS.md
+      - PrintVis Assisted Setup - Color Table: Legacy/General/ColorTable-AS.md
+      - PrintVis Assisted Setup - Order Type: Legacy/General/OrderType-AS.md
+      - PrintVis Assisted Setup - Product Groups: Legacy/General/ProductGroup-AS.md
+      - PrintVis Assisted Setup - Departments: Legacy/General/Departments-AS.md
+      - PrintVis Assisted Setup - Cost Center: Legacy/General/CostCenter-AS.md
+      - PrintVis Assisted Setup - Cost Center Rates: Legacy/General/CostCenterRates-AS.md
+      - PrintVis Assisted Setup - Additional Rates: Legacy/General/AdditionalRates-AS.md
+      - PrintVis Assisted Setup - Items: Legacy/General/Items-AS.md
+      - PrintVis Assisted Setup - Opening Hours: Legacy/General/OpeningHours-AS.md
+      - PrintVis Assisted Setup - Milestones: Legacy/General/Milestones-AS.md
+      - PrintVis Assisted Setup - Unit of Measure: Legacy/General/PVUOM-AS.md
+      - PrintVis Assisted Setup - Extra Work Codes: Legacy/General/ExtraWorkCodes-AS.md
+      - PrintVis Assisted Setup - Invoice Template: Legacy/General/InvoiceTemplate-AS.md
+      - PrintVis Assisted Setup - Configuration Packages: Legacy/General/ConfigPackage-AS.md
+      - PrintVis Assisted Setup - Data Mapping: Legacy/General/DataMapping-AS.md
+      - PrintVis Assisted Setup - Additional To Dos: Legacy/General/ToDo-AS.md
+      - PrintVis Onboarding: Legacy/General/PrintVisOnboarding.md
+      - PrintVis Onboarding Guide: Legacy/General/PrintVisOnboardingGuide.md
   - PrintVis User Group: pug.md
     
 theme:
