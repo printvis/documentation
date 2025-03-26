@@ -35,8 +35,7 @@ look like in Docubee
 
 ![Image](./UsageAssets/image6.png)
 
-Click **Next** to continue and then click **Finish** on the summary page
-to send the document
+Click **Next** to continue and the default email subject and body will be filled in from the setup. Here the subject or body can be edited before sending the document. Click **Finish** on the summary page to send the document
 
 ![Image](./UsageAssets/image7.png)
 

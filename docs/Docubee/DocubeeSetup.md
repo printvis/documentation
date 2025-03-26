@@ -120,15 +120,13 @@ case or notify the salesperson or coordinator.
 
 ![Image](./SetupAssets/image9.png)
 
--   Create a **Code** for each unique workflow and set the values or
-    process for that workflow. For example: When a quote is signed you
-    might want to update the case status to ORDER and email the
-    salesperson and coordinator. Or if you send an artwork approval
-    document, you might want to mark a proof sent milestone as
-    completed. These are some of the unique workflows you might want to
-    setup for each step in the process.
+-   Click **New** to create a new workflow. 
 
 ![Image](./SetupAssets/image13.png)
+
+Each workflow represents a unique process for when a document is sent, signed, declined, or expired. For example: When a quote is signed you might want to update the case status to ORDER and email the salesperson and coordinator. Or if you send an artwork approval document, you might want to mark a proof sent milestone as completed. These are some of the unique workflows you might want to setup for each step in the process. On the Document workflow card, you can also set the default email subject and body for that process in the workflow. The tooltips provide the available % codes that can be used to fill in information from the case. Currently, Docubee only supports plain text entry for these email values.
+
+![Image](./SetupAssets/image20.png)
 
 ### Assigning Reports as Docubee Reports
 
@@ -145,8 +143,10 @@ specific report, you must assign each report as available for Docubee
 
 ![Image](./SetupAssets/image14.png)
 
--   Do this for each report type that you want to use Docubee for
-    signatures
+-   Do this for each report type that you want to use Docubee for signatures
+
+-   For the Artwork Approval report, you will need to go to **PrintVis Docubee Report Selection Setup** until we can update the PrintVis Report Selection
+    Setup page to allow for outside customizations and apps to extend the list.
 
 ### Adding Docubee Documents to PrintVis Folders
 
