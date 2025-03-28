@@ -7,19 +7,19 @@ sending PrintVis documents to Docubee for signature.
 
 -   **Install PrintVis Docubee Integration app** from AppSource
 
-[\[AppSource Screenshot\]]{.mark}
+![Image](./SetupAssets/image21.png)
 
 -   Go to Service Connections, open the Docubee Setup option, and click
     **Create Trial Subscription**
 
-> ![Image](./SetupAssets/image1.png)
+![Image](./SetupAssets/image1.png)
 
 -   A wizard will appear walking through the free trial registration
     process.
 
-> ![Image](./SetupAssets/image2.png)
->
-> ![Image](./SetupAssets/image3.png)
+![Image](./SetupAssets/image2.png)
+
+![Image](./SetupAssets/image3.png)
 
 -   Click **Create User** to establish your Docubee trial user.
 
