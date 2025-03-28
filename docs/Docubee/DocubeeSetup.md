@@ -44,7 +44,7 @@ sending PrintVis documents to Docubee for signature.
 -   Enter your company name and a default workspace name (these can be
     the same)
 
-> ![Image](./SetupAssets/image8.png)
+![Image](./SetupAssets/image8.png)
 
 -   Clicking **Finish** will return you to the free trial signup wizard.
 
@@ -75,6 +75,14 @@ For questions about your Docubee subscription, login to your Docubee
 account at <https://docubee.app> or contact support@docubee.com
 
 ## Setting up the Docubee options
+
+### Permissions
+
+The **first step** after installing Docubee is to assign your users and admins the appropriate permission sets. 
+
+-   On the BC Users page find the Permission Sets section and add the PVS DB USER permission set to all of your users
+-   On the BC Users page find the Permission Sets section and add the PVS DB SETUP permission set to anyone who will be working to setup the Docubee
+    functionality
 
 ### Adding Docubee Fields
 
