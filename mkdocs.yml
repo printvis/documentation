@@ -76,11 +76,11 @@ nav:
       - BC PV Touchpoints Shipments: Legacy/General/BCPV-Shipments.md
       - BC PV Touchpoints Invoice: Legacy/General/BCPV-Invoice.md
       - BC PV Touchpoints Relationship Management: Legacy/General/BC-RelationMgmt.md
-      - Dynamic Date Filters: Legacy/General/DynamicDateFilters.md
-      - Find Hidden Fields: Legacy/General/HiddenFields.md
-      - Reset User Customizations: Legacy/General/ResetUserCustom.md
+      - Dynamic date filters: Legacy/General/DynamicDateFilters.md
+      - Find hidden fields: Legacy/General/HiddenFields.md
+      - Reset user customizations: Legacy/General/ResetUserCustom.md
       - Searching in Business Central: Legacy/General/Searching.md
-      - Tile Brick View: Legacy/General/TileBrickView.md
+      - Tile brick view: Legacy/General/TileBrickView.md
       - Role Centers: Legacy/General/RoleCenters.md
       - Opening finance in PrintVis: Legacy/General/Openingfinance.md
       - General Setup: Legacy/General/GeneralSetup.md
@@ -120,13 +120,29 @@ nav:
       - PrintVis Onboarding: Legacy/General/PrintVisOnboarding.md
       - PrintVis Onboarding Guide: Legacy/General/PrintVisOnboardingGuide.md
     - Customers, Contacts, Vendors:
-      - Create a New Customer: Legacy/CustContVend/Customer.md
-      - Currency Management: Legacy/CustContVend/Currency.md
+      - Create a new Customer: Legacy/CustContVend/Customer.md
+      - Currency management: Legacy/CustContVend/Currency.md
       - Customer Groups: Legacy/CustContVend/CustGroups.md
       - Customer Userfields and Comments: Legacy/CustContVend/CustomerUFComments.md
-      - Create a New Contact: Legacy/CustContVend/Contact.md
-      - Create a PrintVis Case with Contact Only: Legacy/CustContVend/ContactCase.md
-      - Create a New Vendor: Legacy/CustContVend/Vendor.md
+      - Create a new Contact: Legacy/CustContVend/Contact.md
+      - Create a PrintVis Case with Contact only: Legacy/CustContVend/ContactCase.md
+      - Create a new Vendor: Legacy/CustContVend/Vendor.md
+    - Estimation Tips & Tricks:
+      - Consume more than 1 paper: Legacy/Estimation/TTConsumePaper.md
+      - Custom Formulas with additional quantities: Legacy/Estimation/TTCustomFormulaAddQty.md
+      - Custom Formula on a Speed Table: Legacy/Estimation/TTCustomFormulaSpeed.md
+      - Assign Inks to 2 or more print processes: Legacy/Estimation/TTInksPrint.md
+      - Maintain / Update Templates: Legacy/Estimation/TTMaintainTemplates.md
+      - How to get the right make ready on residual sheets: Legacy/Estimation/TTMakeReadyResidual.md
+      - Material counted in pcs but calculated in weight: Legacy/Estimation/TTMatPcsCalcWeight.md
+      - How to setup minimum hours for an operation: Legacy/Estimation/TTMinimumHours.md
+      - Mixed configuration for printing and finishing: Legacy/Estimation/TTMixedConfig.md
+      - How to use more than 1 printing process for a sheet: Legacy/Estimation/TTOneSheetMultiPrint.md
+      - How does PrintVis create a sheet layout and residual sheets: Legacy/Estimation/TTSheetLayoutResidual.md
+      - Calculate setup or cleanup for special inks: Legacy/Estimation/TTSpecialInks.md
+      - Specify PrintVis Quote Report: Legacy/Estimation/TTSpecifyQuote.md
+      - How to setup a speed table reduction: Legacy/Estimation/TTSpeedTableReduct.md
+      - Avoid extra surcharge popups when list of units is selected: Legacy/Estimation/TTSurchargesPopup.md
   - PrintVis User Group: pug.md
     
 theme:
