@@ -119,7 +119,7 @@ nav:
       - PrintVis Assisted Setup - Additional To Dos: Legacy/General/ToDo-AS.md
       - PrintVis Onboarding: Legacy/General/PrintVisOnboarding.md
       - PrintVis Onboarding Guide: Legacy/General/PrintVisOnboardingGuide.md
-    - Customers, Contacts, Vendors
+    - Customers, Contacts, Vendors:
       - Create a New Customer: Legacy/CustContVend/Customer.md
       - Currency Management: Legacy/CustContVend/Currency.md
       - Customer Groups: Legacy/CustContVend/CustGroups.md
