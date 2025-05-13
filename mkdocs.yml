@@ -172,6 +172,23 @@ nav:
       - Flexo setup: Legacy/Estimation/Flexo.md
       - Calculation without printing: Legacy/Estimation/NoPrint.md
       - Digital print click cost setup: Legacy/Estimation/DigitalPrintClickCost.md
+    - Estimating:
+      - Creating an estimate: Legacy/Estimation/Estimate.md
+      - Working with templates: Legacy/Estimation/WorkTemplates.md
+      - PrintVis Case: Legacy/Estimation/Case.md
+      - Advanced Case Card: Legacy/Estimation/AdvancedCase.md
+      - Estimate Master Data: Legacy/Estimation/EstimateMasterData.md
+      - Job Card: Legacy/Estimation/JobCard.md
+      - Userfields: Legacy/Estimation/UF.md
+      - Estimating page: Legacy/Estimation/Estimating.md
+      - Specification page: Legacy/Estimation/Spec.md
+      - Scrap page: Legacy/Estimation/Scrap.md
+      - Versioning: Legacy/Estimation/Version.md
+      - Residual Sheets: Legacy/Estimation/ResidualSheets.md
+      - Plate changes: Legacy/Estimation/Plates.md
+      - Process flow diagram: Legacy/Estimation/ProcessFlow.md
+      - Copy periodic/repeat runs: Legacy/Estimation/PeriodicRepeat.md
+      - No. of pages vs pages with print: Legacy/Estimation/Pages.md
     - Quick Quote:
       - Setup Quick Quote: Legacy/Estimation/SetupQuickQuote.md
       - Use Quick Quote: Legacy/Estimation/UseQuickQuote.md
