@@ -143,6 +143,35 @@ nav:
       - Consume more than 1 paper: Legacy/Estimation/TTConsumePaper.md
       - Assign Inks to 2 or more print processes: Legacy/Estimation/TTInksPrint.md
       - Calculate setup or cleanup for special inks: Legacy/Estimation/TTSpecialInks.md
+    - Estimation Setup:
+      - Templates: Legacy/Estimation/Templates.md
+      - Template Filters: Legacy/Estimation/TemplateFilters.md
+      - Format Codes: Legacy/Estimation/FormatCodes.md
+      - Speed Tables: Legacy/Estimation/SpeedTable.md
+      - Scrap Groups: Legacy/Estimation/ScrapGroup.md
+      - Scrap Tables: Legacy/Estimation/ScrapTable.md
+      - Color Table: Legacy/Estimation/ColorTable.md
+      - Calculation Units: Legacy/Estimation/CalcUnits.md
+      - Calculation Formulas: Legacy/Estimation/Formulas.md
+      - Component Types: Legacy/Estimation/ComponentTypes.md
+      - Finishing Types: Legacy/Estimation/FinishingTypes.md
+      - Additional Rates: Legacy/Estimation/AddRates.md
+      - Alternative Rates: Legacy/Estimation/AltRates.md
+      - Time Groups: Legacy/Estimation/TimeGroup.md
+      - Price Groups: Legacy/Estimation/PriceGroups.md
+      - Configuration Templates: Legacy/Estimation/ConfigTemplates.md
+      - Calculation Unit Userfields: Legacy/Estimation/CalcUnitUF.md
+      - Price List setup: Legacy/Estimation/PriceListSetup.md
+      - Paper Price lists: Legacy/Estimation/PaperPriceLists.md
+      - Price List import/export: Legacy/Estimation/PricelistImpExp.md
+      - Commission setup: Legacy/Estimation/CommissionSetup.md
+      - Estimation Automation setup: Legacy/Estimation/EstimationAutomationSetup.md
+      - Decision Overview: Legacy/Estimation/DecisionOverview.md
+      - ECO label setup: Legacy/Estimation/ECOSetup.md
+      - Subcontracting setup: Legacy/Estimation/Subcontracting.md
+      - Flexo setup: Legacy/Estimation/Flexo.md
+      - Calculation without printing: Legacy/Estimation/NoPrint.md
+      - Digital print click cost setup: Legacy/Estimation/DigitalPrintClickCost.md
     - Quick Quote:
       - Setup Quick Quote: Legacy/Estimation/SetupQuickQuote.md
       - Use Quick Quote: Legacy/Estimation/UseQuickQuote.md
