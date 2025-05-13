@@ -128,21 +128,24 @@ nav:
       - Create a PrintVis Case with Contact only: Legacy/CustContVend/ContactCase.md
       - Create a new Vendor: Legacy/CustContVend/Vendor.md
     - Estimation Tips & Tricks:
-      - Consume more than 1 paper: Legacy/Estimation/TTConsumePaper.md
+      - Maintain / Update Templates: Legacy/Estimation/TTMaintainTemplates.md
+      - Specify PrintVis Quote Report: Legacy/Estimation/TTSpecifyQuote.md
+      - Mixed configuration for printing and finishing: Legacy/Estimation/TTMixedConfig.md
+      - Avoid extra surcharge popups when list of units is selected: Legacy/Estimation/TTSurchargesPopup.md
+      - How does PrintVis create a sheet layout and residual sheets: Legacy/Estimation/TTSheetLayoutResidual.md
+      - How to get the right make ready on residual sheets: Legacy/Estimation/TTMakeReadyResidual.md
+      - How to use more than 1 printing process for a sheet: Legacy/Estimation/TTOneSheetMultiPrint.md
+      - How to setup minimum hours for an operation: Legacy/Estimation/TTMinimumHours.md
+      - How to setup a speed table reduction: Legacy/Estimation/TTSpeedTableReduct.md
       - Custom Formulas with additional quantities: Legacy/Estimation/TTCustomFormulaAddQty.md
       - Custom Formula on a Speed Table: Legacy/Estimation/TTCustomFormulaSpeed.md
-      - Assign Inks to 2 or more print processes: Legacy/Estimation/TTInksPrint.md
-      - Maintain / Update Templates: Legacy/Estimation/TTMaintainTemplates.md
-      - How to get the right make ready on residual sheets: Legacy/Estimation/TTMakeReadyResidual.md
       - Material counted in pcs but calculated in weight: Legacy/Estimation/TTMatPcsCalcWeight.md
-      - How to setup minimum hours for an operation: Legacy/Estimation/TTMinimumHours.md
-      - Mixed configuration for printing and finishing: Legacy/Estimation/TTMixedConfig.md
-      - How to use more than 1 printing process for a sheet: Legacy/Estimation/TTOneSheetMultiPrint.md
-      - How does PrintVis create a sheet layout and residual sheets: Legacy/Estimation/TTSheetLayoutResidual.md
+      - Consume more than 1 paper: Legacy/Estimation/TTConsumePaper.md
+      - Assign Inks to 2 or more print processes: Legacy/Estimation/TTInksPrint.md
       - Calculate setup or cleanup for special inks: Legacy/Estimation/TTSpecialInks.md
-      - Specify PrintVis Quote Report: Legacy/Estimation/TTSpecifyQuote.md
-      - How to setup a speed table reduction: Legacy/Estimation/TTSpeedTableReduct.md
-      - Avoid extra surcharge popups when list of units is selected: Legacy/Estimation/TTSurchargesPopup.md
+    - Quick Quote:
+      - Setup Quick Quote: Legacy/Estimation/SetupQuickQuote.md
+      - Use Quick Quote: Legacy/Estimation/UseQuickQuote.md
   - PrintVis User Group: pug.md
     
 theme:
