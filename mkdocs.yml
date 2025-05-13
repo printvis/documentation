@@ -119,6 +119,14 @@ nav:
       - PrintVis Assisted Setup - Additional To Dos: Legacy/General/ToDo-AS.md
       - PrintVis Onboarding: Legacy/General/PrintVisOnboarding.md
       - PrintVis Onboarding Guide: Legacy/General/PrintVisOnboardingGuide.md
+    - Customers, Contacts, Vendors
+      - Create a New Customer: Legacy/CustContVend/Customer.md
+      - Currency Management: Legacy/CustContVend/Currency.md
+      - Customer Groups: Legacy/CustContVend/CustGroups.md
+      - Customer Userfields and Comments: Legacy/CustContVend/CustomerUFComments.md
+      - Create a New Contact: Legacy/CustContVend/Contact.md
+      - Create a PrintVis Case with Contact Only: Legacy/CustContVend/ContactCase.md
+      - Create a New Vendor: Legacy/CustContVend/Vendor.md
   - PrintVis User Group: pug.md
     
 theme:
