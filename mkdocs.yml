@@ -193,6 +193,18 @@ nav:
     - Quick Quote:
       - Setup Quick Quote: Legacy/Estimation/SetupQuickQuote.md
       - Use Quick Quote: Legacy/Estimation/UseQuickQuote.md
+    - Special Scenarios:
+      - Combined Sheets: Legacy/Estimation/Combinedsheets.md
+      - Continuous fed press setup: Legacy/Estimation/ContFedPress.md
+      - Multipart NCR setup: Legacy/Estimation/MultipartNCR.md
+      - Ganged Production: Legacy/Estimation/Gangedprod.md
+      - Newspaper setup: Legacy/Estimation/Newspapersetup.md
+      - Price concepts: Legacy/Estimation/PriceConcepts.md
+      - Prepress orders: Legacy/Estimation/Prepressorders.md
+      - Quantity variations and overdelivery: Legacy/Estimation/QtyVarOverDelv.md
+      - Tool selection: Legacy/Estimation/Toolselection.md
+      - Publications and editions: Legacy/Estimation/PubsEds.md
+      - Hourly Rate Scenarios: Legacy/Estimation/HourlyRateScenarios.md
   - PrintVis User Group: pug.md
     
 theme:
