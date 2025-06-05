@@ -8,5 +8,5 @@ The PrintVis Sales Power BI App offers clear, real-time dashboards for tracking 
 2. Select Get It Now to add the App to your Power BI environment.
 3. Select Connect your data and fill in the Environment and company values. 
 
-Your tenant must have the PrintVis Business Central App already installed. See [PrintVis support] (https://printvis.com/about-printvis/support/) for more information. 
+Your tenant must have the PrintVis Business Central App already installed. See [PrintVis support](https://printvis.com/about-printvis/support/) for more information. 
 
