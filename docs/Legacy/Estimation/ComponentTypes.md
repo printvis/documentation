@@ -1,6 +1,6 @@
 # Component Types and Job Item Format Setup
 
-##Summary
+## Summary
 
 The PrintVis Component Types can be used to set default for every job
 item to automate and simplify the input for the user. The component
@@ -33,7 +33,7 @@ packaging products in defining areas for gussets, zippers, etc. With
 that PrintVis is able to calculate the open size of the product for an
 exact calculation of the required print substrate.
 
-##Component Types
+## Component Types
 
 A common list for commercial printing might look like this:
 
@@ -181,7 +181,7 @@ Fields
 |               | the setting \"Include in Spine Calculation\" = TRUE. |
 +---------------+------------------------------------------------------+
 
-##Lists of Components
+## Lists of Components
 
 You are able to set up a combination of "Component Types" in the "PV
 Component List." After setting up all components for a product, they can
@@ -225,7 +225,7 @@ For this follow the steps:
     incorrect.](./assets/image6.png){width="6.5in"
     height="2.370138888888889in"}
 
-##Job Item Formats
+## Job Item Formats
 
 On top of the product size (Final Format), it is possible to define
 additional flaps or other areas by using the Job Item Format Setup and
@@ -234,7 +234,7 @@ packaging products in defining areas for gussets, zippers, etc. With
 this PrintVis is able to calculate the open size of the product for an
 exact calculation of the required print substrate.
 
-##Job Item Format Setup
+## Job Item Format Setup
 
 Below we show a setup for flexible packaging production (stand up
 pouches) or narrow web label production.
@@ -259,7 +259,7 @@ Fields
                     Setup\'\' is blocked from being used in the system.
   -----------------------------------------------------------------------
 
-##Format Types
+## Format Types
 
   -----------------------------------------------------------------------
   Depth             The given value will be multiplied with the factor
@@ -366,7 +366,7 @@ Fields
                     spine.
   -----------------------------------------------------------------------
 
-##Example for a stand-up pouch with a zipper
+## Example for a stand-up pouch with a zipper
 
 A stand-up pouch with a zipper needs on top of the final size extra
 material for the 
@@ -404,7 +404,7 @@ height="4.5055555555555555in"}
 incorrect.](./assets/image9.png){width="6.5in"
 height="1.8493055555555555in"}
 
-##Result in Width and Length on Job item:
+**Result in Width and Length on Job item:**
 
 ![Image](./assets/image10.png){width="6.5in"
 height="1.5104166666666667in"}
@@ -421,7 +421,7 @@ Width is calculated: 
     =1)\") + (Side Gusset Value+ Factor)\
     (10.5 x 1 = 10.5)+( 1 x 2 = 2) = 12.5
 
-##Example for the Tools Selection
+## Example for the Tools Selection
 
 Component type = TOOL
 
@@ -441,7 +441,7 @@ values are stored on the Job Item formats for this sheet.
 ![Image](./assets/image14.png){width="6.5in"
 height="2.1506944444444445in"}
 
-##Example for a hardcover book
+## Example for a hardcover book
 
 For hardcover books there are several parts that must be included into
 the calculation for the spine thickness. Calculation formula 652 is
