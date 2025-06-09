@@ -1,6 +1,6 @@
 # Component Types and Job Item Format Setup
 
-**Summary**
+##Summary
 
 The PrintVis Component Types can be used to set default for every job
 item to automate and simplify the input for the user. The component
@@ -33,23 +33,21 @@ packaging products in defining areas for gussets, zippers, etc. With
 that PrintVis is able to calculate the open size of the product for an
 exact calculation of the required print substrate.
 
-**Component Types**
+##Component Types
 
 A common list for commercial printing might look like this:
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image1.png){width="6.5in"
+![Image](./assets/image1.png){width="6.5in"
 height="4.282638888888889in"}
 
 The example below shows a common setup for a cover of a perfect bound
 book. Fields that are not filled will retain the default value from the
 job or template.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image2.png){width="6.5in"
+![Image](./assets/image2.png){width="6.5in"
 height="8.230555555555556in"}
 
-**Fields**
+Fields
 
 +---------------+------------------------------------------------------+
 | Pages with    | Number of pages with print this component will have. |
@@ -183,7 +181,7 @@ height="8.230555555555556in"}
 |               | the setting \"Include in Spine Calculation\" = TRUE. |
 +---------------+------------------------------------------------------+
 
-**Lists of Components**
+##Lists of Components
 
 You are able to set up a combination of "Component Types" in the "PV
 Component List." After setting up all components for a product, they can
@@ -227,7 +225,7 @@ For this follow the steps:
     incorrect.](./assets/image6.png){width="6.5in"
     height="2.370138888888889in"}
 
-**Job Item Formats**
+##Job Item Formats
 
 On top of the product size (Final Format), it is possible to define
 additional flaps or other areas by using the Job Item Format Setup and
@@ -236,13 +234,12 @@ packaging products in defining areas for gussets, zippers, etc. With
 this PrintVis is able to calculate the open size of the product for an
 exact calculation of the required print substrate.
 
-**Job Item Format Setup**
+##Job Item Format Setup
 
 Below we show a setup for flexible packaging production (stand up
 pouches) or narrow web label production.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image7.png){width="6.5in"
+![Image](./assets/image7.png){width="6.5in"
 height="3.611111111111111in"}
 
 Fields
@@ -262,7 +259,7 @@ Fields
                     Setup\'\' is blocked from being used in the system.
   -----------------------------------------------------------------------
 
-**Format Types**
+##Format Types
 
   -----------------------------------------------------------------------
   Depth             The given value will be multiplied with the factor
@@ -369,7 +366,7 @@ Fields
                     spine.
   -----------------------------------------------------------------------
 
-**Example for a stand-up pouch with a zipper**
+##Example for a stand-up pouch with a zipper
 
 A stand-up pouch with a zipper needs on top of the final size extra
 material for the 
@@ -400,18 +397,16 @@ material for the 
 
 Value for the actual Component type:
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image8.png){width="6.5in"
+![Image](./assets/image8.png){width="6.5in"
 height="4.5055555555555555in"}
 
 ![A screenshot of a calendar AI-generated content may be
 incorrect.](./assets/image9.png){width="6.5in"
 height="1.8493055555555555in"}
 
-**Result in Width and Length on Job item:**
+##Result in Width and Length on Job item:
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image10.png){width="6.5in"
+![Image](./assets/image10.png){width="6.5in"
 height="1.5104166666666667in"}
 
 Length is calculated: 
@@ -426,31 +421,27 @@ Width is calculated: 
     =1)\") + (Side Gusset Value+ Factor)\
     (10.5 x 1 = 10.5)+( 1 x 2 = 2) = 12.5
 
-**Example for the Tools Selection**
+##Example for the Tools Selection
 
 Component type = TOOL
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image11.png){width="6.5in"
+![Image](./assets/image11.png){width="6.5in"
 height="1.7333333333333334in"}
 
 Values:
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image12.png){width="6.5in" height="1.85625in"}
+![Image](./assets/image12.png){width="6.5in" height="1.85625in"}
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image13.png){width="6.5in"
+![Image](./assets/image13.png){width="6.5in"
 height="2.189583333333333in"}
 
 After editing the values and selecting a tool combination, the new
 values are stored on the Job Item formats for this sheet.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image14.png){width="6.5in"
+![Image](./assets/image14.png){width="6.5in"
 height="2.1506944444444445in"}
 
-**Example for a hardcover book**
+##Example for a hardcover book
 
 For hardcover books there are several parts that must be included into
 the calculation for the spine thickness. Calculation formula 652 is
@@ -460,8 +451,7 @@ Step 1: Setup Job Item Formats
 
 Description below explains how it calculates with formula 652
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image15.png){width="6.5in"
+![Image](./assets/image15.png){width="6.5in"
 height="2.834722222222222in"}
 
 Step 2: Setup the required Component Types
@@ -470,15 +460,13 @@ Setup a Component Type for each component that should be included in the
 hardcover spine thickness. Make sure to set the required Cover material
 type.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image16.png){width="6.5in"
+![Image](./assets/image16.png){width="6.5in"
 height="5.278472222222222in"}
 
 Step3: Setup on the components that represents/contains the spine
 formula 652 in the spine thickness field.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image17.png){width="6.5in"
+![Image](./assets/image17.png){width="6.5in"
 height="5.607638888888889in"}
 
 Step 4: Setup on the components that represents/contains the spine,
@@ -486,16 +474,14 @@ values for the spine elements on action Job Item Formats. Keep the value
 = 0 if it should be calculated from a component that must be created in
 a case as job item(s). 
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image18.png){width="6.5in"
+![Image](./assets/image18.png){width="6.5in"
 height="3.3027777777777776in"}
 
 Step 5:
 
 Create you estimate with the components for your book.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image19.png){width="6.5in"
+![Image](./assets/image19.png){width="6.5in"
 height="4.311111111111111in"}
 
 Step 6:
@@ -503,8 +489,7 @@ Step 6:
 Edit the values if required. It is possible to lookup and adjust the
 values with the lookup in the spine thickness field.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image20.png){width="6.5in"
+![Image](./assets/image20.png){width="6.5in"
 height="1.9881944444444444in"}
 
 Adjust the values as required. It is possible to personalize the page
@@ -512,8 +497,7 @@ for the ability to edit the factor value which is most probably not
 needed for the estimator/CSR. The changes are for the current job item
 only.
 
-![A screenshot of a computer AI-generated content may be
-incorrect.](./assets/image21.png){width="6.5in"
+![Image](./assets/image21.png){width="6.5in"
 height="2.8027777777777776in"}
 
 The Spine Thickness value on the job item will be recalculated
