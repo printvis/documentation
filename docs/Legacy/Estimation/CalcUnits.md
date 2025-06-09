@@ -131,12 +131,12 @@ list will filter all calculation units linked to cost centers for the
 department "Printing." This works likewise for all department buttons.
 When hitting the button "All," the filter will be released again.
 
-<img src="./assets/CalcUnitSetup2.png" style="width:6.5in;height:5.18333in"
+<img src="../assets/CalcUnitSetup2.png" style="width:6.5in;height:5.18333in"
 alt="CalcUnit" />
 
 ## FastTab General
 
-<img src="./assets/CalcUnitSetup3.png" style="width:6.5in;height:2.75833in"
+<img src="../assets/CalcUnitSetup3.png" style="width:6.5in;height:2.75833in"
 alt="CalcUnit" />
 
 **Available Fields:**
@@ -289,7 +289,7 @@ article. </td>
 
 ## FastTab Details
 
-<img src="./assets/CalcUnitSetup4.png" style="width:6.5in;height:1.46944in"
+<img src="../assets/CalcUnitSetup4.png" style="width:6.5in;height:1.46944in"
 alt="CalcUnit" />
 
 -   Select "Operation" or "Item" as type
@@ -740,14 +740,14 @@ instead of setting one up from scratch. It saves time and takes less
 time to create Calculation Units that are the same or similar and just
 need some tweaks. 
 
-<img src="./assets/CalcUnitSetup5.png"
+<img src="../assets/CalcUnitSetup5.png"
 style="width:3.79167in;height:1.89583in"
 alt="CalcUnit" />
 
 Enter a new unit code and unit name for the Calculation Unit or List of
 Units, then click next:
 
-<img src="./assets/CalcUnitSetup6.png" style="width:5.83333in;height:5.5in"
+<img src="../assets/CalcUnitSetup6.png" style="width:5.83333in;height:5.5in"
 alt="CalcUnit" />
 
 Copy Price Lists and Copy Speed Tables options are copy existing or
@@ -758,7 +758,7 @@ If re-use existing is selected, then the already existing table will be
 placed in the new Calculation Unit. But for List of Units, the option to
 copy price lists and copy speed tables will not be available. 
 
-<img src="./assets/CalcUnitSetup7.png"
+<img src="../assets/CalcUnitSetup7.png"
 style="width:5.89583in;height:5.48958in"
 alt="CalcUnit" />
 
@@ -768,7 +768,7 @@ alt="CalcUnit" />
 
 The sorting is setup to the most probably production flow sequence.
 
-<img src="./assets/CalcUnitSetup8.png" style="width:6.5in;height:6.83958in"
+<img src="../assets/CalcUnitSetup8.png" style="width:6.5in;height:6.83958in"
 alt="CalcUnit" />
 
 **Example Plate Setter**
@@ -785,7 +785,7 @@ separately.
 
 **Plate Setter Calculation Unit**
 
-<img src="./assets/CalcUnitSetup9.png" style="width:6.5in;height:2.44028in"
+<img src="../assets/CalcUnitSetup9.png" style="width:6.5in;height:2.44028in"
 alt="CalcUnit" />
 
 For less detailed calculation it is also possible to setup just 1 line
@@ -793,7 +793,7 @@ with a fix sales price per plate.
 
 **List of Units for the press to be selected on job items**
 
-<img src="./assets/CalcUnitSetup10.png" style="width:6.5in;height:2.60694in"
+<img src="../assets/CalcUnitSetup10.png" style="width:6.5in;height:2.60694in"
 alt="CalcUnit" />
 
 ## Example Sheet Offset Press
@@ -809,15 +809,15 @@ alt="CalcUnit" />
     a separate calculation Unit was set up for better visualization of
     the paper cost/price in the calculation
 
-<img src="./assets/CalcUnitSetup11.png" style="width:6.5in;height:1.2in"
+<img src="../assets/CalcUnitSetup11.png" style="width:6.5in;height:1.2in"
 alt="CalcUnit" />
 
-<img src="./assets/CalcUnitSetup12.png" style="width:6.5in;height:1.46944in"
+<img src="../assets/CalcUnitSetup12.png" style="width:6.5in;height:1.46944in"
 alt="CalcUnit" />
 
 **Separate Calculation Unit for the paper/print substrate calculation**
 
-<img src="./assets/CalcUnitSetup13.png" style="width:6.5in;height:2.15764in"
+<img src="../assets/CalcUnitSetup13.png" style="width:6.5in;height:2.15764in"
 alt="CalcUnit" />
 
 The line in this unit could be also part of the calculation unit for the
@@ -828,7 +828,7 @@ cost/price included in the sheet offset printer cost/price.
 
 **Result:**
 
-<img src="./assets/CalcUnitSetup14.png" style="width:6.5in;height:1.59861in"
+<img src="../assets/CalcUnitSetup14.png" style="width:6.5in;height:1.59861in"
 alt="CalcUnit" />
 
 ## Example Web Offset Press with Surcharge Units
@@ -837,5 +837,5 @@ Surcharge units are setup as surcharge configuration. Calculation Units
 linked to those surcharge units are listed in blue text color and with
 indentation of the code. 
 
-<img src="./assets/CalcUnitSetup15.png" style="width:6.5in;height:5.60139in"
+<img src="../assets/CalcUnitSetup15.png" style="width:6.5in;height:5.60139in"
 alt="CalcUnit" />
