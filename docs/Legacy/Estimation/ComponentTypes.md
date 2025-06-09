@@ -37,149 +37,36 @@ exact calculation of the required print substrate.
 
 A common list for commercial printing might look like this:
 
-![Image](./assets/image1.png){width="6.5in"
-height="4.282638888888889in"}
+![Image](./assets/image1.png)
 
 The example below shows a common setup for a cover of a perfect bound
 book. Fields that are not filled will retain the default value from the
 job or template.
 
-![Image](./assets/image2.png){width="6.5in"
-height="8.230555555555556in"}
+![Image](./assets/image2.png)
 
 Fields
 
-+---------------+------------------------------------------------------+
-| Pages with    | Number of pages with print this component will have. |
-| Print         | This number will be transferred to the job item.\    |
-|               | This can be useful for a a component of type cover   |
-|               | that always contains 4 pages instead of using the    |
-|               | pages from the job input                             |
-+===============+======================================================+
-| Colors Front  | The number of colors to be printed on the front of   |
-|               | the printed item. This value will be transferred to  |
-|               | the field \"Colors Front\" on the job item.          |
-+---------------+------------------------------------------------------+
-| Colors Back   | The number of colors to be printed on the back of    |
-|               | the printed item. This value will be transferred to  |
-|               | the field \"Colors Back\" on the job item.           |
-+---------------+------------------------------------------------------+
-| Job Item      | This field may contain a predefined final format     |
-| Format Code   | which will be transferred to the job item. This is   |
-|               | an option which is mainly used if the component acts |
-|               | as a more complete template for a particular         |
-|               | product.\                                            |
-|               | Example: Business cards often have a the same size.  |
-+---------------+------------------------------------------------------+
-| Paper Item    | This value will be transferred to the job items      |
-| No.           | Paper Item Number Field, in case there is a standard |
-|               | paper for this component type.                       |
-+---------------+------------------------------------------------------+
-| Finishing     | This value will be transferred to the Finishing      |
-|               | field of the Job Item, in case there is standard     |
-|               | finishing type for this component type.\             |
-|               | Example: Covers always need trimming.                |
-+---------------+------------------------------------------------------+
-| JDF Product   | For a JDF workflow it can be required to define a    |
-| Type          | Product type. The available options are based on the |
-|               | JDF Specification.\                                  |
-|               | \                                                    |
-|               | The type \"Cover\" also has impact on the PrintVis   |
-|               | Calculation Formula 107, which identifies if the     |
-|               | calculation contains a cover.                        |
-+---------------+------------------------------------------------------+
-| Imposition    | This value will be transferred to the Imposition     |
-| Type          | Type field of the Job Item, in case there is         |
-|               | standard Imposition Type for this component type.    |
-+---------------+------------------------------------------------------+
-| Length Factor | This value is a multiplier for the final format      |
-|               | (size). The value multiplied with the Length of the  |
-|               | format code will populate the "Length" field of the  |
-|               | job item.                                            |
-|               |                                                      |
-|               | Example: If the final format is 10x15 (width x       |
-|               | length) and the Width Factor is 3 and Length factor  |
-|               | is 2 the Width will be 30 (3 x 10) and the Length    |
-|               | will be 30 (2 x 15). This means the final size for   |
-|               | the imposition is 30x30.                             |
-+---------------+------------------------------------------------------+
-| Width Factor  | This value is a multiplier for the final format      |
-|               | (size). The value multiplied with the Width of the   |
-|               | format code will populate the "Width" field of the   |
-|               | job item.                                            |
-|               |                                                      |
-|               | Example: If the final format is 10x15 (width x       |
-|               | length) and the Width Factor is 3 and Length factor  |
-|               | is 2 the Width will be 30 (3 x 10) and the Length    |
-|               | will be 30 (2 x 15). This means the final size for   |
-|               | the imposition is 30x30.                             |
-+---------------+------------------------------------------------------+
-| Imposition    | This value will be transferred to the Job Item field |
-| Factor Length | \"Conjugate Length,\" to calculate the open format   |
-|               | from the Job Item \"Length\" field.                  |
-+---------------+------------------------------------------------------+
-| Imposition    | This value will be transferred to the Job Item field |
-| Factor Width  | \"Conjugate Width,\" to calculate the open format    |
-|               | from the Job Item \"Width\" field.                   |
-+---------------+------------------------------------------------------+
-| Ignore        | If this field is enabled on the selected component   |
-| Margins\      | type of the job item, all margins from the cost      |
-| on 1-up       | center configuration (e.g. Gripper, pull-mark, color |
-| layouts       | bar/strip) are set to =0, if the component only      |
-|               | includes 1 up.\                                      |
-|               | \                                                    |
-|               | This will be used in case the printing is made on    |
-|               | the final cut format, for example if finished        |
-|               | products will be printed. This can be for example    |
-|               | printing on envelopes, gift/greeting cards etc.      |
-+---------------+------------------------------------------------------+
-| Include in    | This Boolean field should be set = TRUE in case the  |
-| Spine         | actual component should have impact on the spine     |
-| Calculation   | thickness for the cover. Formulas 650/651 will       |
-|               | include the paper thickness for those components.    |
-+---------------+------------------------------------------------------+
-| Include in    | Enable this field if the component is a part of the  |
-| Hardcover     | spine for e.g. a hardcover book. Formula 652         |
-| Spine         | calculates the spine thickness either with the paper |
-| Calculation   | thickness of the components or the given values from |
-|               | the spine type setup in the Job Item Formats.        |
-+---------------+------------------------------------------------------+
-|               |                                                      |
-+---------------+------------------------------------------------------+
-| Formula Spine | It is possible to select a formula to calculate the  |
-| Thickness     | spine thickness of a perfect bound (or similar)      |
-|               | cover. The value will be displayed in the field      |
-|               | \"Spine Thickness\" on the Job Item, which is an     |
-|               | editable field and will be also used for the         |
-|               | imposition calculation for the open size of the      |
-|               | cover.\                                              |
-|               | \                                                    |
-|               | This value should contain a factor on top of the     |
-|               | pure paper thickness because a closed and folded     |
-|               | product is thicker than just the paper.\             |
-|               | PrintVis provides calculation formula 651 which add  |
-|               | 8% to the net paper thickness of all components with |
-|               | the setting \"Include in Spine Calculation\" = TRUE. |
-|               | This is typically the spine for a softcover book or  |
-|               | just the book block thickness for a hardcover book.\ |
-|               | \                                                    |
-|               | For Hardcover spine calculation formula 652 can be   |
-|               | used. In the Job Item Format setup the components    |
-|               | for the hardcover can be defined. The components can |
-|               | be either calculated from the material thickness     |
-|               | with the setting \"Include in Hardcover Spine        |
-|               | Calculation\" = TRUE                                 |
-+---------------+------------------------------------------------------+
-| Formula Spine | It is possible to select a formula to calculate the  |
-| Thickness Net | spine thickness of a perfect bound (or similar)      |
-|               | cover.\                                              |
-|               | The value will be displayed in the field \"Spine     |
-|               | Thickness, Net\" on the Job Item. This value is only |
-|               | for information.\                                    |
-|               | PrintVis provides calculation formula 650 which      |
-|               | gives the net paper thickness of all components with |
-|               | the setting \"Include in Spine Calculation\" = TRUE. |
-+---------------+------------------------------------------------------+
+| Field                        | Description                                                                                                                                                                                                                                                                                                                                                                    |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Pages with Print            | Number of pages with print this component will have. This number will be transferred to the job item. This can be useful for a component of type cover that always contains 4 pages instead of using the pages from the job input.                                                                                                                                        |
+| Colors Front                | The number of colors to be printed on the front of the printed item. This value will be transferred to the field "Colors Front" on the job item.                                                                                                                                                                                                                             |
+| Colors Back                 | The number of colors to be printed on the back of the printed item. This value will be transferred to the field "Colors Back" on the job item.                                                                                                                                                                                                                                |
+| Job Item Format Code        | This field may contain a predefined final format which will be transferred to the job item. This is mainly used if the component acts as a more complete template for a particular product. Example: Business cards often have the same size.                                                                                                                               |
+| Paper Item No.              | This value will be transferred to the job item's Paper Item Number field, in case there is a standard paper for this component type.                                                                                                                                                                                                                                          |
+| Finishing                   | This value will be transferred to the Finishing field of the Job Item, in case there is a standard finishing type for this component type. Example: Covers always need trimming.                                                                                                                                                                                             |
+| JDF Product Type            | For a JDF workflow it can be required to define a Product Type. The available options are based on the JDF Specification. The type "Cover" also impacts PrintVis Calculation Formula 107, which identifies if the calculation contains a cover.                                                                                                                             |
+| Imposition Type             | This value will be transferred to the Imposition Type field of the Job Item, in case there is a standard Imposition Type for this component type.                                                                                                                                                                                                                             |
+| Length Factor               | A multiplier for the final format length. The value multiplied with the Length of the format code will populate the "Length" field of the job item. Example: Final format 10x15, Width Factor = 3, Length Factor = 2 → Width = 30, Length = 30. Final size = 30x30.                                                                                                            |
+| Width Factor                | A multiplier for the final format width. The value multiplied with the Width of the format code will populate the "Width" field of the job item. Same example as above: Final size = 30x30.                                                                                                                                                                                   |
+| Imposition Factor Length    | This value will be transferred to the Job Item field "Conjugate Length," to calculate the open format from the Job Item "Length" field.                                                                                                                                                                                                                                        |
+| Imposition Factor Width     | This value will be transferred to the Job Item field "Conjugate Width," to calculate the open format from the Job Item "Width" field.                                                                                                                                                                                                                                          |
+| Ignore Margins on 1-up      | If enabled, all margins from the cost center configuration (e.g. Gripper, pull-mark, color bar/strip) are set to 0 for components with only 1-up. Used when printing is made on the final cut format (e.g. envelopes, greeting cards).                                                                                                                                       |
+| Include in Spine Calculation| Set to TRUE if the actual component should impact spine thickness for the cover. Formulas 650/651 will include the paper thickness for those components.                                                                                                                                                                                                                      |
+| Include in Hardcover Spine Calculation | Enable this field if the component is part of the spine for a hardcover book. Formula 652 calculates spine thickness using paper thickness or setup values in the Job Item Formats.                                                                                                                                                                           |
+| Formula Spine Thickness     | Select a formula to calculate the spine thickness of a perfect bound (or similar) cover. Value appears in the "Spine Thickness" field on the Job Item and is used in imposition calculations. Includes a factor on top of paper thickness. Formula 651 adds 8% to net paper thickness for included components. Used for softcover or book block of hardcover books.       |
+| Formula Spine Thickness Net | Select a formula to calculate the net spine thickness for a perfect bound cover. Appears in the "Spine Thickness, Net" field for information only. Formula 650 calculates the net paper thickness of all components marked "Include in Spine Calculation" = TRUE.                                                                                                             |
+
 
 ## Lists of Components
 
@@ -206,24 +93,16 @@ For this follow the steps:
 
 1.  Create all individual component types for a product.
 
-2.  Create a list of components and assign all required components.\
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./assets/image3.png){width="6.5in"
-    height="2.4784722222222224in"}\
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./assets/image4.png){width="6.5in"
-    height="2.140277777777778in"}
+2.  Create a list of components and assign all required components.
+    ![Image](./assets/image3.png)
+    ![Image](./assets/image4.png)
 
 3.  On the Job Card of a case, create a new sheet and select the list of
-    components\
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./assets/image5.png){width="6.5in"
-    height="1.5083333333333333in"}
+    components
+    ![Image](./assets/image5.png)
 
-4.  Click expand to create all required sheets. Result:\
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./assets/image6.png){width="6.5in"
-    height="2.370138888888889in"}
+4.  Click expand to create all required sheets. Result:
+    ![Image](./assets/image6.png)
 
 ## Job Item Formats
 
@@ -239,132 +118,37 @@ exact calculation of the required print substrate.
 Below we show a setup for flexible packaging production (stand up
 pouches) or narrow web label production.
 
-![Image](./assets/image7.png){width="6.5in"
-height="3.611111111111111in"}
+![Image](./assets/image7.png)
 
 Fields
 
-  -----------------------------------------------------------------------
-  Code              Enter a code for this Job Item Format Setup
-  ----------------- -----------------------------------------------------
-  Description       Enter a description for this Job Item Format Setup
-
-  Format type       Select the required format type from the options
-                    list. See the format types description below.
-
-  Factor            Enter a factor which will be the multiplier for the
-                    given value.
-
-  Blocked           If this field is enabled the \'\'Job Item Format
-                    Setup\'\' is blocked from being used in the system.
-  -----------------------------------------------------------------------
+| Field         | Description                                                                                          |
+|---------------|------------------------------------------------------------------------------------------------------|
+| Code          | Enter a code for this Job Item Format Setup.                                                         |
+| Description   | Enter a description for this Job Item Format Setup.                                                  |
+| Format type   | Select the required format type from the options list. See the format types description below.       |
+| Factor        | Enter a factor which will be the multiplier for the given value.                                     |
+| Blocked       | If this field is enabled, the "Job Item Format Setup" is blocked from being used in the system.      |
 
 ## Format Types
 
-  -----------------------------------------------------------------------
-  Depth             The given value will be multiplied with the factor
-                    and added to the length of the product to calculate
-                    the open size of the product on the print substrate.
-  ----------------- -----------------------------------------------------
-  Width             The given value will be multiplied with the factor
-                    and added to the width of the product to calculate
-                    the open size of the product on the print substrate.
-
-  Minimum distance  This is the minimum distance between the items in the
-  front             length/circumference for a die.\
-                    This is used in the PrintVis Tools Selection as a
-                    preset value and to store a user-modified value for
-                    the actual sheet.
-
-  Maximum distance  This is the maximum distance between the items in the
-  front             length/circumference for a die.\
-                    This is used in the PrintVis Tools Selection as a
-                    preset value and to store a user-modified value for
-                    the actual sheet.
-
-  Distance across   This is the distance between the items in the width
-                    for a die.\
-                    This is used in the PrintVis Tools Selection as a
-                    preset value and to store a user-modified value for
-                    the actual sheet.
-
-  Corner radius     This is the corner radius for a die.\
-                    This is used in the PrintVis Tools Selection as a
-                    preset value and to store a user-modified value for
-                    the actual sheet.
-
-  Spine Book block  Using this type it is possible to enter the book
-                    block thickness for a cover component.\
-                    \
-                    If you leave the value = 0 on the component,
-                    calculation formula 652 filters on the components
-                    with \"Include in Spine Calculation = TRUE\" to
-                    calculate the thickness.
-
-  Spine cardboard   Using this type it is possible to enter the cardboard
-                    thickness for a hardcover component.\
-                    \
-                    If you leave the value = 0 on the component,
-                    calculation formula 652 filters on the components
-                    with \"Cover material type= Spine cardboard\" to
-                    calculate the thickness.
-
-  Spine cover /     Using this type it is possible to enter the thickness
-  cloth material    of cover cloth material for a hardcover.\
-                    \
-                    If you leave the value = 0 on the component,
-                    calculation formula 652 filters on the components
-                    with \"Cover material type= Spine cover / cloth
-                    material\" to calculate the thickness.
-
-  Spine front (end) Using this type it is possible to enter the thickness
-  paper             for the end paper for a hardcover book.\
-                    \
-                    If you leave the value = 0 on the component,
-                    calculation formula 652 filters on the components
-                    with \"Cover material type= Spine front (end)
-                    paper\" to calculate the thickness .
-
-  Spine back (end)  Using this type it is possible to enter the thickness
-  paper             for the end paper for a hardcover book.\
-                    \
-                    If you leave the value = 0 on the component,
-                    calculation formula 652 filters on the components
-                    with \"Cover material type= Spine back (end)
-                    paper\" to calculate the thickness .
-
-  Spine jacket      Using this type it is possible to enter the thickness
-                    for jacket of a hardcover.\
-                    \
-                    If you leave the value = 0 on the component,
-                    calculation formula 652 filters on the components
-                    with \"Cover material type= Spine jacket\" to
-                    calculate the thickness.
-
-  Spine glued/thead Using this type it is possible to enter the cardboard
-                    thickness for a hardcover component.\
-                    \
-                    If you leave the value = 0 on the component,
-                    calculation formula 652 filters on the components
-                    with \"Cover material type= Spine cover / cloth
-                    material\".
-
-  Spine per folding Using this type it is possible to enter a margin to
-  sheet             be added to each folding sheet that is part of the
-                    book block.\
-                    \
-                    Formula 652 adds this margin x no. of folding sheets
-                    to be included into the spine. Typically a folded
-                    sheet is thicker than just the paper thickness after
-                    folding.
-
-  Spine side glue   Using this type it is possible to enter a margin to
-                    be added to spine thickness in case there is side
-                    glue.\
-                    \
-                    Formula 652 adds this margin to be included into the
-                    spine.
-  -----------------------------------------------------------------------
+| Field                | Description                                                                                                                                                                                                                                                                                                                                                                                |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Depth                | The given value will be multiplied with the factor and added to the length of the product to calculate the open size of the product on the print substrate.                                                                                                                                                                                                                              |
+| Width                | The given value will be multiplied with the factor and added to the width of the product to calculate the open size of the product on the print substrate.                                                                                                                                                                                                                               |
+| Minimum distance front| Minimum distance between items in the length/circumference for a die. Used in the PrintVis Tools Selection as a preset value and to store a user-modified value for the actual sheet.                                                                                                                                                                                                  |
+| Maximum distance front| Maximum distance between items in the length/circumference for a die. Used in the PrintVis Tools Selection as a preset value and to store a user-modified value for the actual sheet.                                                                                                                                                                                                  |
+| Distance across      | Distance between the items in the width for a die. Used in the PrintVis Tools Selection as a preset value and to store a user-modified value for the actual sheet.                                                                                                                                                                                                                       |
+| Corner radius        | Corner radius for a die. Used in the PrintVis Tools Selection as a preset value and to store a user-modified value for the actual sheet.                                                                                                                                                                                                                                                 |
+| Spine Book block     | Enter book block thickness for a cover component. If value = 0, formula 652 uses components with "Include in Spine Calculation = TRUE" to calculate the thickness.                                                                                                                                                                                                                        |
+| Spine cardboard      | Enter cardboard thickness for a hardcover component. If value = 0, formula 652 uses components with "Cover material type = Spine cardboard" to calculate the thickness.                                                                                                                                                                                                                   |
+| Spine cover / cloth material | Enter thickness of cover cloth material for a hardcover. If value = 0, formula 652 uses components with "Cover material type = Spine cover / cloth material" to calculate the thickness.                                                                                                                                                                             |
+| Spine front (end) paper | Enter thickness for end paper for a hardcover book. If value = 0, formula 652 uses components with "Cover material type = Spine front (end) paper" to calculate the thickness.                                                                                                                                                                                                       |
+| Spine back (end) paper | Enter thickness for end paper for a hardcover book. If value = 0, formula 652 uses components with "Cover material type = Spine back (end) paper" to calculate the thickness.                                                                                                                                                                                                          |
+| Spine jacket         | Enter thickness for jacket of a hardcover. If value = 0, formula 652 uses components with "Cover material type = Spine jacket" to calculate the thickness.                                                                                                                                                                                                                                |
+| Spine glued/threaded | Enter cardboard thickness for a hardcover component. If value = 0, formula 652 uses components with "Cover material type = Spine cover / cloth material" to calculate the thickness.                                                                                                                                                                                                     |
+| Spine per folding sheet | Enter a margin to be added to each folding sheet that is part of the book block. Formula 652 adds this margin × number of folding sheets to the spine. Typically, a folded sheet is thicker than just the paper thickness after folding.                                                                                                                                            |
+| Spine side glue      | Enter a margin to be added to spine thickness in case of side glue. Formula 652 adds this margin to the spine.                                                                                                                                                                                                                                                                            |
 
 ## Example for a stand-up pouch with a zipper
 
@@ -397,17 +181,13 @@ material for the 
 
 Value for the actual Component type:
 
-![Image](./assets/image8.png){width="6.5in"
-height="4.5055555555555555in"}
+![Image](./assets/image8.png)
 
-![A screenshot of a calendar AI-generated content may be
-incorrect.](./assets/image9.png){width="6.5in"
-height="1.8493055555555555in"}
+![Image](./assets/image9.png)
 
 **Result in Width and Length on Job item:**
 
-![Image](./assets/image10.png){width="6.5in"
-height="1.5104166666666667in"}
+![Image](./assets/image10.png)
 
 Length is calculated: 
 
@@ -425,21 +205,18 @@ Width is calculated: 
 
 Component type = TOOL
 
-![Image](./assets/image11.png){width="6.5in"
-height="1.7333333333333334in"}
+![Image](./assets/image11.png)
 
 Values:
 
-![Image](./assets/image12.png){width="6.5in" height="1.85625in"}
+![Image](./assets/image12.png)
 
-![Image](./assets/image13.png){width="6.5in"
-height="2.189583333333333in"}
+![Image](./assets/image13.png)
 
 After editing the values and selecting a tool combination, the new
 values are stored on the Job Item formats for this sheet.
 
-![Image](./assets/image14.png){width="6.5in"
-height="2.1506944444444445in"}
+![Image](./assets/image14.png)
 
 ## Example for a hardcover book
 
@@ -451,8 +228,7 @@ Step 1: Setup Job Item Formats
 
 Description below explains how it calculates with formula 652
 
-![Image](./assets/image15.png){width="6.5in"
-height="2.834722222222222in"}
+![Image](./assets/image15.png)
 
 Step 2: Setup the required Component Types
 
@@ -460,45 +236,39 @@ Setup a Component Type for each component that should be included in the
 hardcover spine thickness. Make sure to set the required Cover material
 type.
 
-![Image](./assets/image16.png){width="6.5in"
-height="5.278472222222222in"}
+![Image](./assets/image16.png)
 
 Step3: Setup on the components that represents/contains the spine
 formula 652 in the spine thickness field.
 
-![Image](./assets/image17.png){width="6.5in"
-height="5.607638888888889in"}
+![Image](./assets/image17.png)
 
 Step 4: Setup on the components that represents/contains the spine,
 values for the spine elements on action Job Item Formats. Keep the value
 = 0 if it should be calculated from a component that must be created in
 a case as job item(s). 
 
-![Image](./assets/image18.png){width="6.5in"
-height="3.3027777777777776in"}
+![Image](./assets/image18.png)
 
 Step 5:
 
 Create you estimate with the components for your book.
 
-![Image](./assets/image19.png){width="6.5in"
-height="4.311111111111111in"}
+![Image](./assets/image19.png)
 
 Step 6:
 
 Edit the values if required. It is possible to lookup and adjust the
 values with the lookup in the spine thickness field.
 
-![Image](./assets/image20.png){width="6.5in"
-height="1.9881944444444444in"}
+![Image](./assets/image20.png)
 
 Adjust the values as required. It is possible to personalize the page
 for the ability to edit the factor value which is most probably not
 needed for the estimator/CSR. The changes are for the current job item
 only.
 
-![Image](./assets/image21.png){width="6.5in"
-height="2.8027777777777776in"}
+![Image](./assets/image21.png)
 
 The Spine Thickness value on the job item will be recalculated
 accordingly.
