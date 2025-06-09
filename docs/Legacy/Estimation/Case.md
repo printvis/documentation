@@ -246,9 +246,9 @@ H. **Info Tab with some additional information about the case:**
 | Production Status Code | The production status shows the status of the individual job once a job has reached the planning stage. When all of the planning lines have been marked completed, the status will be listed as the Production Ended status. This new field function as follows: - The field should be blank any time the case 'Can Be Planned' boolean is No. - When planning lines exist, find the earliest planning line for that job that is not marked complete and display the status code setting for that planning unit. - If all planning lines for that job are marked completed, display the status code that has the Production Ended = Yes value. |
 
 
-**The individual employee may work with all his/her cases in the Case
+The individual employee may work with all his/her cases in the Case
 list exactly as if the cases were piled on the desk. A Case does not
 disappear from the list before you have solved it and sent it on in the
 Case flow. This is a critical component of a print company's success --
 to ensure the print job production flow is organized and job information
-is immediately accessible to each responsible party.**
+is immediately accessible to each responsible party.
