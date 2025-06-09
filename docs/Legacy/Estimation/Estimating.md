@@ -1,6 +1,5 @@
 # Estimating Page
 
-
 ## Introduction 
 
 Estimating in PrintVis is the process of calculating a quoted price for a product, such as a brochure. The estimation lays the groundwork for:
@@ -79,7 +78,8 @@ The page is divided into two main sections:
 ### Table Fields
 
 ![Estimating Page 5.jpg](./assets/Estimating Page 5.jpg)
-                  |
+
+
 | Field                     | Description |
 |---------------------------|------------|
 | **Type**                  | Type indicates if the current line is an Operation (Hour) or an Item Line (Material). |

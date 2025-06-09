@@ -144,6 +144,7 @@ nav:
       - Assign Inks to 2 or more print processes: Legacy/Estimation/TTInksPrint.md
       - Calculate setup or cleanup for special inks: Legacy/Estimation/TTSpecialInks.md
     - Estimation Setup:
+      - Introduction to Estimation: Legacy/Estimation/EstimationAutomationSetup.md
       - Templates: Legacy/Estimation/Templates.md
       - Template Filters: Legacy/Estimation/TemplateFilters.md
       - Format Codes: Legacy/Estimation/FormatCodes.md
@@ -165,7 +166,6 @@ nav:
       - Paper Price lists: Legacy/Estimation/PaperPriceLists.md
       - Price List import/export: Legacy/Estimation/PricelistImpExp.md
       - Commission setup: Legacy/Estimation/CommissionSetup.md
-      - Estimation Automation setup: Legacy/Estimation/EstimationAutomationSetup.md
       - Decision Overview: Legacy/Estimation/DecisionOverview.md
       - ECO label setup: Legacy/Estimation/ECOSetup.md
       - Subcontracting setup: Legacy/Estimation/Subcontracting.md
