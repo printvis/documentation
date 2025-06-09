@@ -15,11 +15,11 @@ from quote to invoice. With Case Management, you control and follow the
 flow of jobs throughout your company with a full overview of outstanding
 quotes, confirmed orders, and jobs in progress.
 
-In the Case List, it\'s possible to use the \"list\" view as below.
+In the Case List, it's possible to use the "list" view as below.
 
 ![Image](./assets/case1.png)
 
-In the Case List, it\'s also possible view the orders based on \"tile\"
+In the Case List, it's also possible view the orders based on "tile"
 view with pictures from the Case Card.
 
 ![Image](./assets/case2.png)
@@ -39,30 +39,37 @@ B.  **General tab (some main case information like customer,
 
 C.  **Jobs (see Job Line menu / fields)**
 
-D.  **Case description (Internal notes and divided by departments) **![Image](./assets/case4.png)
+D.  **Case description (Internal notes and divided by departments) **
+    ![Image](./assets/case4.png)
 
 E.  **This section is a Rich Text Editor with the ability to write
     continuous text with word wrapping and formatting options assigned
-    to the departments.\
-    This text information is available on the case card and the shop
-    floor.\
-    \
-    The Case Description header provides action to:\
-    **![Image](./assets/case5.png) **-Show an \"Internal Summary\" which are all texts
-    for all departments in an overview page (not editable).\
-    -Show a \"Shop Floor Summary\" which are all texts (line based) that
-    has been entered from the shop floor staff.\
-    **
+    to the departments.**
 
-F.  **Invoicing tab with basic information from Customer **![Image](./assets/case6.png)
+    This text information is available on the case card and the shop
+    floor.
+
+    The Case Description header provides action to:
+    ![Image](./assets/case5.png) 
+    - Show an "Internal Summary" which are all texts
+    for all departments in an overview page (not editable).
+    - Show a "Shop Floor Summary" which are all texts (line based) that
+    has been entered from the shop floor staff.
+
+F.  **Invoicing tab with basic information from Customer **
+    ![Image](./assets/case6.png)
 
 G.  **Fact boxes with overview information about the case and project:**
 
-H.  ![Image](./assets/case7.png) ![Image](./assets/case8.png)![Image](./assets/case9.png)
+H.  ![Image](./assets/case7.png) 
+    ![Image](./assets/case8.png)
+    ![Image](./assets/case9.png)
 
-G. **Shipment Foreign Trade Group with some information about Foreign Shipments.** ![Image](./assets/case10.png)
+G. **Shipment Foreign Trade Group with some information about Foreign Shipments.** 
+    ![Image](./assets/case10.png)
 
-H. **Info Tab with some additional information about the case:** ![Image](./assets/case11.png)
+H. **Info Tab with some additional information about the case:** 
+    ![Image](./assets/case11.png)
 
 ## Case Menu
 
