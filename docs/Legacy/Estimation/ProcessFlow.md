@@ -104,6 +104,16 @@ Additional Information
 | **Qty. Out**   | Displays the quantity including scrap after the selected process (includes scrap for following processes). |
 | **Net Printed** | Displays the net quantity for the current process.                                           |
 
+## Process Flow on Job Scheduling page
+
+It is also possible to view the process flow from the PrintVis Job Scheduling page. Use the global serach or manu to find "Process Flow" and click the action.
+
+![Process Flow-Process Groups 12.jpg](./assets/Process Flow-Process Groups 12.png)
+
+By clicking on a process, detailed scheduling information is provided for that process.
+
+![Process Flow-Process Groups 13.jpg](./assets/Process Flow-Process Groups 13.png)
+
 ## Setup for the Icons and Cost Center Pictures
 
 - The icon for the diagram and the cost center picture for additional information can be set up on the related cost center.
