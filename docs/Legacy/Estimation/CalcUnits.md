@@ -97,7 +97,7 @@ A calculation can be also a list of calculation units which:
 1.  In the setup of the List of Units, it is important for the process
     calculations that the printing machine is the first line in the
     list!  
-    <img src="./assets/CalcUnitSetup1.png" style="width:6.5in;height:3.68472in"
+    <img src="../assets/CalcUnitSetup1.png" style="width:6.5in;height:3.68472in"
     alt="CalcUnit" />
 
 2.  If there are surcharge units linked to any configuration it is
