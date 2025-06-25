@@ -210,16 +210,29 @@ nav:
       - Capacity Resources: Legacy/Planning/CapacityResources.md
       - Capacity Groups: Legacy/Planning/CapacityUnitGroups.md
       - Customer follow-up: Legacy/Planning/CustomerFollowUp.md
+      - One surcharge multiple cost centers: Legacy/Planning/SurchargeMultiCC.md
+      - Change status: Legacy/Planning/NextStatus.md
       - Comment text: Legacy/Planning/CommentText.md
       - HTML Tags in tooltips: Legacy/Planning/HTMLTagTooltips.md
       - Milestones setup and usage: Legacy/Planning/MilestoneSetupUsage.md
       - Planning around milestones: Legacy/Planning/PlanningAroundMilestones.md
+      - Case milestones on production plan: Legacy/Planning/CaseMilestonesProdPlan.md
       - Opening hours calendar maintenance: Legacy/Planning/OpeningHoursCalendar.md
+      - Sheet ganging: Legacy/Planning/SheetGanging.md
       - Planning per signature: Legacy/Planning/PlanningPerSig.md
       - Planning report: Legacy/Planning/PlanningReport.md
       - Planning Units: Legacy/Planning/PlanningUnits.md
+      - Planning unit status code: Legacy/Planning/PlanUnitStatusCode.md
+      - Production plan: Legacy/Planning/ProductionPlan.md
       - Planning board: Legacy/Planning/PlanningBoard.md
-      
+      - Planning link: Legacy/Planning/PlanningLink.md
+      - Bottleneck planning: Legacy/Planning/BottleneckPlanning.md
+      - Ruleset setup: Legacy/Planning/RulesetSetup.md
+      - Auto scheduling setup: Legacy/Planning/AutoScheduleSetup.md
+      - Auto scheduling scenarios: Legacy/Planning/AutoScheduleScenarios.md
+      - Job queue auto scheduling: Legacy/Planning/JobQueueAutoSchedule.md
+      - Placeholders: Legacy/Planning/Placeholder.md
+
   - PrintVis User Group: pug.md
     
 theme:
