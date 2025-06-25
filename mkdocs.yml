@@ -232,7 +232,12 @@ nav:
       - Auto scheduling scenarios: Legacy/Planning/AutoScheduleScenarios.md
       - Job queue auto scheduling: Legacy/Planning/JobQueueAutoSchedule.md
       - Placeholders: Legacy/Planning/Placeholder.md
-
+    - Warehousing:
+      - Item Card: Legacy/Warehouse/ItemCard.md
+      - Item Type Codes and filters: Legacy/Warehouse/ItemTypeCodes.md
+      - Qualities: Legacy/Warehouse/Qualities.md
+      - Material requirements: Legacy/Warehouse/MaterialRequirements.md
+      - Job material movement and pick: Legacy/Warehouse/JobMaterialMovement.md
   - PrintVis User Group: pug.md
     
 theme:
