@@ -205,6 +205,21 @@ nav:
       - Tool selection: Legacy/Estimation/Toolselection.md
       - Publications and editions: Legacy/Estimation/PubsEds.md
       - Hourly Rate Scenarios: Legacy/Estimation/HourlyRateScenarios.md
+    - Planning:
+      - Capacity blockings and blocking codes: Legacy/Planning/CapacityBlockings.md
+      - Capacity Resources: Legacy/Planning/CapacityResources.md
+      - Capacity Groups: Legacy/Planning/CapacityUnitGroups.md
+      - Customer follow-up: Legacy/Planning/CustomerFollowUp.md
+      - Comment text: Legacy/Planning/CommentText.md
+      - HTML Tags in tooltips: Legacy/Planning/HTMLTagTooltips.md
+      - Milestones setup and usage: Legacy/Planning/MilestoneSetupUsage.md
+      - Planning around milestones: Legacy/Planning/PlanningAroundMilestones.md
+      - Opening hours calendar maintenance: Legacy/Planning/OpeningHoursCalendar.md
+      - Planning per signature: Legacy/Planning/PlanningPerSig.md
+      - Planning report: Legacy/Planning/PlanningReport.md
+      - Planning Units: Legacy/Planning/PlanningUnits.md
+      - Planning board: Legacy/Planning/PlanningBoard.md
+      
   - PrintVis User Group: pug.md
     
 theme:
