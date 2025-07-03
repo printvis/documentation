@@ -243,8 +243,8 @@ nav:
       - Material requirements: Legacy/Warehouse/MaterialRequirements.md
       - Job material movement and pick: Legacy/Warehouse/JobMaterialMovement.md
   - PrintVis User Group: pug.md
+  - hidden: true
   - Onboarding:
-    - hidden: true
     - Onboarding Overview: Onboarding/01-PVSOnboarding-Overview.md
     - Basic Setup:
       - Basic Setup: Onboarding/0100-PVSOnboarding-Basic-Setup.md
