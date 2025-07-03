@@ -32,7 +32,7 @@ setup.
 
 ![Basic Setup](./assets/0100-image4.png)
 
-Press “Ok”, accept the terms & conditions after reviewing them and hit
+Press “OK”, accept the terms & conditions after reviewing them and hit
 the button “Get started”
 
 ![Basic Setup](./assets/0100-image5.png)
