@@ -5,6 +5,7 @@ site_dir: ../site/Onboarding
 nav:
   - Onboarding: 
     - Onboarding Overview: Onboarding/01-PVSOnboarding-Overview.md
+    - Basic Setup: Onboarding/0100-PVSOnboarding-Basic-Setup.md
     
 theme:
   name: material
