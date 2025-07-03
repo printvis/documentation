@@ -4,7 +4,7 @@ This documentation is a supporting manual on how to use the PrintVis
 Onboarding – Basic Setup – Company Information. It describes the
 required setup steps for this module.
 
-## Company Information Setup
+# Company Information Setup
 
 ![Company Information](./assets/0101-image1.png)
 

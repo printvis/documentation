@@ -4,7 +4,7 @@ This documentation is a supporting manual on how to use the PrintVis
 Onboarding – Basic Setup – PrintVis Users. It describes the required
 setup steps for this module.
 
-## PrintVis Users Setup
+# PrintVis Users Setup
 
 ![PrintVis Users](./assets/0102-image1.png)
 
@@ -28,7 +28,7 @@ Please note:
 Plan enough time to be able to finish a full step for each setup. This
 may require 15-30 minutes.
 
-## PrintVis Full Users
+# PrintVis Full Users
 
 All users in PrintVis and Business Central are named users (licensed to
 a specific individual). A Full PrintVis user must be paired with a named
@@ -88,7 +88,7 @@ Available user roles are:
 
     -   User for administration and setup tasks.
 
-## PrintVis Registration Users / Shop Floor Users
+# PrintVis Registration Users / Shop Floor Users
 
 The PrintVis Registration user does not require pairing with a Business
 Central user. Registration users are typically your machine operators
