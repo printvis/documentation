@@ -106,7 +106,7 @@ With this module you will create:
 
 This setup is a prerequisite to start any other module.
 
-## Case Management Module
+## <a href="../0200-PVSOnboarding-CaseMgmt/" target="_self">Case Management Module</a>
 
 With this module you will create:
 
@@ -120,20 +120,20 @@ With this module you will create:
 
     -   Etc.
 
-## Folder Management Module
+## <a href="../0500-PVSOnboarding-Folders/" target="_self">Folder Management Module</a>
 
 With this module you can set up PrintVis to create a folder structure
 and to store files on your company’s Microsoft SharePoint or Microsoft
 OneDrive storage.
 
-## User Fields Module
+## <a href="../0300-PVSOnboarding-UserFields/" target="_self">User Fields Module</a>
 
 With this module you can set up fields for any kind of use. These fields
 can contain predefined text blocks such as information to a customer or
 to the production floor about prepress, print, and other areas - based
 on the existing departments.
 
-## Time Registration Module
+## <a href="../0400-PVSOnboarding-TimeReg/" target="_self">Time Registration Module</a>
 
 With this module you can set up a simple time registration input for
 your staff. Basic work types can be created and the time spent can be
