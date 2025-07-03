@@ -97,6 +97,8 @@ that is provided when you click “Next.” After you have clicked “Finish”
 the Case Management module is tagged as complete, and the next module is
 ready for setup.
 
+# <a href="../0201-PVSOnboarding-CaseMgmtStatusCodes/" target="_self">Status Codes</a>
+
 After finalizing the setup of the PrintVis Case Management Module the
 following modules are available for setup:
 
