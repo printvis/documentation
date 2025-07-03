@@ -12,6 +12,7 @@ nav:
       - Users: 0102-PVSOnboarding-PrintVis-Users.md
     - Case Management:
       - Case Management: 0200-PVSOnboarding-CaseMgmt.md
+      - Status Codes: 0201-PVSOnboarding-CaseMgmtStatusCodes.md
     
 theme:
   name: material
