@@ -16,6 +16,7 @@ on:
       - 'docs/**'
       - 'Onboarding/docs/**'
       - 'Onboarding/mkdocs.yml'
+      - 'Onboarding/**'
       - 'requirements.txt'
       - 'mkdocs.yml'
 
