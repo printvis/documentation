@@ -2,6 +2,7 @@ site_name: PrintVis Documentation
 site_url: https://printvis.github.io/documentation/Onboarding
 site_author: PrintVis, Inc.
 site_dir: ../site/Onboarding
+use_directory_urls: true
 nav:
   - Onboarding: 
     - Onboarding Overview: Onboarding/01-PVSOnboarding-Overview.md
@@ -39,5 +40,6 @@ extra_css: [stylesheets/extra.css]
 extra:
   homepage: https://printvis.com
   generator: false
+  base_url: /Onboarding/
 
 copyright: Copyright &copy; PrintVis All rights reserved.
