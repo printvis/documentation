@@ -4,7 +4,7 @@ This documentation is a supporting manual on how to use the PrintVis
 Onboarding – Basic Setup – PrintVis Users. It describes the required
 setup steps for this module.
 
-### PrintVis Users Setup
+## PrintVis Users Setup
 
 ![PrintVis Users](./assets/0102-image1.png)
 

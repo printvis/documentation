@@ -4,7 +4,7 @@ This documentation is a supporting manual on how to use the PrintVis
 Onboarding – Basic Setup. It describes the required setup steps for this
 module.
 
-### Basic Setup Module
+## Basic Setup Module
 
 This setup is a prerequisite for starting any other module.
 
