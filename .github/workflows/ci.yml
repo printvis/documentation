@@ -50,7 +50,7 @@ jobs:
       - name: Build Docs
         run: mkdocs build
       - name: Build Onboarding site into subfolder
-        run: mkdocs build -f Onboarding/mkdocs.yml
+        run: mkdocs build -f docs/Onboarding/mkdocs.yml
       - name: Configure GitHub Pages
         # I have no idea if this actually needed...
         uses: actions/configure-pages@v5 
