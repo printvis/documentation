@@ -5,10 +5,10 @@ site_dir: ../site/Onboarding
 use_directory_urls: true
 nav:
   - Onboarding: 
-    - Onboarding Overview: Onboarding/01-PVSOnboarding-Overview.md
+    - Onboarding Overview: 01-PVSOnboarding-Overview.md
     - Basic Setup: 
-      - Basic Setup: Onboarding/0100-PVSOnboarding-Basic-Setup.md
-      - Company Information: Onboarding/0101-PVSOnboarding-CompanyInfo.md
+      - Basic Setup: 0100-PVSOnboarding-Basic-Setup.md
+      - Company Information: 0101-PVSOnboarding-CompanyInfo.md
     
 theme:
   name: material
