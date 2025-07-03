@@ -94,7 +94,7 @@ found here: <https://printvis.com/solution/how-to-buy/>.
 Please contact PrintVis (<Info@PrintVis.com>) for support in
 finding/selecting a partner.
 
-## Basic Setup Module
+## <a href="../0100-PVSOnboarding-Basic-Setup/" target="_self">Basic Setup Module</a>
 
 With this module you will create:
 
