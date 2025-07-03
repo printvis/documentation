@@ -4,12 +4,12 @@ This documentation is a supporting manual on how to use the PrintVis
 Onboarding – Case Management. It describes the required setup steps for
 this module.
 
-## Case Management Module
+### Case Management Module
 
 After the Basic Setup is completed the Case Management is ready for
 setup. This setup is a prerequisite to start other modules.
 
-## What can you use Case Management for?
+### What can you use Case Management for?
 
 In PrintVis, a "Case" is the repository for all activity and data
 associated with a unique Request/Quote/Order/Production Order. These are
@@ -44,7 +44,7 @@ regards to:
     that was sent within a given period, the case becomes delayed in
     their queue and will be displayed as such.
 
-## Get started
+### Get started
 
 Click on the “Ready for setup” tile to see the module.
 
@@ -96,8 +96,6 @@ PrintVis Case Management is now ready to be used. Please watch the video
 that is provided when you click “Next.” After you have clicked “Finish”
 the Case Management module is tagged as complete, and the next module is
 ready for setup.
-
-# <a href="../0201-PVSOnboarding-CaseMgmtStatusCodes/" target="_self">Status Codes</a>
 
 After finalizing the setup of the PrintVis Case Management Module the
 following modules are available for setup:
