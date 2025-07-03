@@ -13,6 +13,13 @@ nav:
     - Case Management:
       - Case Management: 0200-PVSOnboarding-CaseMgmt.md
       - Status Codes: 0201-PVSOnboarding-CaseMgmtStatusCodes.md
+      - Number Series: 0202-PVSOnboarding-CaseMgmtNumberSeries.md
+      - Product Groups: 0203-PVSOnboarding-CaseMgmtProductGroups.md
+      - Order Types: 0204-PVSOnboarding-CaseMgmtOrderTypes.md
+      - Responsbility Areas: 0205-PVSOnboarding-CaseMgmtRespAreas.md
+      - Rejection Codes: 0206-PVSOnboarding-CaseMgmtRejectCodes.md
+      - Departments: 0207-PVSOnboarding-CaseMgmtDepts.md
+      - Import Customers: 0208-PVSOnboarding-CaseMgmtCust.md
     
 theme:
   name: material
