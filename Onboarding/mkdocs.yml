@@ -9,6 +9,7 @@ nav:
     - Basic Setup: 
       - Basic Setup: 0100-PVSOnboarding-Basic-Setup.md
       - Company Information: 0101-PVSOnboarding-CompanyInfo.md
+      - Users: 0102-PVSOnboarding-PrintVis-Users.md
     
 theme:
   name: material
