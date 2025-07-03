@@ -1,0 +1,39 @@
+site_name: PrintVis Documentation
+site_url: https://printvis.github.io/documentation
+site_author: PrintVis, Inc.
+nav:
+  - Onboarding: 
+    - Onboarding Overview: Onboarding/01-PVSOnboarding-Overview.md
+    
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.tabs
+    - navigation.expand
+    - navigation.tracking
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+  language: en
+  palette:
+    scheme: white
+    primary: white
+    accent: blue
+  font:
+    text: Roboto Slab
+    code: Roboto Slab
+  logo: img/logo.png
+  favicon: img/bee.jpg
+
+extra_css: [stylesheets/extra.css]
+
+extra:
+  homepage: https://printvis.com
+  generator: false
+
+copyright: Copyright &copy; PrintVis All rights reserved.
