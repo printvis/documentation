@@ -6,7 +6,7 @@ When working with cases, having quick access to customer information, such as us
 
 ### Customer User Fields
 
-Customer User Fields can be accessed directly from the Case Card under the "Actions" menu.
+Customer User Fields can be accessed directly from the Case Card under the "Navigate" menu.
 
 ![Customer User Fields and Comments on Case Card 1.jpg](./assets/Customer User Fields and Comments on Case Card 1.jpg)
 
