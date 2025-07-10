@@ -20,6 +20,8 @@ nav:
       - Rejection Codes: 0206-PVSOnboarding-CaseMgmtRejectCodes.md
       - Departments: 0207-PVSOnboarding-CaseMgmtDepts.md
       - Import Customers: 0208-PVSOnboarding-CaseMgmtCust.md
+    - UserFields:
+      - UserFields: 0300-PVSOnboarding-UserFields.md
     
 theme:
   name: material
