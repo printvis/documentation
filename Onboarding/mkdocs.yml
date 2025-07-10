@@ -23,7 +23,9 @@ nav:
     - UserFields:
       - UserFields: 0300-PVSOnboarding-UserFields.md
     - Time Registration:
-      - Time Registration: 0400-PVSOnboarding.TimeReg.md
+      - Time Registration: 0400-PVSOnboarding-TimeReg.md
+    - Folder Management:
+      - Folder Management: 0500-PVSOnboarding-FolderMgmt.md
     
 theme:
   name: material
