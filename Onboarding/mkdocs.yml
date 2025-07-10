@@ -22,6 +22,8 @@ nav:
       - Import Customers: 0208-PVSOnboarding-CaseMgmtCust.md
     - UserFields:
       - UserFields: 0300-PVSOnboarding-UserFields.md
+    - Time Registration:
+      - Time Registration: 0400-PVSOnboarding.TimeReg.md
     
 theme:
   name: material
