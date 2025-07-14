@@ -4,7 +4,7 @@ site_author: PrintVis, Inc.
 site_dir: ../site/Integrations
 use_directory_urls: true
 nav:
-  - Main Learn Site: ../index.md
+  - Main Learn Site: ../
   - Integration overview: IntegrationOverview.md
   - CarbonQuota:
     - CarbonQuota overview: CarbonQuota/CQoverview.md
