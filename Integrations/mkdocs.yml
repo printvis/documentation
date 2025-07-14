@@ -1,0 +1,48 @@
+site_name: PrintVis Documentation
+site_url: https://printvis.github.io/documentation/Integrations
+site_author: PrintVis, Inc.
+site_dir: ../site/Integrations
+use_directory_urls: true
+nav:
+  - CarbonQuota:
+    - CarbonQuota overview: CarbonQuota/CQoverview.md
+    - CarbonQuota setup: CarbonQuota/CQsetup.md
+    - CarbonQuota usage: CarbonQuota/CQusage.md
+  - Docubee:
+    - Docubee overview: Docubee/DocubeeOverview.md
+    - Docubee setup: Docubee/DocubeeSetup.md
+    - Docubee usage: Docubee/DocubeeUsage.md
+    
+theme:
+  name: material
+  features:
+    - navigation.indexes
+    - navigation.sections
+    - navigation.top
+    - navigation.tabs
+    - navigation.expand
+    - navigation.tracking
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+  language: en
+  palette:
+    scheme: white
+    primary: white
+    accent: blue
+  font:
+    text: Roboto Slab
+    code: Roboto Slab
+  logo: img/logo.png
+  favicon: img/bee.jpg
+
+extra_css: [stylesheets/extra.css]
+
+extra:
+  homepage: https://printvis.com
+  generator: false
+  base_url: /Onboarding/
+
+copyright: Copyright &copy; PrintVis All rights reserved.
