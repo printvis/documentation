@@ -17,6 +17,9 @@ on:
       - 'Onboarding/docs/**'
       - 'Onboarding/mkdocs.yml'
       - 'Onboarding/**'
+      - 'Integrations/docs/**'
+      - 'Integrations/mkdocs.yml'
+      - 'Integrations/**'
       - 'requirements.txt'
       - 'mkdocs.yml'
 
