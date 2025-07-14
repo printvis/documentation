@@ -49,6 +49,10 @@ nav:
     - WIP Setup: Pages/pvswipsetup.md
     - WIP Journal: Pages/pvswipjournal.md
     - Posted WIP Entries: Pages/pvspostedwip.md
+  - Power BI:
+    - Overview: PowerBI/PowerBIOverview.md
+    - Sales App: PowerBI/SalesApp.md
+    - Production App: PowerBI/ProductionApp.md
   - Apparel:
     - Apparel overview: Apparel/appareloverview.md
     - Apparel setup: Apparel/apparelsetup.md
