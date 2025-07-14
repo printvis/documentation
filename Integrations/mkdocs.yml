@@ -13,6 +13,10 @@ nav:
     - Docubee overview: Docubee/DocubeeOverview.md
     - Docubee setup: Docubee/DocubeeSetup.md
     - Docubee usage: Docubee/DocubeeUsage.md
+  - LoyaltyLoop:
+    - LoyaltyLoop overview: LoyaltyLoop/LLoverview.md
+    - LoyaltyLoop setup: LoyaltyLoop/llsetup.md
+    - LoyaltyLoop usage: LoyaltyLoop/llusage.md
     
 theme:
   name: material
@@ -44,6 +48,6 @@ extra_css: [stylesheets/extra.css]
 extra:
   homepage: https://printvis.com
   generator: false
-  base_url: /Onboarding/
+  base_url: /Integrations/
 
 copyright: Copyright &copy; PrintVis All rights reserved.
