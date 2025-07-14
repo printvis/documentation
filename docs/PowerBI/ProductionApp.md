@@ -4,9 +4,14 @@ The PrintVis Production Power BI App provides powerful analytics to help teams u
 
 ## Setup
 
-1. Install the PrintVis Production App from the Power BI by going to [app.powerbi.com](https://app.powerbi.com), click the Apps link, select Get apps, and search for the PrintVis Production App.
-2. Select Get It Now to add the App to your Power BI environment.
-3. Select Connect your data and fill in the Environment and company values. 
+1. Follow the instructions on the <a href="../PowerBIOverview/" target="_self">Power BI Overview</a> page to install the Power BI Production App
+2. Select Connect your data in the bar at the top of the report and fill in your Environment and company values
 
-Your tenant must have the PrintVis Business Central App already installed. See [PrintVis support](https://printvis.com/about-printvis/support/) for more information. 
+The values can be found in your Business Central environment:
+    a. The <b>Tenant ID</b> can be found in the Help & Support resource area, Report a problem section. It will be listed as Microsoft Entra tenant ID.
+    b. The <b>Environment</b> will be listed next to that tenant ID but exclude the (Production) text.
+    c. The <b>Company Name</b> can be found by searching for "Companies" and using the Name value.
 
+![Apps](./assets/powerbi4.jpg)
+
+Your tenant must have the PrintVis Business Central App already installed.
