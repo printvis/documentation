@@ -20,7 +20,7 @@ This article describes how the setup and usage for this scenario would work, but
 The main setup is regarding the **item card**.  
 **Purchase Unit of Measure** should be set with the number of sheets per "set" or per single item that is being purchased. It is advised to create a separate Purchase Unit of Measure to accommodate the different numbers per set.
 
-![Multipart NCR forms on Impression Counts 1.jpg](./assets/Multipart NCR forms on Impression Counts 1.jpg.jpg)
+![Multipart NCR forms on Impression Counts 1.jpg](./assets/Multipart NCR forms on Impression Counts 1.jpg)
 
  Steps:
 1. **Create the Unit of Measure**  
@@ -28,7 +28,7 @@ The main setup is regarding the **item card**.
 
 2. **Assign the unit of measure** inside the field **Purchase Unit of Measure** on the specific item card, and make sure to add the **Qty. per Unit of Measure** that matches the number of sheets per set.
 
-![Multipart NCR forms on Impression Counts 2.jpg](./assets/Multipart NCR forms on Impression Counts 2.jpg.jpg)
+![Multipart NCR forms on Impression Counts 2.jpg](./assets/Multipart NCR forms on Impression Counts 2.jpg)
 
 - `Base Unit of Measure` should be **Sheets** (or a value equivalent).
 
@@ -44,7 +44,7 @@ There are just a few items to note in a use case scenario.
     - If `Qty in Block` field is not visible, please personalize and add the field.  
     - Example: 3-part NCR would have a value of `3` in the `Qty in Block` field.
 
-![Multipart NCR forms on Impression Counts 3.jpg](./assets/Multipart NCR forms on Impression Counts 3.jpg.jpg)
+![Multipart NCR forms on Impression Counts 3.jpg](./assets/Multipart NCR forms on Impression Counts 3.jpg)
 
 - **Job Item**:  
   - Make sure to select the **correct paper** that has the **Purchase Unit of Measure** matching the collated set.
@@ -53,7 +53,7 @@ There are just a few items to note in a use case scenario.
 - Have the **quantity per set** described in **Item No/Description**.
 - Apply a **filter** on the **Purchase Unit of Measure** from the item list to match the value that is desired.
 
-![Multipart NCR forms on Impression Counts 4.jpg](./assets/Multipart NCR forms on Impression Counts 4.jpg.jpg)
+![Multipart NCR forms on Impression Counts 4.jpg](./assets/Multipart NCR forms on Impression Counts 4.jpg)
 
 ---
 
@@ -63,7 +63,7 @@ On the **Estimation page**, the quantity for paper will be equal to:
 
 > `Job Quantity x Number of Sheets per Set` (+ scrap)
 
-![Multipart NCR forms on Impression Counts 5.jpg](./assets/Multipart NCR forms on Impression Counts 5.jpg.jpg)
+![Multipart NCR forms on Impression Counts 5.jpg](./assets/Multipart NCR forms on Impression Counts 5.jpg)
 
 Example:  
 - Quantity = 5,000  
@@ -79,6 +79,6 @@ Continuing the example:
 - Required sets = 5,000  
 - Purchase quantity = **5,195** (includes scrap)
 
-![Multipart NCR forms on Impression Counts 6.jpg](./assets/Multipart NCR forms on Impression Counts 6.jpg.jpg)
+![Multipart NCR forms on Impression Counts 6.jpg](./assets/Multipart NCR forms on Impression Counts 6.jpg)
 
 ---
