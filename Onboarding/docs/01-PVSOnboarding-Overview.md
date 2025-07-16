@@ -120,7 +120,7 @@ With this module you will create:
 
     -   Etc.
 
-## <a href="../0500-PVSOnboarding-Folders/" target="_self">Folder Management Module</a>
+## <a href="../0500-PVSOnboarding-FolderMgmt/" target="_self">Folder Management Module</a>
 
 With this module you can set up PrintVis to create a folder structure
 and to store files on your company’s Microsoft SharePoint or Microsoft
