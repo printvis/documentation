@@ -5,7 +5,6 @@ site_dir: ../site/Integrations
 use_directory_urls: true
 nav:
   - learn.printvis.com: ../
-  - Integration overview: IntegrationOverview.md
   - CarbonQuota:
     - CarbonQuota overview: CarbonQuota/CQoverview.md
     - CarbonQuota setup: CarbonQuota/CQsetup.md

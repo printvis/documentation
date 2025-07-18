@@ -1,5 +1,8 @@
 # Welcome to learn.printvis.com integrations
 
-Discover how to make the most of the available PrintVis Integrations with training, docs, and videos covering product capabilities and how-to articles. Learn how to extend and connect PrintVis with powerful integration add-ons that streamline workflows, automate data exchange, and adapt to your unique business systems.
+PrintVis is designed by print industry experts, specifically for the unique needs of print businesses. As a fully integrated solution with Microsoft Dynamics 365 Business Central, PrintVis streamlines all administrative processes within a single system. This ensures seamless data tracking, minimizes errors from duplicate entries, and provides real-time access to critical information across your entire organization.
 
+While PrintVis serves as a comprehensive business management platform for the print industry, some companies require specialized third-party software add-ons. To address this, we have established partnerships with trusted and proven software providers—our Technology Specialists—to enhance and expand the capabilities of PrintVis.
+
+PrintVis integrates effortlessly with a wide range of applications, including prepress solutions, packaging-specific software, e-commerce platforms, shipping and payment systems, JDF/JMF workflow solutions, and more. These integrations ensure that your business benefits from a connected, efficient, and scalable ecosystem.
 
