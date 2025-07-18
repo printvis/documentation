@@ -4,28 +4,27 @@ site_author: PrintVis, Inc.
 site_dir: ../site/Onboarding
 use_directory_urls: true
 nav:
-  - Onboarding: 
-    - Onboarding Overview: 01-PVSOnboarding-Overview.md
-    - Basic Setup: 
-      - Basic Setup: 0100-PVSOnboarding-Basic-Setup.md
-      - Company Information: 0101-PVSOnboarding-CompanyInfo.md
-      - Users: 0102-PVSOnboarding-PrintVis-Users.md
-    - Case Management:
-      - Case Management: 0200-PVSOnboarding-CaseMgmt.md
-      - Status Codes: 0201-PVSOnboarding-CaseMgmtStatusCodes.md
-      - Number Series: 0202-PVSOnboarding-CaseMgmtNumberSeries.md
-      - Product Groups: 0203-PVSOnboarding-CaseMgmtProductGroups.md
-      - Order Types: 0204-PVSOnboarding-CaseMgmtOrderTypes.md
-      - Responsbility Areas: 0205-PVSOnboarding-CaseMgmtRespAreas.md
-      - Rejection Codes: 0206-PVSOnboarding-CaseMgmtRejectCodes.md
-      - Departments: 0207-PVSOnboarding-CaseMgmtDepts.md
-      - Import Customers: 0208-PVSOnboarding-CaseMgmtCust.md
-    - UserFields:
-      - UserFields: 0300-PVSOnboarding-UserFields.md
-    - Time Registration:
-      - Time Registration: 0400-PVSOnboarding-TimeReg.md
-    - Folder Management:
-      - Folder Management: 0500-PVSOnboarding-FolderMgmt.md
+  - Onboarding Overview: 01-PVSOnboarding-Overview.md
+  - Basic Setup: 
+    - Basic Setup: 0100-PVSOnboarding-Basic-Setup.md
+    - Company Information: 0101-PVSOnboarding-CompanyInfo.md
+    - Users: 0102-PVSOnboarding-PrintVis-Users.md
+  - Case Management:
+    - Case Management: 0200-PVSOnboarding-CaseMgmt.md
+    - Status Codes: 0201-PVSOnboarding-CaseMgmtStatusCodes.md
+    - Number Series: 0202-PVSOnboarding-CaseMgmtNumberSeries.md
+    - Product Groups: 0203-PVSOnboarding-CaseMgmtProductGroups.md
+    - Order Types: 0204-PVSOnboarding-CaseMgmtOrderTypes.md
+    - Responsbility Areas: 0205-PVSOnboarding-CaseMgmtRespAreas.md
+    - Rejection Codes: 0206-PVSOnboarding-CaseMgmtRejectCodes.md
+    - Departments: 0207-PVSOnboarding-CaseMgmtDepts.md
+    - Import Customers: 0208-PVSOnboarding-CaseMgmtCust.md
+  - UserFields:
+    - UserFields: 0300-PVSOnboarding-UserFields.md
+  - Time Registration:
+    - Time Registration: 0400-PVSOnboarding-TimeReg.md
+  - Folder Management:
+    - Folder Management: 0500-PVSOnboarding-FolderMgmt.md
     
 theme:
   name: material
