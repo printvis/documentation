@@ -4,14 +4,22 @@ The PrintVis Power BI apps deliver interactive dashboards that transform your pr
 
 ## How to get the apps
 
-1. A Power BI pro user will need to go to [https://apps.powerbi.com](https://apps.powerbi.com) to install the apps
-2. Click on Apps in the left menu and select Get Apps
+1. Log into Power BI 
+    - Go to [https://app.powerbi.com](https://app.powerbi.com) and log in with your work account
+
+2. Go to Apps > Get Apps
+    - On the left menu, Click <b>Apps</b> then <b>Get Apps</b> (top-right)
 
 ![Apps](./assets/powerbi1.jpg)
 
-3. Search "PrintVis", select the App you want to install, and click Get it Now
+3. Search for "PrintVis"
+    - Find our apps like <b>PrintVis Sales</b> and <b>PrintVis Production</b>
 
 ![Apps](./assets/PowerBI2.jpg)
 
-- <a href="../SalesApp/" target="_self">Sales App</a>
-- <a href="../ProductionApp/" target="_self">Production App</a>
+4. Click <b>Get it Now</b> and follow the prompts
+    - Choose your workspace and click Install.
+
+5. To connect each report to your own data, follow the guides for each individual report
+    - <a href="../SalesApp/" target="_self">Sales App</a>
+    - <a href="../ProductionApp/" target="_self">Production App</a>
