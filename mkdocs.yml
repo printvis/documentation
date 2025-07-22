@@ -53,6 +53,7 @@ nav:
     - Overview: PowerBI/PowerBIOverview.md
     - Sales App: PowerBI/SalesApp.md
     - Production App: PowerBI/ProductionApp.md
+    - BC Power BI Setup: PowerBI/BCPowerBISetup.md
   - Apparel:
     - Apparel overview: Apparel/appareloverview.md
     - Apparel setup: Apparel/apparelsetup.md
