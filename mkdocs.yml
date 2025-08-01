@@ -236,6 +236,17 @@ nav:
       - Qualities: Legacy/Warehouse/Qualities.md
       - Material requirements: Legacy/Warehouse/MaterialRequirements.md
       - Job material movement and pick: Legacy/Warehouse/JobMaterialMovement.md
+    - Shipping:
+      - Shipment: Legacy/Shipping/Shipment.md
+      - Shipping Agents: Legacy/Shipping/ShippingAgent.md
+      - Combined shipments: Legacy/Shipping/CombinePrintVisShipments.md
+      - Import PrintVis shipments: Legacy/Shipping/ImportPVShipments.md
+      - Register receipts in PrintVis: Legacy/Shipping/RegisterReceiptsinPrintVis.md
+      - Release Finished Goods: Legacy/Shipping/ReleaseFinishedGoods.md
+      - Invoice template shipment on invoice lines: Legacy/Shipping/InvoiceTemplateShipmentonInvoicelines.md
+      - EasyPost integration: Legacy/Shipping/EasyPost.md
+      - nShift Delivery integration: Legacy/Shipping/nShiftDelivery.md
+      - nShift Ship integration: Legacy/Shipping/nShiftShip.md
     - Invoicing:
       - PrintVis G/L Posting Setup: Legacy/Invoicing/PrintVisGLPostingSetup.md
       - Invoicing based on templates: Legacy/Invoicing/Invoicingbasedontemplates.md
