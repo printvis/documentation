@@ -71,7 +71,14 @@ Under Actions, you can ask the system to create the variants automatically. They
 
 ![Versioning functionality - Product Parts 3.jpg](./assets/Versioning functionality - Product Parts 3.jpg)
 
- Combining the Sheets for Print
+It is also possible to create a variant used for all Product Parts. To do this, create a new sheet in the Job Item section. Then in Versions/Variants enter a common variant code for this new variant.
+
+In the example below 24.000 covers will be created in 3 variants, 2x12.000 text sections will be created in 3 variants, and 24.000 of a common text section will be created.
+
+![Versioning functionality - Product Parts 13.jpg](./assets/Versioning functionality - Product Parts 13.jpg)
+
+
+### Combining the Sheets for Print
 
 When opening the “Combined Sheets” window, the selected sheet is opened and displays the possible combinations with 1 to however many ups are possible for the Job Item on the Sheet/Printing Press. For each combination, the number of Prints in thousands is displayed.
 
