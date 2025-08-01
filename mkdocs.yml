@@ -236,6 +236,13 @@ nav:
       - Qualities: Legacy/Warehouse/Qualities.md
       - Material requirements: Legacy/Warehouse/MaterialRequirements.md
       - Job material movement and pick: Legacy/Warehouse/JobMaterialMovement.md
+    - Invoicing:
+      - PrintVis G/L Posting Setup: Legacy/Invoicing/PrintVisGLPostingSetup.md
+      - Invoicing based on templates: Legacy/Invoicing/Invoicingbasedontemplates.md
+      - Invoicing per job line: Legacy/Invoicing/Invoicingperjobline.md
+      - Combined invoicing: Legacy/Invoicing/CombinedInvoicing.md
+      - Invoice dimension allocation: Legacy/Invoicing/InvoiceDimensionAllocation.md
+      - Complaints: Legacy/Invoicing/Complaints.md
   - PrintVis User Group: pug.md
     
 theme:
