@@ -236,6 +236,26 @@ nav:
       - Qualities: Legacy/Warehouse/Qualities.md
       - Material requirements: Legacy/Warehouse/MaterialRequirements.md
       - Job material movement and pick: Legacy/Warehouse/JobMaterialMovement.md
+    - Shop Floor and Job Costing:
+      - Work Code setup: Legacy/JobCosting/WorkCodeSetup.md
+      - Extra work codes: Legacy/JobCosting/ExtraWorkCodes.md
+      - Indirect time: Legacy/JobCosting/IndirectTime.md
+      - PrintVis Unit of Measure setup: Legacy/JobCosting/PrintVisUOM.md
+      - Shop Floor Role Center: Legacy/JobCosting/ShopFloorRoleCenter.md
+      - Shop Floor: Legacy/JobCosting/ShopFloor.md
+      - Production Tracking: Legacy/JobCosting/ProductionTracking.md
+      - Barcode scan lot: Legacy/JobCosting/BarcodeScanLot.md
+      - Produced output: Legacy/JobCosting/ProducedOutput.md
+      - Multi-user time registration: Legacy/JobCosting/Multi-userTimeRegistration.md
+      - Move worksheet for approval: Legacy/JobCosting/MoveWorksheetforApproval.md
+      - Cost Center Monitor List: Legacy/JobCosting/CostCenterMonitor.md
+      - Shop Floor Monitor: Legacy/JobCosting/ShopFloorMonitor.md
+      - WIP Posting: Legacy/JobCosting/WIPPosting.md
+      - Posted Purchase Order - Subcontracting: Legacy/JobCosting/PostedPOOutwork.md
+      - Auto job costing: Legacy/JobCosting/AutoJobCosting.md
+      - Job Costing: Legacy/JobCosting/JobCosting.md
+      - Job Costing journal setup: Legacy/JobCosting/JobCostingjournalsetup.md
+      - Job Costing report: Legacy/JobCosting/JobCostingreport.md
     - Shipping:
       - Shipment: Legacy/Shipping/Shipment.md
       - Shipping Agents: Legacy/Shipping/ShippingAgent.md
