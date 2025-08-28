@@ -2,6 +2,8 @@
 
 Capacity Optimization is a Copilot assisted planning tool to help planners balance workload across capacity units with capacity shift setup. This is done by automatically optimizing and shifting planning units and placing them into a planning simulation.
 
+*During public preview, the Copilot costs are included with your PrintVis license. However, fair-use policies, quotas, or pricing might be introduced later.*
+
 ## Installation
 
 To begin using this public preview feature, install the [PrintVis Copilot app](https://) from AppSource.
@@ -57,3 +59,17 @@ If you want to discard the Copilot simulation, click Reload in the menu or simpl
 - Capacity Optimization works best when resource calendars and shop calendars are up to date.  
 - Use this tool in combination with **Auto Scheduling** for maximum flexibility.  
 - You can re-run optimization at any time if production priorities change.
+
+## Advanced Setup
+
+If our default option is not providing the expected results, it is possible modify the intro message being sent to Copilot.
+
+1. Search PrintVis Copilot Setup.
+2. Change the Capacity Optimization User Intro Message.
+   - It is recommended to store the default message for future reference / use.
+
+It is also possible to use your own Copilot toolkit and endpoint instead of the PrintVis default.
+*Your own Copilot rates and costs apply*
+
+1. Uncheck the Use PrintVis External Settings checkbox.
+2. Fill in the Endpoint, API Key, Deployment Name, Max Tokens, and Temperature values.
