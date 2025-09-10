@@ -91,3 +91,54 @@ Formulas used:
 
 ![Calculation Formula setup 7.jpg](./assets/Calculation Formula setup 7.jpg)
 
+## Special Box Calculation Formula
+
+Formula 810 is a formula to assist in calculating the number of boxes needed for an order. This system formula is unique in that some setup is required.
+
+
+1. Box item setup
+
+
+In order for the formula to be able to calculate the box dimensions, the item units of measure for the box must have the Height, Width, and Length values filled in for the base unit of measure:
+
+![Calculation Formula setup 8](./assets/calcformula1.png)
+
+This can be found on the Item card by going to Related -> Item -> Units of Measure.
+
+
+2. Formula Setup
+
+
+On the setup page for formula 810, there is a unique section called Formula Items:
+
+![Calculation Formula setup 9](./assets/calcformula2.png)
+
+This is where you select all the box items that you want this formula to consider when deciding the box to use for a case.
+
+
+3. Calculation Unit Setup
+
+
+On the Calculation Unit, this formula can be used like any other item formula. Add it to the formula field on a calculation detail item line where you want the item number added and number of boxes calculated.
+
+
+4. User field Setup
+
+
+In the logistics section of the PrintVis General Setup page there are 3 fields (Table ID, Subtype, Field No.) to set which user field holds the desired quantity per box value:
+
+![Calculation Formula setup 10](./assets/calcformula3.png)
+
+This allows a user to tell the calculation for a specific case, we want X number of products per box. The system will then use this max quantity for each box rather than the calculated quantity per box. If this user field is left blank, the system will use the optimal number of products per box.
+
+
+Formula 810 Calculation
+
+
+This formula will look at the dimensions of the box, the cost of the box, and the dimensions of the product to determine which box to use and the number of boxes needed. 
+
+
+First, it compares the length and width of the product against both directions of the box to determine how many products will fit flat in the box. Then, it calculates the thickness of the product x ordered quantity to determine overall thickness and compare that with the height of the box. It will determine the quantity that will fit in each box and check if that is greater than the desired quantity per box. Finally, it takes the cost of each box and the number of boxes needed, to determine which box to use based on the lowest overall cost.
+
+
+It will add the item number of the selected box and the quantity to the calculation detail line.
