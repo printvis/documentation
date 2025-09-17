@@ -54,6 +54,8 @@ nav:
     - Sales App: PowerBI/SalesApp.md
     - Production App: PowerBI/ProductionApp.md
     - BC Power BI Setup: PowerBI/BCPowerBISetup.md
+  - Copilot:
+    - Capacity Optimization: Copilot/capacity-optimization.md
   - Apparel:
     - Apparel overview: Apparel/appareloverview.md
     - Apparel setup: Apparel/apparelsetup.md

@@ -8,6 +8,9 @@ Capacity Optimization is a Copilot assisted planning tool to help planners balan
 
 To begin using this public preview feature, install the [PrintVis Copilot app](https://) from AppSource.
 
+Once installed, go to the PrintVis Copilot Setup page and check the **Use PrintVis External Settings** checkbox. 
+
+Now it is ready to use.
 
 ## Accessing Capacity Optimization
 
@@ -42,6 +45,7 @@ When you click Optimize:
 
 1. Clicking Load Simulation will add the planning units it was able to plan to the planning board in simulation mode.
 2. Each planning unit will have an added tooltip to give the Copilot explanation for why it placed that unit in that specific space.
+*If for some reason you do not see this tooltip, go to the Tooltip setup on the Planning Board setup page and add a Planning Unit line and field Message.*
 3. Each planning unit can be adjusted on the planning board manually by the planner.
 
 ## Applying the Results
@@ -51,7 +55,7 @@ Once satisfied with the optimization suggestions:
 1. Select **Apply Simulation** in the menu.  
 2. The planning units from the simulation will be applied to the live schedule and the planning board will refresh.
 
-If you want to discard the Copilot simulation, click Reload in the menu or simply exit the planning board.
+If you want to discard the Copilot simulation, simply exit the planning board without applying the simulation.
 
 
 ## Tips and Notes
