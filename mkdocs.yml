@@ -232,6 +232,9 @@ nav:
       - Purchase Guide: Legacy/Purchasing/PurchaseGuide.md
       - Requisition Worksheet: Legacy/Purchasing/ReqWorksheet.md
       - Item Reservations: Legacy/Purchasing/ItemRes.md
+    - Workflow:
+      - Status Codes: Legacy/Workflow/StatusCodes.md
+      - Responsibility Areas: Legacy/Workflow/RespArea.md
     - Warehousing:
       - Item Card: Legacy/Warehouse/ItemCard.md
       - Item Type Codes and filters: Legacy/Warehouse/ItemTypeCodes.md
