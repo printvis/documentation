@@ -24,11 +24,11 @@ Setup
 
 *Search for **PrintVis Report Selection Setup***
 
-![Report Selection](./assets/RS1.png)
+![Report Selection](./assets/RS1.jpeg)
 
-![Report Selection](./assets/RS2.png)
+![Report Selection](./assets/RS2.jpeg)
 
-![Report Selection](./assets/RS3.png)
+![Report Selection](./assets/RS3.jpeg)
 
 First, choose the desired report type and then select one or several
 reports. If you indicate a numeric sorting in the field "Sequence", the
