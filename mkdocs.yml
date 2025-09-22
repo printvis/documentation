@@ -235,6 +235,10 @@ nav:
     - Workflow:
       - Status Codes: Legacy/Workflow/StatusCodes.md
       - Responsibility Areas: Legacy/Workflow/RespArea.md
+      - Order Types: Legacy/Workflow/OrderTypes.md
+      - Product Groups: Legacy/Workflow/PG.md
+      - Relationship between Order Types and Product Groups: Legacy/Workflow/OTandPG.md
+      - Project Management: Legacy/Workflow/ProjectMgmt.md
     - Warehousing:
       - Item Card: Legacy/Warehouse/ItemCard.md
       - Item Type Codes and filters: Legacy/Warehouse/ItemTypeCodes.md
