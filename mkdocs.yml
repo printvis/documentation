@@ -283,6 +283,12 @@ nav:
       - Combined invoicing: Legacy/Invoicing/CombinedInvoicing.md
       - Invoice dimension allocation: Legacy/Invoicing/InvoiceDimensionAllocation.md
       - Complaints: Legacy/Invoicing/Complaints.md
+    - Reports and Analysis:
+      - Analysis Pages: Legacy/Reports/AnalysisPages.md
+      - Report Selection: Legacy/Reports/ReportSelection.md
+      - Job Ticket Setup: Legacy/Reports/JTSetup.md
+      - Job Ticket and Estimate Reports: Legacy/Reports/JTandEstReports.md
+      - Order Deviation Report: Legacy/Reports/DeviationReport.md
   - PrintVis User Group: pug.md
     
 theme:
