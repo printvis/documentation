@@ -10,12 +10,12 @@ nav:
     - General setup: PrintVis/generalsetup.md
     - User: PrintVis/user.md
   - PrintVis usage:
-    - Usage overview: PrintVis/usage.md
+    - Usage overview: PrintVis/index.md
     - Salesperson: PrintVis/sales.md
     - Coordinator: PrintVis/coordinator.md
     - Scheduler: PrintVis/scheduler.md
   - PrintVis pages:
-    - Pages overview: Pages/pages.md
+    - Pages overview: Pages/index.md
     - Opportunities/CRM: Pages/crm.md
     - Case management: Pages/pvscasemanagement.md
     - Copying a Case or Job: Pages/pvscasecopy.md
@@ -50,7 +50,7 @@ nav:
     - WIP Journal: Pages/pvswipjournal.md
     - Posted WIP Entries: Pages/pvspostedwip.md
   - Power BI:
-    - Overview: PowerBI/PowerBIOverview.md
+    - Overview: PowerBI/index.md
     - Sales App: PowerBI/SalesApp.md
     - Production App: PowerBI/ProductionApp.md
     - BC Power BI Setup: PowerBI/BCPowerBISetup.md
@@ -58,7 +58,7 @@ nav:
     - Overview: Copilot/index.md
     - Capacity Optimization: Copilot/capacity-optimization.md
   - Apparel:
-    - Apparel overview: Apparel/appareloverview.md
+    - Apparel overview: Apparel/index.md
     - Apparel setup: Apparel/apparelsetup.md
     - Apparel usage: Apparel/apparelusage.md
   - Integrations: ../Integrations/
