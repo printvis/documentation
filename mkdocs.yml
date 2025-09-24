@@ -290,6 +290,11 @@ nav:
       - Job Ticket Setup: Legacy/Reports/JTSetup.md
       - Job Ticket and Estimate Reports: Legacy/Reports/JTandEstReports.md
       - Order Deviation Report: Legacy/Reports/DeviationReport.md
+    - System:
+      - Integrated Fields: Legacy/System/IntegratedFields.md
+      - Folder Groups: Legacy/System/FolderGroups.md
+      - Imposition Types: Legacy/System/ImpositionTypes.md
+      - PrintVis Products: Legacy/System/PrintVisProducts.md
   - PrintVis User Group: pug.md
     
 theme:
