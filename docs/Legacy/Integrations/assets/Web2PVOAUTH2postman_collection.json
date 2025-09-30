@@ -1,0 +1,1088 @@
+{
+	"info": {
+		"_postman_id": "b49c762e-6602-49b8-9178-cfaa23419401",
+		"name": "Web2PV API OAUTH2",
+		"description": "Cloud URL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29692337"
+	},
+	"item": [
+		{
+			"name": "Header",
+			"item": [
+				{
+					"name": "Get entries unfiltered",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{APIURL}}/web2pvsheaders",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"web2pvsheaders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get entry based on SystemID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{APIURL}}/web2pvsheaders(05c80357-deb4-ec11-9a0a-991a51a004d6)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"web2pvsheaders(05c80357-deb4-ec11-9a0a-991a51a004d6)"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get entry based on Keys",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{APIURL}}/web2pvsheaders?$filter=no eq ''",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"web2pvsheaders"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "no eq ''"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"entrytype\": \"Submit Order\",\r\n    \"frontendID\": \"PRINTVIS\",\r\n    \"yourReference\":\"123Test\",\r\n    \"sellToNo\": \"30000\",\r\n    \"webOrderNo\": \"123\",\r\n    \"webContactEMail\":\"\",\r\n    \"webContactPhone\":\"\"\r\n\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/web2pvsheaders",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"web2pvsheaders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add + Lines",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"frontendID\": \"PRINTVIS\",\r\n    \"entryType\": \"Submit Order\",\r\n    \"yourReference\":\"API1\",\r\n    \"webOrderNo\": \"APITest1\",\r\n    \"webContactEMail\":\"apitest@test.com\",\r\n    \"webContactPhone\":\"12345678\",\r\n    \"currencyCode\":\"USD\",\r\n    \"sellToNo\": \"44756404\",\r\n    \"billToNo\": \"44180220\",\r\n    \"pvsweb2pvslines\": [\r\n        {\r\n            \"productGroup\":\"SSMAG\",\r\n            \"type\":\"Item\",\r\n            \"no\":\"WEB2PV MAG SS\",\r\n            \"description\":\"PrintVis SS Magazine\",\r\n            \"formatCode\":\"A4\",\r\n            \"finishingCode\":\"\",\r\n            \"quantity\":500\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/web2pvsheaders/?$expand=pvsweb2pvslines",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"web2pvsheaders",
+								""
+							],
+							"query": [
+								{
+									"key": "$expand",
+									"value": "pvsweb2pvslines"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add + Lines, Shipments",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"entryType\": \"Submit Order\",\r\n    \"frontendID\": \"PRINTVIS\",\r\n    \"yourReference\":\"API1\",\r\n    \"webOrderNo\": \"APITest1\",\r\n    \"webContactEMail\":\"apitest@test.com\",\r\n    \"webContactPhone\":\"12345678\",\r\n    \"currencyCode\":\"USD\",\r\n    \"sellToNo\": \"44756404\",\r\n    \"billToNo\": \"44180220\",\r\n    \"pvsweb2pvslines\": [\r\n        {\r\n            \"type\":\"Item\",\r\n            \"no\":\"WEB2PV PC 4C\",\r\n            \"description\":\"API Label Job\",\r\n            \"quantity\":500,\r\n            \"productGroup\":\"333\",\r\n            \"formatCode\":\"10X10\"\r\n        },\r\n        {\r\n            \"type\":\"Item\",\r\n            \"no\":\"WEB2PV PC 4C\",\r\n            \"description\":\"API Label Job\",\r\n            \"quantity\":500,\r\n            \"productGroup\":\"810\",\r\n            \"formatCode\":\"10X10\",\r\n            \"pvsweb2pvsshipments\": [\r\n                {\r\n                    \"eMail\":\"test1234\",\r\n                    \"quantity\":500.0\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/web2pvsheaders/?$expand=pvsweb2pvslines($expand=pvsweb2pvsshipments)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"web2pvsheaders",
+								""
+							],
+							"query": [
+								{
+									"key": "$expand",
+									"value": "pvsweb2pvslines($expand=pvsweb2pvsshipments)"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add + Lines, Shipments, Components",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"entryType\": \"Submit Order\",\r\n    \"frontendID\": \"PRINTVIS\",\r\n    \"yourReference\":\"API1\",\r\n    \"webOrderNo\": \"APITest1\",\r\n    \"webContactEMail\":\"apitest@test.com\",\r\n    \"webContactPhone\":\"12345678\",\r\n    \"currencyCode\":\"USD\",\r\n    \"sellToNo\": \"44756404\",\r\n    \"billToNo\": \"44180220\",\r\n    \"pvsweb2pvslines\": [\r\n        {\r\n            \"type\":\"Item\",\r\n            \"no\":\"WEB2PV MAG SS\",\r\n            \"description\":\"PrintVis SS Magazine\",\r\n            \"quantity\":500,\r\n            \"productGroup\":\"SSMAG\",\r\n            \"formatCode\":\"A4\",\r\n            \"pvsweb2pvsshipments\": [\r\n                {\r\n                    \"eMail\":\"test1234\",\r\n                    \"quantity\":500.0\r\n                }\r\n            ],\r\n            \"pvsweb2pvscomponents\": [\r\n                {\r\n                    \"quantity\":500,\r\n                    \"componentType\":\"COVER-4\",\r\n                    \"pagesWithPrint\":4,\r\n                    \"colorsFront\":4,\r\n                    \"colorsBack\":1,\r\n                    \"JobItemFormat\":\"A4\",\r\n                    \"paperWeight\":100,\r\n                    \"weightUnit\":\"\",\r\n                    \"paperQuality\":\"UNCOATED\",\r\n                    \"paperItemNo\":\"PS-440\",\r\n                    \"listOfUnits\":\"\",\r\n                    \"tool1\":\"\",\r\n                    \"tool2\":\"\",\r\n                    \"tool3\":\"\",\r\n                    \"tool4\":\"\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/web2pvsheaders/?$expand=pvsweb2pvslines($expand=pvsweb2pvsshipments,pvsweb2pvscomponents)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"web2pvsheaders",
+								""
+							],
+							"query": [
+								{
+									"key": "$expand",
+									"value": "pvsweb2pvslines($expand=pvsweb2pvsshipments,pvsweb2pvscomponents)"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add *",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"entryType\": \"Submit Order\",\r\n    \"frontendID\": \"PRINTVIS\",\r\n    \"pvsweb2pvslines\": [\r\n        {\r\n            \"description\":\"test1234\",\r\n            \"pvsweb2pvsshipments\": [\r\n                {\r\n                    \"eMail\":\"test1234\"\r\n                }\r\n            ],\r\n            \"pvsweb2pvscomponents\": [\r\n                {\r\n                    \"quantity\":123.0\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/web2pvsheaders/?$expand*",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"web2pvsheaders",
+								""
+							],
+							"query": [
+								{
+									"key": "$expand*",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "If-Match",
+								"value": "*",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"yourReference\" : \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/web2pvsheaders(05c80357-deb4-ec11-9a0a-991a51a004d6)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"web2pvsheaders(05c80357-deb4-ec11-9a0a-991a51a004d6)"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "If-Match",
+								"value": "*",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"yourReference\" : \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/web2pvsheaders(42755ca5-4e64-ef11-9ae8-f7fc477fc74a)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"web2pvsheaders(42755ca5-4e64-ef11-9ae8-f7fc477fc74a)"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "This is samples for how to interact with the PVS Web2PVS Header(webshop entry) API Page and it's connected API pages.\n\nIncludes:\n\n- Getting a specific entry.\n    \n- Adding a new entry.\n    \n    - Includes different samples for the connected API Pages.\n        \n- Updating a entry.\n    \n- Deleting a entry.\n    \n- Processing a specific entry using the API Page Action \"Process\".\n    \n\nprimary values one needs to be aware of for this API Page specifically is:\n\n\"requestType\": represent the way it will be handled in PrintVis.\n\n\"frontendID\": represent the Webshop where it is coming from, which will affect Webshop Order numbering.\n\n\"proejctOrderNo\": represent the relation to another PrintVis Order, which the new entry will be connected to.\n\n\"processed\": represent if the entry has been processed by PrintVis.\n\n\"productGroup\": represent what product type this order will be, which could have a connected template."
+		},
+		{
+			"name": "Line",
+			"item": [
+				{
+					"name": "Get entries unfiltered",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvslines",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvslines"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get entry based on SystemID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvslines(09c80357-deb4-ec11-9a0a-991a51a004d6)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvslines(09c80357-deb4-ec11-9a0a-991a51a004d6)"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get entry based on Keys",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvslines?$filter=headerNo eq '' and lineNo eq 100000",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvslines"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "headerNo eq '' and lineNo eq 100000"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\": \"1234Test1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvslines",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvslines"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add + Shipments",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\": \"1234Test\",\r\n    \"pvsweb2pvsshipments\": [\r\n        {\r\n            \"eMail\":\"test1234\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvslines/?$expand=pvsweb2pvsshipments",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvslines",
+								""
+							],
+							"query": [
+								{
+									"key": "$expand",
+									"value": "pvsweb2pvsshipments"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add + Components",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\": \"1234Test\",\r\n    \"pvsweb2pvscomponents\": [\r\n        {\r\n            \"quantity\":123.0\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvslines/?$expand=pvsweb2pvscomponents",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvslines",
+								""
+							],
+							"query": [
+								{
+									"key": "$expand",
+									"value": "pvsweb2pvscomponents"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add + Shipments, Components",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\": \"1234Test\",\r\n    \"pvsweb2pvsshipments\": [\r\n        {\r\n            \"eMail\":\"test1234\"\r\n        }\r\n    ],\r\n    \"pvsweb2pvscomponents\": [\r\n        {\r\n            \"quantity\":123.0\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvslines/?$expand=pvsweb2pvsshipments,pvsweb2pvscomponents",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvslines",
+								""
+							],
+							"query": [
+								{
+									"key": "$expand",
+									"value": "pvsweb2pvsshipments,pvsweb2pvscomponents"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add *",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\": \"1234Test\",\r\n    \"pvsweb2pvsshipments\": [\r\n        {\r\n            \"eMail\":\"test1234\"\r\n        }\r\n    ],\r\n    \"pvsweb2pvscomponents\": [\r\n        {\r\n            \"quantity\":123.0\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvslines/?$expand*",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvslines",
+								""
+							],
+							"query": [
+								{
+									"key": "$expand*",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "If-Match",
+								"value": "*",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\" : \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvslines(09c80357-deb4-ec11-9a0a-991a51a004d6)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvslines(09c80357-deb4-ec11-9a0a-991a51a004d6)"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "If-Match",
+								"value": "*",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\" : \"1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvslines(87795dfb-169c-ef11-9aed-925c4336c892)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvslines(87795dfb-169c-ef11-9aed-925c4336c892)"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "This is samples for how to interact with the \"PVS Web2PVS Line\"(job entry) API Page and the connected API Pages.\n\nIncludes:\n\n- Getting a specific entry.\n    \n- Adding a new entry.\n    \n    - Includes different samples for the connected API Pages.\n        \n- Updating a entry.\n    \n- Deleting a entry."
+		},
+		{
+			"name": "Shipments",
+			"item": [
+				{
+					"name": "Get entries unfiltered",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvsshipments",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvsshipments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get entry based on SystemID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvsshipments(eabf4c80-7d9b-ef11-9aed-925c4336c892)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvsshipments(eabf4c80-7d9b-ef11-9aed-925c4336c892)"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get entry based on Keys",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvsshipments?$filter=headerNo eq '' and lineNo eq 100000 and shipmentNo eq 1",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvsshipments"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "headerNo eq '' and lineNo eq 100000 and shipmentNo eq 1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"eMail\":\"test1234\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvsshipments",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvsshipments"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "If-Match",
+								"value": "*",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"eMail\":\"test12345\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvsshipments(eabf4c80-7d9b-ef11-9aed-925c4336c892)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvsshipments(eabf4c80-7d9b-ef11-9aed-925c4336c892)"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "If-Match",
+								"value": "*",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvsshipments(eabf4c80-7d9b-ef11-9aed-925c4336c892)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvsshipments(eabf4c80-7d9b-ef11-9aed-925c4336c892)"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "This is samples for how to interact with the \"PVS Web2PVS Shipment\" API Page.\n\nIncludes:\n\n- Getting a specific entry.\n    \n- Adding a new entry.\n    \n- Updating a entry.\n    \n- Deleting a entry."
+		},
+		{
+			"name": "Component",
+			"item": [
+				{
+					"name": "Get entries unfiltered",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvscomponents",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvscomponents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get entry based on SystemID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvscomponents(09c80357-deb4-ec11-9a0a-991a51a004d6)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvscomponents(09c80357-deb4-ec11-9a0a-991a51a004d6)"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get entry based on Keys",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvscomponents?$filter=headerNo eq '' and lineNo eq 100000 and componentNo eq 1",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvscomponents"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "headerNo eq '' and lineNo eq 100000 and componentNo eq 1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"quantity\":121.0\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvscomponents",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvscomponents"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "If-Match",
+								"value": "*",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"quantity\":1234.0\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvscomponents(09c80357-deb4-ec11-9a0a-991a51a004d6)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvscomponents(09c80357-deb4-ec11-9a0a-991a51a004d6)"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "If-Match",
+								"value": "*",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/pvsweb2pvscomponents(87795dfb-169c-ef11-9aed-925c4336c892)",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"pvsweb2pvscomponents(87795dfb-169c-ef11-9aed-925c4336c892)"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "This is samples for how to interact with the \"PVS Web2PVS Component\"(Job Item) API Page.\n\nIncludes:\n\n- Getting a specific entry.\n    \n- Adding a new entry.\n    \n- Updating a entry.\n    \n- Deleting a entry."
+		}
+	],
+	"auth": {
+		"type": "oauth2",
+		"oauth2": [
+			{
+				"key": "tokenName",
+				"value": "Web2PVS API",
+				"type": "string"
+			},
+			{
+				"key": "scope",
+				"value": "{{Scope}}",
+				"type": "string"
+			},
+			{
+				"key": "clientSecret",
+				"value": "{{Client Secret}}",
+				"type": "string"
+			},
+			{
+				"key": "clientId",
+				"value": "{{Client ID}}",
+				"type": "string"
+			},
+			{
+				"key": "accessTokenUrl",
+				"value": "{{Access token URL}}",
+				"type": "string"
+			},
+			{
+				"key": "grant_type",
+				"value": "client_credentials",
+				"type": "string"
+			},
+			{
+				"key": "authUrl",
+				"value": "",
+				"type": "string"
+			},
+			{
+				"key": "addTokenTo",
+				"value": "header",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "APIURL",
+			"value": "{{APIBaseURL}}/{{TenantID}}/{{EnvironmentName}}/api/{{APIPublisher}}/{{APIGroup}}/{{APIVersion}}/companies({{CompanyID}})",
+			"type": "string"
+		},
+		{
+			"key": "APIBaseURL",
+			"value": "https://api.businesscentral.dynamics.com/v2.0",
+			"type": "string"
+		},
+		{
+			"key": "APIPublisher",
+			"value": "printvis",
+			"type": "string"
+		},
+		{
+			"key": "APIGroup",
+			"value": "web2pvs",
+			"type": "string"
+		},
+		{
+			"key": "APIVersion",
+			"value": "v2.0",
+			"type": "string"
+		},
+		{
+			"key": "CompanyID",
+			"value": "companyID",
+			"type": "string"
+		},
+		{
+			"key": "TenantID",
+			"value": "tenantID",
+			"type": "string"
+		},
+		{
+			"key": "EnvironmentName",
+			"value": "environmentName",
+			"type": "string"
+		},
+		{
+			"key": "Client ID",
+			"value": "clientID",
+			"type": "string"
+		},
+		{
+			"key": "Client Secret",
+			"value": "clientSecret",
+			"type": "string"
+		},
+		{
+			"key": "Access token URL",
+			"value": "https://login.microsoftonline.com/{{TenantID}}/oauth2/v2.0/token",
+			"type": "string"
+		},
+		{
+			"key": "Scope",
+			"value": "https://api.businesscentral.dynamics.com/.default",
+			"type": "string"
+		}
+	]
+}

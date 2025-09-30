@@ -301,6 +301,16 @@ nav:
       - Report Setup Shipping Documents: Legacy/System/ReportSetupShipping.md
       - PrintVis Storage: Legacy/System/PrintVisStorage.md
       - Text Codes Setup: Legacy/System/TextCodesSetup.md
+    - Integrations:
+      - JDF Setup Data: Legacy/Integrations/CIM-JDFSetupData.md
+      - JDF Technical Communications: Legacy/Integrations/CIM-JDFSetupTechComm.md
+      - PrintVis Link: Legacy/Integrations/PrintVisLink.md
+      - Web2PV REST API: Legacy/Integrations/Web2PVREST.md
+      - Esko Folding Carton: Legacy/Integrations/EskoFoldingCarton.md
+      - Esko Label: Legacy/Integrations/EskoLabel.md
+      - XMPie: Legacy/Integrations/XMPie.md
+      - Dynaway: Legacy/Integrations/Dynaway.md
+      - Kodak DPP: Legacy/Integrations/KodakDPP.md
   - PrintVis User Group: pug.md
     
 theme:
