@@ -148,3 +148,7 @@ Id field in the page inspector.
 OAuth2.0 is required for Business Central API connections. Here is
 the [Microsoft article on using OAuth with Business
 Central.](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/webservices/authenticate-web-services-using-oauth)
+
+Download the Postman collection below for example connections:
+
+[OAuth 2.0 Postman Collection](https://learn.printvis.com/Legacy/Integrations/assets/Web2PVOAUTH2postman_collection.json)
