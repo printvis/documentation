@@ -14,6 +14,7 @@ nav:
     - Salesperson: PrintVis/sales.md
     - Coordinator: PrintVis/coordinator.md
     - Scheduler: PrintVis/scheduler.md
+    - Sales Order Integration: PrintVis/SalesOrderIntegration.md
   - PrintVis pages:
     - Pages overview: Pages/index.md
     - Opportunities/CRM: Pages/crm.md
