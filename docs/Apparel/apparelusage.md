@@ -28,7 +28,7 @@ The general section of the case card is identical to standard PrintVis.
 Based on your industry caption setup, the rest of the case card will
 adjust based on the order type or product group being an Apparel type.
 
-![Apparel Usage](./assets/AU1.jpg)
+![Apparel Usage](./assets/AU1.png)
 
 
 Jobs Area
@@ -39,18 +39,18 @@ be used to select a previously used design and automatically fill in the
 decorations. The ordered quantity allows you to select the different
 garment/material items for the job.
 
-![Apparel Usage](./assets/AU2.jpg)
+![Apparel Usage](./assets/AU2.png)
 
 Clicking into the ordered quantity field displays the below page and
 selecting the dropdown on the No. field will display a list of styles.
 
-![Apparel Usage](./assets/AU3.jpg)
+![Apparel Usage](./assets/AU3.png)
 
 Selecting a style will display all the items or variants associated with
 that style. Add the quantity for each size then you can click Close on
 the page.
 
-![Apparel Usage](./assets/AU4.jpg)
+![Apparel Usage](./assets/AU4.png)
 
 The Remove 0 Lines action will remove all the sizes that have no
 quantity entered to clear up the list. The Load Style Items action will
@@ -72,7 +72,7 @@ and assign the design to the sell-to customer from the case.
 
 Decorations Area
 
-![Apparel Usage](./assets/AU5.jpg)
+![Apparel Usage](./assets/AU5.png)
 
 The decoration area allows you to add the decoration specifications for
 the case. This includes the decoration type, placement, quantity,
@@ -89,7 +89,7 @@ decoration can be entered. Clicking ok will create the decoration with
 all the settings from the line and assign the decoration to the sell-to
 customer from the case.
 
-![Apparel Usage](./assets/AU6.jpg)
+![Apparel Usage](./assets/AU6.png)
 
 ## Scheduling
 
@@ -100,12 +100,12 @@ occur. For calculation units that need to be done consecutively, assign
 them to a planning unit and set that planning unit with a milestone
 effect on flow setting of “Arranged”.
 
-![Apparel Usage](./assets/AU7.jpg)
+![Apparel Usage](./assets/AU7.png)
 
 Using this setting will allow the flexibility to use concurrent and
 consecutive steps within the same case. Here is an example of its use:
 
-![Apparel Usage](./assets/AU8.jpg)
+![Apparel Usage](./assets/AU8.png)
 
 In the above schedule planning unit 3000 and 7000 are set with standard
 milestone effect on flow and planning unit 5000 is set to Arranged.
@@ -121,7 +121,7 @@ with this pattern because this machine only allows one job at a time.
 The shipment page is updated when apparel is installed to include a
 shipment allocation grid for each shipment.
 
-![Apparel Usage](./assets/AU9.jpg)
+![Apparel Usage](./assets/AU9.png)
 
 This grid is automatically filled in with the items from the case and
 updated as the case items are updated. These quantities can also be
