@@ -54,4 +54,4 @@ Business Central Licenses
 
 - **Description**: This user type will **not** be counted as a full PrintVis user for license calculation.
 - **Usage**: Can be used by PrintVis employees or partners to log in to a customer database for support.
-- **Note**: All users are named users. PrintVis usernames are not editable, so this type cannot be used from a customer.
+- **Note**: All users are named users. PrintVis usernames are not editable, so this type cannot be used by a customer.
