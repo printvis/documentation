@@ -5,6 +5,10 @@ site_dir: ../site/Integrations
 use_directory_urls: true
 nav:
   - learn.printvis.com: ../
+  - EUDR:
+    - EUDR overview: EUDR/EUDROverview.md
+    - EUDR setup: EUDR/EUDRSetup.md
+    - EUDR usage: EUDR/EUDRUsage.md
   - CarbonQuota:
     - CarbonQuota overview: CarbonQuota/CQoverview.md
     - CarbonQuota setup: CarbonQuota/CQsetup.md
