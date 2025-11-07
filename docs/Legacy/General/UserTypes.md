@@ -21,23 +21,23 @@ Business Central Licenses
 
 1. Advanced Full User
 
-- **Description**: Total access to the system, including setup.
-- **Includes**:
+**Description**: Total access to the system, including setup.
+**Includes**:
   - PrintVis Planning Board
   - Manufacturing Integration
   - Web2PV integration
-- **Note**: All Full Users must be Advanced; Advanced and Standard Full Users cannot be mixed.
+**Note**: All Full Users must be Advanced; Advanced and Standard Full Users cannot be mixed.
 
 2. Standard Full User
 
-- **Description**: Total access to the system, including setup.
-- **Note**: All Full Users must be Standard; Advanced and Standard Full Users cannot be mixed.
+**Description**: Total access to the system, including setup.
+**Note**: All Full Users must be Standard; Advanced and Standard Full Users cannot be mixed.
 
 3. Registration User
 
-- **Description**: For time registration on the shop floor.
-- **Often Combined With**: BC Device Only license or a Team Member User.
-- **Note**: The PrintVis User Code must match the BC Team Member User Code if a Registration User and Team Member are combined and need to register time.
+**Description**: For time registration on the shop floor.
+**Often Combined With**: BC Device Only license or a Team Member User.
+**Note**: The PrintVis User Code must match the BC Team Member User Code if a Registration User and Team Member are combined and need to register time.
 
 ## Special PrintVis User Type
 
