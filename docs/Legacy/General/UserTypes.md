@@ -24,6 +24,7 @@ Business Central Licenses
 **Description:** Total access to the system, including setup.
 
 **Includes:**
+
 - PrintVis Planning Board  
 - Manufacturing Integration  
 - Web2PV integration
