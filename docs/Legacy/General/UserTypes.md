@@ -19,7 +19,7 @@ Business Central Licenses
 
 ![PrintVis Cloud User Types.jpg](./assets/PrintVis Cloud User Types.jpg)
 
-1. **Advanced Full User**
+### Advanced Full User
 
 **Description:** Total access to the system, including setup.
 
@@ -32,7 +32,7 @@ Business Central Licenses
 
 ---
 
-2. **Standard Full User**
+### Standard Full User
 
 **Description:** Total access to the system, including setup.
 
@@ -40,7 +40,7 @@ Business Central Licenses
 
 ---
 
-3. **Registration User**
+### Registration User
 
 **Description:** For time registration on the shop floor.
 
