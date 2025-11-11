@@ -144,4 +144,4 @@ Picture points out location of the following:
 
 -   Planning units with planned time and start/stop
 
-Please job ticket example here: <a href='./assets/Job Ticket Example.pdf' target='_blank'>Job Ticket Sample</a>
+Please job ticket example here: <a href='https://learn.printvis.com/Legacy/Reports/assets/Job%20Ticket%20Example.pdf' target='_blank'>Job Ticket Sample</a>
