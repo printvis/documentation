@@ -3,7 +3,7 @@
 ## What is PrintVis?
 
 
-## Start a free trial
+## Request a pilot program
 
 
 ## Super user training
