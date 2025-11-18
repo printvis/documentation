@@ -58,9 +58,9 @@ Create your color setup and see the result on the Planning Board immediately aft
 
 Color settings are a global decision for the company.
 
-### Color Pick
+### Planning Board Text / Background Color
 It is possible to pick specific colors per job. To do so:
-1. Go to the **PVS Job Planning** page and personalize it to add the **Color Pick** field.
+1. Go to the **PVS Job Planning** page use the **Planning Board Text Color** and **Planning Board Background Color** fields.
 2. This will allow the user to pick a color that is assigned to that specific job, which will color coordinate all planning units that are part of that job.
 
 ![Planning Board 4.jpg](./assets/Planning Board 4.jpg)
