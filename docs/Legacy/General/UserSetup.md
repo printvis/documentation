@@ -76,6 +76,7 @@ This tab assigns special rights and functionality related to the system's use, d
 | **Allow Journal Selection**               | Allows the user to enter registrations on all consumption journals manually. This means that the user has access to register in all company job costing journals. If access is not given to this item, the user should be assigned a personal journal. |
 | **Allow Journal Posting**                 | Select this field if the user may post a job costing journal. |
 | **Post Consumption Journal at Close Window** | If you select this field, a job costing journal is automatically posted when the user closes the journal window, i.e., without having chosen Post for the journal. |
+| **Allow Edit Time Recordings**            | If this field is checked, the shop floor user has permission to make changes on the time recordings page. | 
 | **Allow manual change of status**         | Gives the user the right to perform manual status changes on orders. Without this right, status changes may only be performed by clicking the "Next Status" button, and the user must follow the procedure set up via Responsibility Areas. Example: A salesperson may only have the right to change status in an established sequence (e.g., Request, Quote sent, Order must be created). Other changes (e.g., Quote rejected) must be done by someone else. |
 | **Allow manual responsible**              | Gives the user the right to change the 'responsible' code in the Case Card manually. If the user does not have this right, the 'responsible' code is set according to guidelines defined via Responsibility Areas. |
 | **Allow Archiving**                       | Gives the user the right to archive a case. |
@@ -110,7 +111,7 @@ This tab assigns special rights and functionality related to the system's use, d
 
 | **Field**                     | **Description** |
 |-------------------------------|-----------------|
-| **Responsibility Areas**      | Indicates which assignments of "Current Responsible" the user can view in the case list. Usually includes the user's own ID but can also include other users' IDs to expand responsibility areas. Imaginary users are sometimes created to manage specific functions (e.g., team resources for status-based tasks) allowing an accountant, for example, to view both personal and shared cases. Multiple users/teams must be separated by a vertical line. |
+| **Responsibility Areas**      | Indicates which assignments of Responsible the user can view in the case list. Usually includes the user's own ID but can also include other users' IDs to expand responsibility areas. Imaginary users are sometimes created to manage specific functions (e.g., team resources for status-based tasks) allowing an accountant, for example, to view both personal and shared cases. Multiple users/teams must be separated by a vertical line. |
 | **Responsible Comment**       | This field currently has no function and will be removed later. |
 | **Deadline not Editable**     | Restricts the user from manually editing the deadline on the case card or in case management. The deadline dates are derived from the Status Codes. |
 | **Status Code new Request**   | Allows the user to select which status code is assigned to a new request upon creation. |
