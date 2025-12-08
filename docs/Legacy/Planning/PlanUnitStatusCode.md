@@ -11,13 +11,18 @@ When a CTP employee finalizes the Planning Unit "CTP plate production," the stat
 You can use the **Status Code** field to change the status if all Calculation Units at this Planning Unit are marked as "Completed" from the Shop Floor, Production Plan, or Job Costing Journal. The next status will be determined in the following sequence:
 
 1. A planning unit line with a status code assigned that has a higher sorting order than the current one.
-2. The next status to change to is taken from that planning unit.
-3. If no more planning units exist, PrintVis attempts to find the next status code by filtering on:
-   - Sorting must be higher than the actual status code
-   - Status code is set to "Production Ended = True"
-4. If no status code can be found, proceed to step 3.
-5. The next status code is taken from the "Responsibility Areas" setup.
-6. If no next status is set up in the Responsibility Areas, the next status code is taken from the "Status Code" setup.
+
+   The next status to change to is taken from that planning unit.
+2. If no more planning units exist, PrintVis attempts to find the next status code by filtering on:
+
+   Sorting must be higher than the actual status code
+   Status code is set to "Production Ended = True"
+   If no status code can be found, proceed to step 3.
+
+3. The next status code is taken from the "Responsibility Areas" setup.
+4. If no next status is set up in the Responsibility Areas
+
+   The next status code is taken from the "Status Code" setup.
 
 ## Planning Unit Setup
 
