@@ -1,4 +1,6 @@
-# Introduction
+# Planning Unit Status Code
+
+## Introduction
 
 It is possible to change the status code automatically based on Planning Unit setup. This means that when a machine operator completes a planning unit, the status code changes to the next status as defined by the scheduling/planning.
 
