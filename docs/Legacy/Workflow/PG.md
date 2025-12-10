@@ -295,7 +295,7 @@ should be shown at Quick Quote.</td>
 should be shown at Quick Quote.</td>
 </tr>
 <tr>
-<th>Placement on Job Item</th>
+<th>Placement of Job Item</th>
 <td><p>Via an inquiry in the field, you select if the item is to place
 the job's items considering the sheet's web direction, or if the highest
 possible number of items is to be imposed on the sheet.</p>
