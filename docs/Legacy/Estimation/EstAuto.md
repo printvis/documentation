@@ -11,20 +11,96 @@ The intention of this article is to describe how the PrintVis Estimation Automat
 
 To have the Estimation Automation properly working, please ensure the following:
 
-1. At least one (General) entry in the PrintVis Estimation Automation must be set up.
-2. To automatically suggest paper, please ensure that you mark the field **Auto Paper**. Also, mark **Stock Paper** if only house qualities are to be regarded, or mark **Only paper on Stock** if only actual paper on hand is to be regarded.
-3. Ensure the Lists of Units for the Printing Presses have the field **Include in Machine Choice** set to **Calculate**. If set to **always** or **never**, the unit is disregarded.
-4. The Lists of Units must have a Configuration attached for the selected Cost Center, and this Configuration must be of type **Basic**. This Calculation Unit can have the setting **Calculate** in Machine Choice, but it is not necessary.
-5. Each Printing Press must have **Fixed rates** only. If just one machine is set up with **Surcharge Rates**, the automation will error and cannot calculate properly.
-6. Rotation- or WebPresses must have a fixed **CutOff** attached to the selected Basic Configuration.
-7. To further fine-tune the setup, set your required **Item Group** and **Lookup Filters** to each Product Group accordingly.
-8. As the entire process is being calculated in temporary tables, certain formulas will work, whereas local formulas or results of formula reports will often not work.
-9. All standard formulas (1 to 990) will work; however, for the following processes, only specific formulas will work (controlled within Codeunit 6010332):
-   - **Print**: Formulas 22 and 220 (NOT 240, 250, 260, etc., or User Formulas)
-   - **Plates**: Formulas 8 and 10 (if a Varnish Plate is to be included, please have such estimation on a separate calculation detail line).
-   - **No of Sheets**: Formula 9
-10. Everything included in the List of Units, which can be calculated per the above-mentioned formulas, will be included.
-11. Finishing processes, however, are not included.
+<ol>
+  <li>
+    At least one <strong>(General)</strong> entry in the PrintVis Estimation Automation must be set up.
+  </li>
+
+  <li>
+    To automatically suggest paper, please ensure that you mark the field
+    <strong>“Auto Paper.”</strong>
+    <ul>
+      <li>
+        Also mark <strong>“Stock Paper”</strong> if only house qualities are to be regarded.
+      </li>
+      <li>
+        Or mark <strong>“Only paper on Stock”</strong> if only actual paper on hand is to be regarded.
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    Please ensure the Lists of Units for the Printing Presses are all set with the field
+    <strong>“Include in Machine Choice”</strong> to <strong>Calculate</strong>.
+    <ul>
+      <li>
+        If set to <strong>Always</strong> or <strong>Never</strong>, the unit is disregarded.
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    The Lists of Units must have a Configuration attached for the selected Cost Center, and this
+    Configuration must be of type <strong>Basic</strong>.
+    This Calculation Unit can have the setting <strong>Calculate</strong> in Machine Choice, but it is not required.
+  </li>
+
+  <li>
+    The field <strong>“Max. Number of Colors”</strong> on the Configuration must have a value (not zero).
+  </li>
+
+  <li>
+    Each Printing Press must have <strong>Fixed Rates</strong> only.
+    <ul>
+      <li>
+        If even one machine is set up with <strong>Surcharge Rates</strong>, the automation will error and cannot
+        calculate properly.
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    Rotation- or Web Presses must have a <strong>fixed Cutoff</strong> attached to the selected
+    <strong>Basic Configuration</strong>.
+  </li>
+
+  <li>
+    To further fine-tune the setup, please set the required <strong>Item Group</strong> and
+    <strong>Lookup Filters</strong> for each Product Group accordingly.
+  </li>
+
+  <li>
+    As the entire process is calculated in <strong>temporary tables</strong>, certain formulas will work,
+    whereas <strong>local formulas</strong> or results of <strong>Formula Reports</strong> often will not.
+  </li>
+
+  <li>
+    All standard formulas (<strong>1–990</strong>) will work; however, for the following processes,
+    only specific formulas are supported (controlled within <strong>Codeunit 6010332</strong>):
+    <ul>
+      <li>
+        <strong>Print:</strong> Formulas <strong>22</strong> and <strong>220</strong>
+        (not <strong>240, 250, 260</strong>, etc., or user formulas)
+      </li>
+      <li>
+        <strong>Plates:</strong> Formulas <strong>8</strong> and <strong>10</strong>
+        (if a varnish plate is required, include it as a separate calculation detail line)
+      </li>
+      <li>
+        <strong>Number of Sheets:</strong> Formula <strong>9</strong>
+      </li>
+    </ul>
+  </li>
+
+  <li>
+    Everything included in the List of Units that can be calculated using the formulas above
+    will be included.
+  </li>
+
+  <li>
+    <strong>Finishing processes</strong> are not included.
+  </li>
+</ol>
 
 ### Prerequisites at the Time of Looking Up the Printing Press / List of Units
 
@@ -41,22 +117,54 @@ When the lookup is done into the List of Units from the Job Item, during the sec
 
 PrintVis goes through the following steps during the temporary estimation that takes place:
 
-1. Builds the list of Machines, considering:
-   - The allowed Machines from the Product Group Lookup Filters.
-   - Machines where the Max No. of Colors ≥ Job Item Colors.
-   - Machines where the Max formats ≥ the Job Item size (uncut format).
-     - Unless a specific paper is already selected, then to fit paper Formats as ‘max’.
-     - If no paper is found within the selected filters of paper weight, Item Quality, and Item Type, then to calculate the imposition from the largest paper available within the filter.
-   - Lists of Unit, where the Process type = A Printing Process (1 to 8)
+<ol>
+  <li>
+    Builds the list of Machines, considering:
+    <ul>
+      <li>
+        The allowed Machines from the Product Group Lookup Filters.
+      </li>
+      <li>
+        Machines where the Max No. of Colors &gt;= Job Item Colors.
+      </li>
+      <li>
+        Machines where the Max formats &gt;= the Job Item size (uncut format).
+        <ul>
+          <li>
+            Unless a specific paper is already selected, then to fit paper formats as “max”.
+          </li>
+          <li>
+            If no paper is found within the selected filters of paper weight, Item Quality, and Item Type, then calculate the imposition from the largest paper available within the filter.
+          </li>
+        </ul>
+      </li>
+      <li>
+        Lists of Units where the Process Type = a Printing Process (1 to 8).
+      </li>
+    </ul>
+  </li>
 
-2. Calculate a fictitious Sheet and residual sheet temporarily.
-   - If an Imposition Type is selected prior to the lookup that does not fit any machine or the Job Item, the process is skipped and no machines found.
+  <li>
+    Calculates a fictitious sheet and residual sheet temporarily.
+    <ul>
+      <li>
+        If an Imposition Type is selected prior to the lookup that does not fit any machine or the Job Item, the process is skipped and no machines are found.
+      </li>
+    </ul>
+  </li>
 
-3. Calculates No. of Sheets (incl. scrap), Plates, and No. of Impressions (see Formulas).
+  <li>
+    Calculates No. of Sheets (incl. scrap), Plates, and No. of Impressions (see Formulas).
+  </li>
 
-4. Calculates the entire set of Lists of Units through temporarily calculating each Detail Line which can be estimated (again, as some formulas might not give any result).
+  <li>
+    Calculates the entire set of Lists of Units through temporarily calculating each Detail Line which can be estimated (again, as some formulas might not give any result).
+  </li>
 
-5. Sorts the list with the least expensive machine on top of the list.
+  <li>
+    Sorts the list with the least expensive machine on top of the list.
+  </li>
+</ol>
 
 ### What Is NOT Considered During the Temporary Calculation Process
 
