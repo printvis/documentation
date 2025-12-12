@@ -209,7 +209,7 @@ Users record time against a plan unit.
 
 - On the \*\*Cost Center\*\*, there's a menu action to print a barcode sheet of the UOM codes.
 
-> Tiles are another way users can start/stop time registrations.
+Tiles are another way users can start/stop time registrations. The electronic job ticket is limited to 20 UOM tiles without customization.
 
 
 #### Case Description
