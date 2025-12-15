@@ -344,7 +344,7 @@ extra_css:
   - styles/printvis-footer.css
 
 extra:
-  homepage: https://printvis.com
+  homepage: https://learn.printvis.com
   generator: false
 
 copyright: Copyright &copy; PrintVis All rights reserved.
