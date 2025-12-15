@@ -19,7 +19,7 @@
 
 .pv-footer__brand{min-width:0;}
 .pv-footer__logos{display:flex; gap:14px; align-items:center; flex-wrap:wrap;}
-.pv-footer__logo{height:34px; width:auto; display:block;}
+.pv-footer__logo{height:50px; width:auto; display:block;}
 
 .pv-footer__heading{
   font-size:14px;
