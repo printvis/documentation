@@ -1,0 +1,77 @@
+{% if config.extra.footer %}
+  {{ config.extra.footer | safe }}
+{% else %}
+<footer class="pv-footer" role="contentinfo" aria-label="Footer">
+  <div class="pv-footer__inner">
+    <div class="pv-footer__grid">
+      <div class="pv-footer__brand">
+        <div class="pv-footer__logos" aria-label="PrintVis logos">
+          <img class="pv-footer__logo" src="https://printvis.com/wp-content/themes/printvis-theme/assets/img/logo-dark.svg" alt="PrintVis" loading="lazy" />
+          <img class="pv-footer__logo" src="https://printvis.com/wp-content/themes/printvis-theme/assets/img/logo-dark.svg" alt="PrintVis" loading="lazy" />
+        </div>
+      </div>
+
+      <section class="pv-footer__col" aria-label="PrintVis Europe">
+        <h3 class="pv-footer__heading">PrintVis Europe</h3>
+        <p class="pv-footer__text">
+          <a class="pv-footer__link" href="mailto:info@printvis.com">info@printvis.com</a><br />
+          <a class="pv-footer__link" href="tel:+4586250303">+45 8625 0303</a>
+        </p>
+        <p class="pv-footer__text">
+          Rosensgade 24B<br />
+          8300 Odder Denmark
+        </p>
+      </section>
+
+      <section class="pv-footer__col" aria-label="PrintVis USA">
+        <h3 class="pv-footer__heading">PrintVis USA</h3>
+        <p class="pv-footer__text">
+          <a class="pv-footer__link" href="mailto:info@printvis.com">info@printvis.com</a><br />
+          <a class="pv-footer__link" href="tel:+14042285861">+1 404 228 5861</a>
+        </p>
+        <p class="pv-footer__text">
+          315 West Ponce de Leon Avenue, Suite 440<br />
+          Decatur, GA 30030
+        </p>
+        <p class="pv-footer__text">
+          815 Superior Avenue<br />
+          Suite 1720<br />
+          Cleveland, OH 44114
+        </p>
+      </section>
+
+      <section class="pv-footer__col" aria-label="Follow us">
+        <h3 class="pv-footer__heading">Follow us</h3>
+        <div class="pv-footer__social">
+          <a class="pv-footer__socialLink" href="https://www.facebook.com/PrintVis/" target="_blank" rel="noopener">
+            <span class="pv-footer__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18"><path d="M13.5 22v-8h2.7l.4-3H13.5V9.1c0-.9.2-1.5 1.6-1.5h1.7V5c-.3 0-1.4-.1-2.7-.1-2.7 0-4.6 1.6-4.6 4.6V11H7v3h2.8v8h3.7z"/></svg>
+            </span>
+            <span>Facebook</span>
+          </a>
+
+          <a class="pv-footer__socialLink" href="https://www.linkedin.com/company/16274479" target="_blank" rel="noopener">
+            <span class="pv-footer__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18"><path d="M6.9 6.8a2.1 2.1 0 1 1 0-4.2 2.1 2.1 0 0 1 0 4.2zM3.8 21.4h6.1V8.7H3.8v12.7zM12.4 8.7h5.8v1.7h.1c.8-1.3 2.1-2.2 4.1-2.2 4.4 0 5.2 2.9 5.2 6.6v6.6h-6.1v-5.9c0-1.4 0-3.2-2-3.2s-2.3 1.5-2.3 3.1v6h-6.0V8.7z"/></svg>
+            </span>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <div class="pv-footer__bottom" aria-label="Legal">
+      <div class="pv-footer__legal">
+        <span>PrintVis® is a registered trademark of NovaVision Software A/S —</span>
+        <span>© PrintVis</span>
+      </div>
+
+      <nav class="pv-footer__policies" aria-label="Policies">
+        <a class="pv-footer__policyLink" href="https://printvis.com/privacy-policy/">Privacy Policy</a>
+        <span class="pv-footer__sep">—</span>
+        <a class="pv-footer__policyLink" href="https://printvis.com/cookie-policy/">Cookie Policy</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+{% endif %}
