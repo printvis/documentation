@@ -341,7 +341,7 @@ theme:
   favicon: img/bee.jpg
 
 extra_css: 
-  - stylesheets/printvis-footer.css
+  - styles/printvis-footer.css
 
 extra:
   homepage: https://printvis.com
