@@ -316,6 +316,7 @@ nav:
     
 theme:
   name: material
+  custom_dir: docs/overrides
   features:
     - navigation.indexes
     - navigation.sections
@@ -339,7 +340,7 @@ theme:
   logo: img/logo.png
   favicon: img/bee.jpg
 
-extra_css: [stylesheets/extra.css]
+extra_css: [stylesheets/printvis-footer.css]
 
 extra:
   homepage: https://printvis.com
