@@ -34,8 +34,7 @@ For each Quality Code, an Item Type must be selected because the PrintVis Qualit
 | **Calc. Line Description** | Template for calculation detail line descriptions using variables:<br>%1 = Item Description<br>%2 = Item Quality Description<br>%3 = Grammage/Weight<br>%4 = Format1<br>%5 = Format2<br>%6 = Grain Direction<br><br>Example: "%1, %4x%5cm, %3GSM" → "Multiart Silk, 70x100cm, 135GSM"  See picture Below|
 | **Item Filter**           | Relates to "No." in the "Item" table. Typically used in custom import functions for auto-assigning qualities. |
 | **ISO Paper Substrate**   | Default substrate for JDF workflows. If set, item does not need its own assignment. Supports color profile adaptation in prepress. |
-| **Ink Consumption Factor**   | The value in this field is being used as factor for the value “Area per Weight Unit” in Formulas 160-165, to cover the impact of the paper surface and coating on the ink consumption. Example: Value “1” means 100% of “Area per Weight Unit”, Value “0.8” means 80% of “Area per Weight Unit”. If the field is left empty/0 the value is regarded as factor =1.
-The value of this field for the print substrate of the current sheet is represented with calculation formula 173, to set up custom ink calculation formulas different from formulas 160-165. |
+| **Ink Consumption Factor**   | The value in this field is being used as factor for the value “Area per Weight Unit” in Formulas 160-165, to cover the impact of the paper surface and coating on the ink consumption. Example: Value “1” means 100% of “Area per Weight Unit”, Value “0.8” means 80% of “Area per Weight Unit”. If the field is left empty/0 the value is regarded as factor =1.<br>The value of this field for the print substrate of the current sheet is represented with calculation formula 173, to set up custom ink calculation formulas different from formulas 160-165. |
 
 ![PrintVis Qualities 2.jpg](./assets/PrintVis Qualities 2.jpg)
 
