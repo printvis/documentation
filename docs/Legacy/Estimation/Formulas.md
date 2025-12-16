@@ -105,7 +105,7 @@ Formula 810 is a formula to assist in calculating the number of boxes needed for
     </p>
 
     <p>
-      <img src="./assets/calcformula1.png" alt="Calculation Formula setup 8">
+      ![Calculation Formula setup 8](./assets/calcformula1.png)
     </p>
 
     <p>
@@ -123,7 +123,7 @@ Formula 810 is a formula to assist in calculating the number of boxes needed for
     </p>
 
     <p>
-      <img src="./assets/calcformula2.png" alt="Calculation Formula setup 9">
+      ![Calculation Formula setup 9](./assets/calcformula2.png)
     </p>
 
     <p>
@@ -152,7 +152,7 @@ Formula 810 is a formula to assist in calculating the number of boxes needed for
     </p>
 
     <p>
-      <img src="./assets/calcformula3.png" alt="Calculation Formula setup 10">
+      ![Calculation Formula setup 10](./assets/calcformula3.png)
     </p>
   </li>
 </ol>
