@@ -105,7 +105,7 @@ Formula 810 is a formula to assist in calculating the number of boxes needed for
     </p>
 
     <p>
-      ![Calculation Formula setup 8](./assets/calcformula1.png)
+      <img src="https://learn.printvis.com/Legacy/Estimation/assets/calcformula1.png" alt="Calculation Formula setup 8">
     </p>
 
     <p>
@@ -123,7 +123,7 @@ Formula 810 is a formula to assist in calculating the number of boxes needed for
     </p>
 
     <p>
-      ![Calculation Formula setup 9](./assets/calcformula2.png)
+      <img src="https://learn.printvis.com/Legacy/Estimation/assets/calcformula2.png" alt="Calculation Formula setup 9">
     </p>
 
     <p>
@@ -152,7 +152,7 @@ Formula 810 is a formula to assist in calculating the number of boxes needed for
     </p>
 
     <p>
-      ![Calculation Formula setup 10](./assets/calcformula3.png)
+      <img src="https://learn.printvis.com/Legacy/Estimation/assets/calcformula3.png" alt="Calculation Formula setup 10">
     </p>
   </li>
 </ol>
