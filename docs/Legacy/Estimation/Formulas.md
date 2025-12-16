@@ -95,33 +95,68 @@ Formulas used:
 
 Formula 810 is a formula to assist in calculating the number of boxes needed for an order. This system formula is unique in that some setup is required.
 
+<ol>
+  <li>
+    <strong>Box item setup</strong>
 
-1. Box item setup
+    <p>
+      In order for the formula to be able to calculate the box dimensions, the item units of measure
+      for the box must have the Height, Width, and Length values filled in for the base unit of measure:
+    </p>
 
-   In order for the formula to be able to calculate the box dimensions, the item units of measure for the box must have the Height, Width, and Length values filled in for the base unit of measure:
+    <p>
+      <img src="./assets/calcformula1.png" alt="Calculation Formula setup 8">
+    </p>
 
-   ![Calculation Formula setup 8](./assets/calcformula1.png)
+    <p>
+      This can be found on the Item card by going to
+      <em>Related → Item → Units of Measure</em>.
+    </p>
+  </li>
 
-   This can be found on the Item card by going to Related -> Item -> Units of Measure.
+  <li>
+    <strong>Formula Setup</strong>
 
-2. Formula Setup
+    <p>
+      On the setup page for formula 810, there is a unique section called
+      <em>Formula Items</em>:
+    </p>
 
-   On the setup page for formula 810, there is a unique section called Formula Items:
+    <p>
+      <img src="./assets/calcformula2.png" alt="Calculation Formula setup 9">
+    </p>
 
-   ![Calculation Formula setup 9](./assets/calcformula2.png)
+    <p>
+      This is where you select all the box items that you want this formula to consider when
+      deciding the box to use for a case.
+    </p>
+  </li>
 
-   This is where you select all the box items that you want this formula to consider when deciding the box to use for a case.
+  <li>
+    <strong>Calculation Unit Setup</strong>
 
-3. Calculation Unit Setup
+    <p>
+      On the Calculation Unit, this formula can be used like any other item formula.
+      Add it to the formula field on a calculation detail item line where you want the
+      item number added and number of boxes calculated.
+    </p>
+  </li>
 
-   On the Calculation Unit, this formula can be used like any other item formula. Add it to the formula field on a calculation detail item line where you want the item number added and number of boxes calculated.
+  <li>
+    <strong>User field Setup</strong>
 
-4. User field Setup
+    <p>
+      In the logistics section of the PrintVis General Setup page there are 3 fields
+      (<em>Table ID, Subtype, Field No.</em>) to set which user field holds the desired
+      quantity per box value:
+    </p>
 
-   In the logistics section of the PrintVis General Setup page there are 3 fields (Table ID, Subtype, Field No.) to set which user field holds the desired quantity per box value:
+    <p>
+      <img src="./assets/calcformula3.png" alt="Calculation Formula setup 10">
+    </p>
+  </li>
+</ol>
 
-
-![Calculation Formula setup 10](./assets/calcformula3.png)
 
 This allows a user to tell the calculation for a specific case, we want X number of products per box. The system will then use this max quantity for each box rather than the calculated quantity per box. If this user field is left blank, the system will use the optimal number of products per box.
 
