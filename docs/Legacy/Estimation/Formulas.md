@@ -98,34 +98,28 @@ Formula 810 is a formula to assist in calculating the number of boxes needed for
 
 1. Box item setup
 
+   In order for the formula to be able to calculate the box dimensions, the item units of measure for the box must have the Height, Width, and Length values filled in for the base unit of measure:
 
-In order for the formula to be able to calculate the box dimensions, the item units of measure for the box must have the Height, Width, and Length values filled in for the base unit of measure:
+   ![Calculation Formula setup 8](./assets/calcformula1.png)
 
-![Calculation Formula setup 8](./assets/calcformula1.png)
-
-This can be found on the Item card by going to Related -> Item -> Units of Measure.
-
+   This can be found on the Item card by going to Related -> Item -> Units of Measure.
 
 2. Formula Setup
 
+   On the setup page for formula 810, there is a unique section called Formula Items:
 
-On the setup page for formula 810, there is a unique section called Formula Items:
+   ![Calculation Formula setup 9](./assets/calcformula2.png)
 
-![Calculation Formula setup 9](./assets/calcformula2.png)
-
-This is where you select all the box items that you want this formula to consider when deciding the box to use for a case.
-
+   This is where you select all the box items that you want this formula to consider when deciding the box to use for a case.
 
 3. Calculation Unit Setup
 
-
-On the Calculation Unit, this formula can be used like any other item formula. Add it to the formula field on a calculation detail item line where you want the item number added and number of boxes calculated.
-
+   On the Calculation Unit, this formula can be used like any other item formula. Add it to the formula field on a calculation detail item line where you want the item number added and number of boxes calculated.
 
 4. User field Setup
 
+   In the logistics section of the PrintVis General Setup page there are 3 fields (Table ID, Subtype, Field No.) to set which user field holds the desired quantity per box value:
 
-In the logistics section of the PrintVis General Setup page there are 3 fields (Table ID, Subtype, Field No.) to set which user field holds the desired quantity per box value:
 
 ![Calculation Formula setup 10](./assets/calcformula3.png)
 
