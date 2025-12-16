@@ -93,7 +93,8 @@ Formulas used:
 
 ## Special Box Calculation Formula
 
-Formula 810 is a formula to assist in calculating the number of boxes needed for an order. This system formula is unique in that some setup is required.
+Formula 810 and the User Formula Type “Box Calculation” are formulas to assist in calculating the number of boxes needed for an order. The formulas are limited to rectangular cuboids (boxed/pallets) and cannot be used for other shapes.<br>The special feature of these formulas is that they require a certain amount of setup.
+
 
 <ol>
   <li>
@@ -118,8 +119,8 @@ Formula 810 is a formula to assist in calculating the number of boxes needed for
     <strong>Formula Setup</strong>
 
     <p>
-      On the setup page for formula 810, there is a unique section called
-      <em>Formula Items</em>:
+      On the setup page for the formulas is a unique section called <em>Formula Items</em>:
+
     </p>
 
     <p>
@@ -127,8 +128,7 @@ Formula 810 is a formula to assist in calculating the number of boxes needed for
     </p>
 
     <p>
-      This is where you select all the box items that you want this formula to consider when
-      deciding the box to use for a case.
+      Please select all the box items that you want this formula to consider when deciding the box to use for a calculation line.
     </p>
   </li>
 
@@ -161,13 +161,10 @@ Formula 810 is a formula to assist in calculating the number of boxes needed for
 This allows a user to tell the calculation for a specific case, we want X number of products per box. The system will then use this max quantity for each box rather than the calculated quantity per box. If this user field is left blank, the system will use the optimal number of products per box.
 
 
-Formula 810 Calculation
-
-
-This formula will look at the dimensions of the box, the cost of the box, and the dimensions of the product to determine which box to use and the number of boxes needed. 
-
-
-First, it compares the length and width of the product against both directions of the box to determine how many products will fit flat in the box. Then, it calculates the thickness of the product x ordered quantity to determine overall thickness and compare that with the height of the box. It will determine the quantity that will fit in each box and check if that is greater than the desired quantity per box. Finally, it takes the cost of each box and the number of boxes needed, to determine which box to use based on the lowest overall cost.
-
-
-It will add the item number of the selected box and the quantity to the calculation detail line.
+**Formula 810 and User Formula Type “Box Calculation”**
+These formulas will look at the dimensions of the box, the cost of the box, and the dimensions of the product to determine which box to use and the number of boxes needed. 
+1.	It compares the length and width of the product against both directions of the box to determine how many products will fit flat in the box. 
+2.	It calculates the thickness of the product x ordered quantity to determine overall thickness and compare that with the height of the box. 
+3.	It will determine the quantity that will fit in each box and check if that is greater than the desired quantity per box. 
+4.	Finally, it takes the cost of each box and the number of boxes needed, to determine which box to use based on the lowest overall cost.
+5.  It will add the item number of the selected box and the quantity to the calculation detail line.
