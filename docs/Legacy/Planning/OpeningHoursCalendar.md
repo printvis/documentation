@@ -8,10 +8,16 @@ The Calendar Maintenance setup provides a broader scope for creating the opening
 
  Sequence of the Setup
 
-1. PrintVis Calendars
-2. By using Capacity or Calendar Groups
-3. Opening Hours Profiles
-4. Opening Hours Setup
+<ol>
+  <li>
+    PrintVis Calendars
+    <ul>
+      <li>By using Capacity or Calendar Groups</li>
+    </ul>
+  </li>
+  <li>Opening Hours Profiles</li>
+  <li>Opening Hours Setup</li>
+</ol>
 
 ## PrintVis Calendars
 
