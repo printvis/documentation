@@ -1,5 +1,67 @@
 # Planning Units
 
+## Capacity Unit vs. Planning Unit
+
+The difference between a **capacity unit** and a **planning unit** can be confusing at first. When adjusting setup or behavior, it’s important to understand **where a parameter belongs**—some settings apply to the physical capacity, while others control how work is scheduled. Although there can be some overlap, the sections below describe the core responsibility of each unit.
+
+### Capacity Unit
+
+A **capacity unit** represents a **physical resource** —such as a machine, workplace, or production line—and defines **when and how that resource is available** for scheduling.
+
+It controls:
+
+- **Availability and opening hours** via the capacity calendar  
+- **Planned downtime**, such as maintenance or non-production periods  
+- **Blocked or reserved capacity**, including placeholders for future work  
+
+Placeholders can automatically reserve time based on order attributes, such as:
+- Customer  
+- Product group  
+- Order parameters  
+- Any combination of the above  
+
+A capacity unit typically has a **1:1 relationship with a cost center**, but in some cases multiple cost centers may share the same physical capacity.
+
+In short, the capacity unit answers the question:  
+**“When is this machine or workplace available to do work?”**
+
+### Planning Unit
+
+A **planning unit** represents a **scheduled piece of work** —a task that needs to be placed on a capacity unit’s calendar.
+
+A planning unit:
+
+- Is linked to a **calculation unit or calculation detail line**  
+- Receives the **calculated time** from the calculation  
+- Applies **efficiency factors** from the capacity to determine the **planned time**  
+- Is scheduled with:
+  - A start and end time  
+  - Predecessors and successors (process sequence)  
+  - Optional buffer time or overlap rules  
+
+Planning units also define **task behavior**, such as:
+- Whether a waiting period (buffer) is required between tasks  
+- Whether tasks are allowed to overlap (e.g., a successor can start before the predecessor is fully completed)
+
+There is **no strict 1:1 relationship** between planning units and calculation units. In theory, a company could operate with a single planning unit. However, in practice it is recommended to have:
+
+- At least **one planning unit per department**, especially when task completion should trigger status changes (for example, Printing → Finishing)  
+- Additional planning units when different cost centers require distinct scheduling or status behavior  
+
+In short, the planning unit answers the question:  
+**“What work needs to be scheduled, and how does it relate to other tasks?”**
+
+### Conclusion
+
+A simple way to visualize the relationship is:
+
+- The **planning unit** is the **piece of work time** derived from calculations.  
+- The **capacity unit** provides the **available calendar space** where that work can be scheduled.  
+
+Planning units carry dependencies (for example, plates must be completed before printing can start), and those dependencies determine **where and when** the required time can be placed within the capacity unit’s available hours.
+
+Together, they ensure that calculated work is scheduled realistically on the physical resources that perform it.
+
 
 ## General
 
@@ -14,7 +76,7 @@
 | Specification                | How the planning unit should react to the calculation units which are placed in the setup and found in the estimation for which to make planning. Options are: <br>Process and sheet <br>Merge Processes <br>Merge Sheets <br>No Merge <br>Merge Sheet + Residual Sheet <br>Merge Sheet Type <br>Specify sheet/widths <br>Calculate estimated time |
 |                              | This field is mainly aimed at the complex estimation/planning in Newspaper print or bindery machines where several processes on the same machine must be calculated/priced individually but take place at the same time. <br>Normal setting under all other circumstances would be Add all, meaning that several calculation units with individual time makes a total of planned time. |
 |                              | Options are: <br>Add all <br>Longest Price Unit <br>Longest Process                                                             |
-| Status Code                  | This field is used to assist the automatically progress of status codes, driven from production. The value helps generate the field Next Status on the case card. <br>Remember: <br>If this function is used, there should be a status code for production steps you want to differentiate. <br>All planning units should have a status code. <br>The status code must be describing the current stage (planning unit PRINT gets status code PRINT) <br>This must be set before system go-live <br>Changes in the setup must be manually changed on all planning units on orders and all templates. <br>See separate article: “Status Code field at Planning Unit Setup” |
+| Status Code                  | This field is used to assist the automatically progress of status codes, driven from production. The value helps generate the field Next Status on the case card. <br>Remember: <br>If this function is used, there should be a status code for production steps you want to differentiate. <br>All planning units should have a status code. <br>The status code must be describing the current stage (planning unit PRINT gets status code PRINT) <br>This must be set before system go-live <br>Changes in the setup must be manually changed on all planning units on orders and all templates. <br>See separate article: “Planning Unit Status Code” |
 |                              | Note: If the status changes have included auto material posting <br>A Time Registration user cannot change the status in Shop Floor via button "Completed" if this change makes the automatic material booking. <br>An extra status should be added, e.g. <br>Ready for production - if the booking is made at the start of production or <br>Confirmation of production is finished - when the booking is made at the end. <br>This status code change can only be made by a user authorized for material booking. |
 | Sorting Order                | With this field, an alternative Sorting Order can be entered. If no sorting order is defined, the lists will be ordered by the default primary key order. <br>With this field, you can place milestones in between calculation unit generated planning units. |
 | Unit of Measure              | This field is used if (in rare cases) we want to track and monitor the progress on planning unit. <br>i.e., printing planning unit: We insert a unit of measure called PROD (for active production time). This unit is one which the shop floor people can post time on. <br>This setting will allow the system to monitor how much total time was posted so far on PROD. |
@@ -22,6 +84,68 @@
 | List of Units                | List of units is a list of planning units which are typically marked as milestones. <br>This list is referred to on each Product Group setup card and determines which milestones should come on the plan for this Product Group (in many cases, the same list). <br>Milestones appear at the stage of Planning = Yes on the case card. |
 | Hide in production Plan      | Tick this field if you do not want this unit to appear in the actual production plans as something which needs to be planned or monitored. <br>This is often the case for Milestones or less important planning units which may be OK on the case fine planning, but not to be present in the Production Plan window. <br>This setting is also recommended for planning units that are milestones and planned time = 0. |
 | Hide in Shop Floor Production Plan | Tick this field if you do not want this unit to appear in the actual Shop Floor Production Plans as something which needs to be planned or monitored. <br>This is often the case for Milestones or less important planning units which may be OK on the case fine planning, but not to be present in the Shop Floor Production Plan window. <br>This setting is also recommended for planning units that are milestones and planned time = 0. |
+
+### Details about the "Specification" options
+
+The setting in the Specification field will affect in which way job planning unit lines will be created from calculation units in the estimation. Depending on the machine type or department, different settings could be useful to display separate or merge calculation unit lines for the scheduling.
+
+A “job planning unit line” is an individual line on the job scheduling page for a PrintVis job.
+
+![Planning Unit Specification](./assets/pudetail1.png)
+
+Prerequisites for creating a job planning unit line is that the calculation unit is assigned to a planning unit and the related cost center/configuration is connected to a capacity unit.
+
+It is very common to setup individual planning units per department or machine group. Also individual planning units per capacity could be necessary depending on the scheduling requirements.
+
+**Process and sheet**
+
+Job planning unit lines will be created per capacity and sheet id. 
+
+For example, a press with several surcharges that has the same capacity and process as the press would create one job planning unit line, if surcharges are setup to get the same process no. as the press.
+
+This is the default setting for the specification field and useful for most print and finishing processes.
+
+
+**Merge Processes**
+
+Calculated time will be merged into one job planning unit line per Sheet ID and capacity. 
+
+For example, if the same calculation unit in the finishing department is used more than once in the estimation for the same sheet, only one job planning unit line will be created for total time.
+
+
+**Merge Sheets**
+
+Calculated time will be merged for all sheets into one job planning unit line per capacity. 
+
+For example, if in the finishing department on a machine only one job planning unit line for all sheets should be displayed.
+
+
+**No Merge**
+
+For each line of calculation units in the estimation a planning is created.
+
+For example in the admin or prepress department, a calculation unit like “Customer meeting” is used more than once, because more than one customer meeting is expected, then a job planning unit line for each customer meeting is created and can be scheduled individually.
+
+
+**Merge Sheet + Residual Sheet**
+
+The total calculated time for a “main” and its “residual” sheets will be merged into one planning unit line only for the first capacity. This also happens if the sheets are produced with different machines/capacities.
+
+This option is for special use and it is important to use an individual planning unit for the calculation units that must the grouped/merged, because this option is merging over capacities.
+
+
+**Merge Sheet Type**
+
+The total calculated time is merged in one job planning unit line per capacity and component type. 
+
+Example: All sheets with Component type TEXT with be merged.
+
+
+**Specify sheets/widths**
+
+Same logic as the “Process and sheet” option, but if a sheet is No. of sheet sets>1, a job planning unit line is created for each set of the sheet and the total time is divided by the number of sheet sets for each line.
+
+Example: A sheet has a 16pages imposition and the pages for this PrintVis sheet has 48 pages, PrintVis calculates sheet sets=3 for this (3x 16p pages on 1 PrintVis sheet). In this case 3 job planning unit lines are created.
 
 
 ## Planning / Calc. Units
