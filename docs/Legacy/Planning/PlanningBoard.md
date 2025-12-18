@@ -262,7 +262,7 @@ When placing the cursor to the right or left of the Planning Unit, the cursor wi
 
  This will allow the Planning Unit to be dragged to edit for a longer or shorter amount of planned time.
 
- ### Merge split with move 
+ ### Merge split with move
  Check Boolean **Merge split with move**:
 
 ![Planning Board Merge Split 01.jpg](./assets/PlanningBoardMergeSplit01.jpg)
@@ -273,7 +273,7 @@ Instead of enabling this field it is possible to use the keyboard shortcuts:
 - "Shift” key before dropping the unit. 
 - "Shift & CTRL” before dropping the unit activates the "Merge split with move and split on opening hours only” functionality.
 
-###Split on open hours only
+### Split on open hours only
 Check Boolean **Split on open hours only**:
 
 ![Planning Board Merge Split 02.jpg](./assets/PlanningBoardMergeSplit02.jpg)
