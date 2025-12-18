@@ -338,20 +338,21 @@ Hold the **CTRL** button and left-click on the capacities you want to select, th
 
 To remove the **Capacity Filter**, click the **Undo Capacity Filter** in the top menu.
 
-## Keyboard shortcuts
+### Keyboard shortcuts
 The following shortcuts are available on the Planning Board for the selected capacity unit:
+
 | **Key / Key combination** | **Description** |
-| --- | --- |
-| **Shift + Click** | Lock / unlock capacity |
-| **Ctrl + Click** | Clear message |
-| **Shift + Drop** | Merge split with move functionality |
-| **Ctrl + Drop** | Split on opening hours only functionality |
-| **Shift + Ctrl & Drop** | Merge split with move AND split on opening hours only functionality |
-| **DoubleClick** | Open case card |
-| **Shift + DoubleClick** | Open case/job planning |
-| **Ctrl + DoubleClick** | Open case/job milestones |
+| ------------------------- | --------------- |
+| **Shift + Click**         | Lock / unlock capacity |
+| **Ctrl + Click**          | Clear message |
+| **Shift + Drop**          | Merge split with move functionality |
+| **Ctrl + Drop**           | Split on opening hours only functionality |
+| **Shift + Ctrl & Drop**   | Merge split with move AND split on opening hours only functionality |
+| **DoubleClick**           | Open case card |
+| **Shift + DoubleClick**   | Open case/job planning |
+| **Ctrl + DoubleClick**    | Open case/job milestones |
 | **Shift + Ctrl & DoubleClick** | Open material requirements |
-| **Alt + DoubleClick** | View job ticket |
+| **Alt + DoubleClick**     | View job ticket |
 
 ## PrintVis Planning Board Simulation
 
