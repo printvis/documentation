@@ -265,7 +265,7 @@ When placing the cursor to the right or left of the Planning Unit, the cursor wi
  ### Merge split with move 
  Check Boolean **Merge split with move**:
 
-![Planning Board Merge Split 01.jpg](./assets/Planning Board Merge Split01.jpg)
+![Planning Board Merge Split 01.jpg](./assets/PlanningBoardMergeSplit01.jpg)
 
 If this option is enabled, each time a split planning unit is moved, all connected planning units are merged and the unit is placed/split again based on its position.   
 
@@ -276,7 +276,7 @@ Instead of enabling this field it is possible to use the keyboard shortcuts:
 ###Split on open hours only
 Check Boolean **Split on open hours only**:
 
-![Planning Board Merge Split 02.jpg](./assets/Planning Board Merge Split02.jpg)
+![Planning Board Merge Split 02.jpg](./assets/PlanningBoardMergeSplit02.jpg)
 
 If this option is enabled, a planning unit will only split around opening hours. If other planning units are already planned during that time, this unit will be placed at the same time and overlap those and not split around already planned units. Overlapping processes can then be rescheduled manually. This means that long term processes can be scheduled one after the other without having to change setup for other orders in between.
 
