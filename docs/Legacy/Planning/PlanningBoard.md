@@ -262,8 +262,8 @@ When placing the cursor to the right or left of the Planning Unit, the cursor wi
 
  This will allow the Planning Unit to be dragged to edit for a longer or shorter amount of planned time.
 
- ### Merge split with move
- Check Boolean **Merge split with move**:
+### Merge split with move
+Check Boolean **Merge split with move**:
 
 ![Planning Board Merge Split 01.jpg](./assets/PlanningBoardMergeSplit01.jpg)
 
