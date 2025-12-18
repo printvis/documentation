@@ -262,6 +262,29 @@ When placing the cursor to the right or left of the Planning Unit, the cursor wi
 
  This will allow the Planning Unit to be dragged to edit for a longer or shorter amount of planned time.
 
+ ### Merge split with move 
+ Check Boolean **Merge split with move**:
+
+![Planning Board Merge Split 01.jpg](./assets/Planning Board Merge Split01.jpg)
+
+If this option is enabled, each time a split planning unit is moved, all connected planning units are merged and the unit is placed/split again based on its position.   
+
+Instead of enabling this field it is possible to use the keyboard shortcuts: 
+- "Shift” key before dropping the unit. 
+- "Shift & CTRL” before dropping the unit activates the "Merge split with move and split on opening hours only” functionality.
+
+###Split on open hours only
+Check Boolean **Split on open hours only**:
+
+![Planning Board Merge Split 02.jpg](./assets/Planning Board Merge Split02.jpg)
+
+If this option is enabled, a planning unit will only split around opening hours. If other planning units are already planned during that time, this unit will be placed at the same time and overlap those and not split around already planned units. Overlapping processes can then be rescheduled manually. This means that long term processes can be scheduled one after the other without having to change setup for other orders in between.
+
+Instead of enabling this field it is possible to use the keyboard shortcuts: 
+- "CTRL” key before dropping the unit. 
+- "Shift & CTRL" before dropping the unit will enable "Merge split with move and split on opening hours only” functionality.
+
+
 ### Dates
 
 ![Planning Board 32.jpg](./assets/Planning Board 32.jpg)
@@ -314,6 +337,21 @@ Hold the **CTRL** button and left-click on the capacities you want to select, th
 ![Planning Board 40.jpg](./assets/Planning Board 40.jpg)
 
 To remove the **Capacity Filter**, click the **Undo Capacity Filter** in the top menu.
+
+## Keyboard shortcuts
+The following shortcuts are available on the Planning Board for the selected capacity unit:
+| **Key / Key combination** | **Description** |
+| --- | --- |
+| **Shift + Click** | Lock / unlock capacity |
+| **Ctrl + Click** | Clear message |
+| **Shift + Drop** | Merge split with move functionality |
+| **Ctrl + Drop** | Split on opening hours only functionality |
+| **Shift + Ctrl & Drop** | Merge split with move AND split on opening hours only functionality |
+| **DoubleClick** | Open case card |
+| **Shift + DoubleClick** | Open case/job planning |
+| **Ctrl + DoubleClick** | Open case/job milestones |
+| **Shift + Ctrl & DoubleClick** | Open material requirements |
+| **Alt + DoubleClick** | View job ticket |
 
 ## PrintVis Planning Board Simulation
 
