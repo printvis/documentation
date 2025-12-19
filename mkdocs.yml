@@ -9,6 +9,7 @@ nav:
     - Setup overview: PrintVis/setup.md
     - General setup: PrintVis/generalsetup.md
     - User: PrintVis/user.md
+    - Feature Management: PrintVis/FeatureManagement.md
   - PrintVis usage:
     - Usage overview: PrintVis/index.md
     - Salesperson: PrintVis/sales.md
