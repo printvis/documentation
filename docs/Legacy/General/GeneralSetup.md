@@ -251,7 +251,7 @@ The PrintVis General Setup page allows the company to set a number of standard p
 
 ## Assisted setup
 
-![printvis General Setup 16.jpg\](./assets/printvis General Setup 16.jpg)
+![printvis General Setup 16.jpg](./assets/printvis General Setup 16.jpg)
 
 All settings are used to connect the current environment/company to import data from another environment for the **PrintVis Assisted Setup** and the function/action **Create from Reference Company**. Other setup than the default PrintVis RapidStart
 
@@ -272,7 +272,7 @@ All settings are used to connect the current environment/company to import data 
 
 The PVS RAPID Web Service must be setup and published in the company the data should be imported from.
 
-!\[printvis General Setup 17.jpg\](./assets/printvis General Setup 17.jpg)
+![printvis General Setup 17.jpg](./assets/printvis General Setup 17.jpg)
 
 Setup s web service by using Object type **Codeunit** and Object ID **6010159**. It is essential to call the Service Name **RapidStart**! Use the SOAP URL from that entry as **Webservice URL** in the environment to connect to this environment.
 
