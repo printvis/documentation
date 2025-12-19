@@ -257,7 +257,7 @@ All settings are used to connect the current environment/company to import data 
 
 | **Field** |     | **Description** |     |
 | --- |     | --- |     |
-| **Type** | PrintVis=Connects to the default PrintVis RapidStart environment, to import templates machines and other setup. No other field for setup are required/visible in this section.&lt;br&gt;<br><br>OnPrem= Select this option to connect to an OnPrem Business Central environment. &lt;br&gt;<br><br>Cloud= Select this option to connect to a Business Central Cloud environment. |     |
+| **Type** | PrintVis=Connects to the default PrintVis RapidStart environment, to import templates machines and other setup. No other field for setup are required/visible in this section.<br>OnPrem= Select this option to connect to an OnPrem Business Central environment.<br>Cloud= Select this option to connect to a Business Central Cloud environment. |     |
 | **Webservice URL** | Specifies the URL from the PVS RAPID Web Service, for the environment to connect to for data import. |     |
 | **Enable OAuth2** | Enable this field to connect to the web service via OAuth 2.0. .&lt;br&gt;The credentials fields below are changing based on the setting. Data is still stored in the related fields. |     |
 | **Username** | To specify the username to connect to the webservice. |     |
