@@ -86,56 +86,56 @@ The PrintVis General Setup page allows the company to set a number of standard p
 
 | Field | Description |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Folder Archive Status Code | Defines which Status Code is to perform the Archiving function of the system's Folders. |
-| Folder Archive New Status Code | Defines which Status Code is to perform the Archiving function of the system's Folders. |
-| Folder Archive Days Delayed | Defines the number of days to delay the moving of folder items to the archive locations. |
-| PrePress Job Template Usage | **Options:**<br> **Use Product Group Template**: If a prepress case (prepress job) is being created with a finished goods item attached, the template attached to the prepress status code is being copied for the new case/job, instead of the template that is attached to the finished goods item.<br> **Use Item Template**: If a prepress case (prepress job) is being created with a finished goods item attached, the template that is attached to the finished goods item is being copied for the new case/job. |
-| PrePress Job Quoted Price = 0 | If ticked, any automatically created PrintVis Case Card for an ESKO workflow PrePress job will be set to 0 in the field Quoted Price on the job line which is created. The requirement behind this was that some printing companies do not want to charge their customers for the initial one-up pdf creation or other prepress tasks at all. |
-| PrePress Product Group | Select the product group that is set up for prepress cases/jobs. |
-| Product Group Text | Description of the selected product group will be displayed. |
-| PrePress Status Code Order | Select the status code that is set up for prepress cases/jobs. |
-| PrePress Status Code Description | Description of the selected status code will be displayed. |
-| Gang Job Template | A general template for ganged jobs must be applied to use this function. When creating a combined order, the system will try to find a job template that fits the number of job items being combined. If such a template does not exist, the system will instead copy the case information from this "Gang Job Template" and add one sheet. The rest of the combined job will then have to be finalized manually. Since only the case header is used as a "dummy," it is common practice to also use the "Gang Job Template" case as a placeholder for the multiple template job. |
-| Gang Job Status Code | Select which status you wish new combined orders to have when created. A lookup will display the Status Codes Set up. |
-| Gang Job Order Type | Select which Order Type you wish Ganged Jobs to have when created. Only templates (jobs marked as templates) on cases with this Order Type will be suggested when creating a combined order. Templates could contain multiple jobs with different numbers of ganged job items, allowing the system to suggest the best-fit imposition based on the number of job items to be ganged. |
-| Gang Job Cost Allocation | **Options:**<br> **Equal**: As per number of Job Items. If 3 different Job Items are present, each will carry 1/3 of the occurred cost.<br> **Proportion of sheet**: As per how much space each Job Item takes up. If 3 different Job Items are present, taking up 25%, 25%, and 50%, the occurred cost will be divided accordingly.<br> **Index**: The division is to be decided individually from Job to Job, by simply applying an Index factor to each Job Item manually. |
+| **Folder Archive Status Code** | Defines which Status Code is to perform the Archiving function of the system's Folders. |
+| **Folder Archive New Status Code** | Defines which Status Code is to perform the Archiving function of the system's Folders. |
+| **Folder Archive Days Delayed** | Defines the number of days to delay the moving of folder items to the archive locations. |
+| **PrePress Job Template Usage** | **Options:**<br> **Use Product Group Template**: If a prepress case (prepress job) is being created with a finished goods item attached, the template attached to the prepress status code is being copied for the new case/job, instead of the template that is attached to the finished goods item.<br> **Use Item Template**: If a prepress case (prepress job) is being created with a finished goods item attached, the template that is attached to the finished goods item is being copied for the new case/job. |
+| **PrePress Job Quoted Price = 0** | If ticked, any automatically created PrintVis Case Card for an ESKO workflow PrePress job will be set to 0 in the field Quoted Price on the job line which is created. The requirement behind this was that some printing companies do not want to charge their customers for the initial one-up pdf creation or other prepress tasks at all. |
+| **PrePress Product Group** | Select the product group that is set up for prepress cases/jobs. |
+| **Product Group Text** | Description of the selected product group will be displayed. |
+| **PrePress Status Code Order** | Select the status code that is set up for prepress cases/jobs. |
+| **PrePress Status Code Description** | Description of the selected status code will be displayed. |
+| **Gang Job Template** | A general template for ganged jobs must be applied to use this function. When creating a combined order, the system will try to find a job template that fits the number of job items being combined. If such a template does not exist, the system will instead copy the case information from this "Gang Job Template" and add one sheet. The rest of the combined job will then have to be finalized manually. Since only the case header is used as a "dummy," it is common practice to also use the "Gang Job Template" case as a placeholder for the multiple template job. |
+| **Gang Job Status Code** | Select which status you wish new combined orders to have when created. A lookup will display the Status Codes Set up. |
+| **Gang Job Order Type** | Select which Order Type you wish Ganged Jobs to have when created. Only templates (jobs marked as templates) on cases with this Order Type will be suggested when creating a combined order. Templates could contain multiple jobs with different numbers of ganged job items, allowing the system to suggest the best-fit imposition based on the number of job items to be ganged. |
+| **Gang Job Cost Allocation** | **Options:**<br> **Equal**: As per number of Job Items. If 3 different Job Items are present, each will carry 1/3 of the occurred cost.<br> **Proportion of sheet**: As per how much space each Job Item takes up. If 3 different Job Items are present, taking up 25%, 25%, and 50%, the occurred cost will be divided accordingly.<br> **Index**: The division is to be decided individually from Job to Job, by simply applying an Index factor to each Job Item manually. |
 
 ## Job Costing
 
 ![printvis General Setup 5.jpg](./assets/printvis General Setup 5.jpg)
 
-| Field | Description |
+| **Field** | **Description** |
 |---|---|
-| Location Production Released | When production is ended on an order and the goods are ready to ship, there still may be a surplus of material (paper) which was not consumed on the order. This field can be used to pick which location the items on the shop floor should have upon release of the material from reservation to the order just ended. This plays into the different options to set up location on shop floor per machine as well. |
-| Auto Job Costing Journal | Auto Job Costing Journal relates to the "Code" field in table "Job Costing Journal". The Auto Job Costing Journal can be selected from the Job Costing Journal table. The journal picked here will be used for automatic posting of time and material to orders when the order has ended production. Whether or not items are posted automatically is decided on the Unit of Measure on material and time calculation lines in the estimate. |
-| Job Cost. Hour Unit Cost | This field can be used for a more refined job costing based on efficiency. It can change the cost calculation (and thereby suggested sales price).<br>• **Default**: Normal situation, using the time rates as they appear on the cost center.<br>• **Weighted**: The time recorded is weighed against the efficiency set up on the user. For example, if the user is a trainee, the efficiency may be 50% and the time of 4 hours recorded may be turned into 2 hours for costing.<br>• **Actual**: Using the hours as recorded but factoring in any overtime as set up on the unit of measure, which was used for the recording which may give a more expensive costing. |
-| Dim1 Job Costing Mandatory | Tick this field if a Dimension 1 value is created and it is mandatory for costing to use a value. This requires careful setup in the system to avoid error messages on the shop floor. |
-| Dim1 Job Costing Principle | If setting is made to make the job costing mandatory, this field will help get the right value in the field.<br>• **Manual**: The user should put a manual value on each line or rely on system setup.<br>• **Case**: The value is automatically copied from the Dimension 1 field on the case card.<br>• **Department**: The value is taken from the department of the cost center used for this line.<br>• **User Department**: The value is always taken from the user setup, department field. |
-| Def. UoM Paper | Default Unit of Measure is set here for defaulting if the unit is required in a page or function and is not available from the item card. This function can also be used to ensure that even if a single Paper-Item does not have a Unit of Measure attached, this default setup will automatically apply. |
-| Def. UoM Plates | Default Unit of Measure is set here for defaulting if the unit is required in a page or function and is not available from the item card. Should a Plate Item No. not have a Unit of Measure, the selected Unit will be applied as default. |
-| Def. UoM Film | Default Unit of Measure is set here for defaulting if the unit is required in a page or function and is not available from the item card. Should a Film Item No. not have a Unit of Measure, the selected Unit will be applied as default. |
-| Def. UoM Die | Default Unit of Measure is set here for defaulting if the unit is required in a page or function and is not available from the item card. Should a Die Item No. not have a Unit of Measure, the selected Unit will be applied as default. |
-| UoM Slack Time | Slack Time is the time where a production machine is not working (during a lunch break or in between active jobs). If using electronic job ticket for time recording, the system can default a unit of measure to the slack time, so it builds up for statistical purposes such as an efficiency rate for individual machines. The Action "Slack time" in the "Job Costing Worksheet" will insert a time registration from when the last entry has stopped until current time. If no unit of measure is stated, the function will not do anything. |
+| **Location Production Released** | When production is ended on an order and the goods are ready to ship, there still may be a surplus of material (paper) which was not consumed on the order. This field can be used to pick which location the items on the shop floor should have upon release of the material from reservation to the order just ended. This plays into the different options to set up location on shop floor per machine as well. |
+| **Auto Job Costing Journal** | Auto Job Costing Journal relates to the "Code" field in table "Job Costing Journal". The Auto Job Costing Journal can be selected from the Job Costing Journal table. The journal picked here will be used for automatic posting of time and material to orders when the order has ended production. Whether or not items are posted automatically is decided on the Unit of Measure on material and time calculation lines in the estimate. |
+| **Job Cost. Hour Unit Cost** | This field can be used for a more refined job costing based on efficiency. It can change the cost calculation (and thereby suggested sales price).<br>• **Default**: Normal situation, using the time rates as they appear on the cost center.<br>• **Weighted**: The time recorded is weighed against the efficiency set up on the user. For example, if the user is a trainee, the efficiency may be 50% and the time of 4 hours recorded may be turned into 2 hours for costing.<br>• **Actual**: Using the hours as recorded but factoring in any overtime as set up on the unit of measure, which was used for the recording which may give a more expensive costing. |
+| **Dim1 Job Costing Mandatory** | Tick this field if a Dimension 1 value is created and it is mandatory for costing to use a value. This requires careful setup in the system to avoid error messages on the shop floor. |
+| **Dim1 Job Costing Principle** | If setting is made to make the job costing mandatory, this field will help get the right value in the field.<br>• **Manual**: The user should put a manual value on each line or rely on system setup.<br>• **Case**: The value is automatically copied from the Dimension 1 field on the case card.<br>• **Department**: The value is taken from the department of the cost center used for this line.<br>• **User Department**: The value is always taken from the user setup, department field. |
+| **Def. UoM Paper** | Default Unit of Measure is set here for defaulting if the unit is required in a page or function and is not available from the item card. This function can also be used to ensure that even if a single Paper-Item does not have a Unit of Measure attached, this default setup will automatically apply. |
+| **Def. UoM Plates** | Default Unit of Measure is set here for defaulting if the unit is required in a page or function and is not available from the item card. Should a Plate Item No. not have a Unit of Measure, the selected Unit will be applied as default. |
+| **Def. UoM Film** | Default Unit of Measure is set here for defaulting if the unit is required in a page or function and is not available from the item card. Should a Film Item No. not have a Unit of Measure, the selected Unit will be applied as default. |
+| **Def. UoM Die** | Default Unit of Measure is set here for defaulting if the unit is required in a page or function and is not available from the item card. Should a Die Item No. not have a Unit of Measure, the selected Unit will be applied as default. |
+| **UoM Slack Time** | Slack Time is the time where a production machine is not working (during a lunch break or in between active jobs). If using electronic job ticket for time recording, the system can default a unit of measure to the slack time, so it builds up for statistical purposes such as an efficiency rate for individual machines. The Action "Slack time" in the "Job Costing Worksheet" will insert a time registration from when the last entry has stopped until current time. If no unit of measure is stated, the function will not do anything. |
 
 ## Invoicing
 
 ![printvis General Setup 6.jpg](./assets/printvis General Setup 6.jpg)
 
-| Field                          | Description |
+| **Field**                          | **Description** |
 |--------------------------------|-------------|
-| General Journal Templates      | Specifies which General Journal Template is used for posting invoice lines. |
-| General Journal                | Specifies which General Journal Batch is used for posting invoice. |
-| Dimension Allocation on Post   | When invoicing a customer with a single charge line, the system can be set up to allocate that turnover and re-post according to the dimensions, meaning you will be able to see the exact split of the turnover in your General Ledger after this automated re-posting. |
+| **General Journal Templates**      | Specifies which General Journal Template is used for posting invoice lines. |
+| **General Journal**                | Specifies which General Journal Batch is used for posting invoice. |
+| **Dimension Allocation on Post**   | When invoicing a customer with a single charge line, the system can be set up to allocate that turnover and re-post according to the dimensions, meaning you will be able to see the exact split of the turnover in your General Ledger after this automated re-posting. |
 
 ## Posting
 
 ![printvis General Setup 7.jpg](./assets/printvis General Setup 7.jpg)
 
-| Field                   | Description |
+| **Field**                   | **Description** |
 |-------------------------|-------------|
-| Location Code Mandatory | Here you can specify whether items must have a location code in the order to be posted. Tick the field on if you want the program to require a location code when posting item-related transactions. (NOTE: please use NAV setup: "Inventory Setup - field 'Location Mandatory'"). |
-| Lock Archive Date       | If this field is ticked, the Archiving Date on the Case Card will not be editable or changeable after its first value. |
-| Explode BOM on Posting  | Setup to decide if the BOM is expanded on posting. Two options: <br> **Explode** - Expand the BOM <br> **Do not explode** - Does not expand the BOM. |
+| **Location Code Mandatory** | Here you can specify whether items must have a location code in the order to be posted. Tick the field on if you want the program to require a location code when posting item-related transactions. (NOTE: please use NAV setup: "Inventory Setup - field 'Location Mandatory'"). |
+| **Lock Archive Date**       | If this field is ticked, the Archiving Date on the Case Card will not be editable or changeable after its first value. |
+| **Explode BOM on Posting**  | Setup to decide if the BOM is expanded on posting. Two options: <br> **Explode** - Expand the BOM <br> **Do not explode** - Does not expand the BOM. |
 
 ## Logistics
 
@@ -211,6 +211,7 @@ The PrintVis General Setup page allows the company to set a number of standard p
 
 | **Field**                              | **Description**                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Merge Fields Language**               | Specifies the base language for Merge code creation.                                                                                                                                                                                                                     |
 | **Rounding Type**                       | Impacts how the Quoted Price on the Job line is rounded. Options: No Rounding, Up, Down, Nearest.                                                                                                                                                                                                                     |
 | **Rounding Precision**                  | Impacts the Quoted Price field on the Job card in cooperation with the Rounding Type field.                                                                                                                                                                                                                           |
 | **PrintVis Assisted Setup Webservice URL** | URL for connecting to PrintVis Assisted Setup. Two options based on units: Imperial Units: `http://rapidstart.printvis.com:7040/DynamicsNAV/WS/PRIME%203%20US/Codeunit/RapidStart` or Metric Units: `http://rapidstart.printvis.com:7040/DynamicsNAV/WS/PRIME%203/Codeunit/RapidStart`.                                |
@@ -247,8 +248,38 @@ The PrintVis General Setup page allows the company to set a number of standard p
 | **Queue Category Code**              | Relates to the "Code" field in the "Job Queue Category" table. The Cloud Queue Category Code can be selected from the Job Queue Category table.                                                        |
 | **Notify on Success**                | Specifies whether a success log line should be created if cloud processing has been executed successfully.                                                                                              |
 | **Skip Background Processing**       | Specifies whether the system should perform some functions as background processes, allowing the user to continue working (e.g., while case folders are created or status codes are moved).               |
-| **Enable OAuth2**                    | Enables OAuth2 authentication.                                                                                                                                                                           |
-| **Application (client) ID**          | The unique ID for the application used in OAuth2 authentication.                                                                                                                                         |
-| **Client Secret**                    | The secret key for the client used in OAuth2 authentication.                                                                                                                                             |
-| **Redirect URI**                     | The URI to which the user will be redirected after successful OAuth2 authentication.                                                                                                                   |
-| **Authorization Endpoint**           | The endpoint used for OAuth2 authorization.                                                                                                                                                               |
+
+## Assisted setup
+
+![printvis General Setup 16.jpg\](./assets/printvis General Setup 16.jpg)
+
+All settings are used to connect the current environment/company to import data from another environment for the **PrintVis Assisted Setup** and the function/action **Create from Reference Company**. Other setup than the default PrintVis RapidStart
+
+| **Field** |     | **Description** |     |
+| --- |     | --- |     |
+| **Type** | PrintVis=Connects to the default PrintVis RapidStart environment, to import templates machines and other setup. No other field for setup are required/visible in this section.&lt;br&gt;<br><br>OnPrem= Select this option to connect to an OnPrem Business Central environment. &lt;br&gt;<br><br>Cloud= Select this option to connect to a Business Central Cloud environment. |     |
+| **Webservice URL** | Specifies the URL from the PVS RAPID Web Service, for the environment to connect to for data import. |     |
+| **Enable OAuth2** | Enable this field to connect to the web service via OAuth 2.0. .&lt;br&gt;The credentials fields below are changing based on the setting. Data is still stored in the related fields. |     |
+| **Username** | To specify the username to connect to the webservice. |     |
+| **Password** | To specify the password or Web Service Access Key to connect to the web service. |     |
+| **Application (client) ID** | Tor specify the application (client) ID from the registration in Microsoft Entra ID. |     |
+| **Client Secret** | Click the three-dot button to enter a new client secret, generated in Microsoft Entra ID. |     |
+| **Tenant ID** | To specify the Directory (tenant) ID from the registration in Microsoft Entra ID. |     |
+| **Authorization Endpoint** | The Authorization Endpoint is being generated from a default URL and the tenant ID that was entered. |     |
+| **Redirect URI** | This field is pre-filled with the landing page for Business Central. |     |
+
+**Where to find the webservice URL?**
+
+The PVS RAPID Web Service must be setup and published in the company the data should be imported from.
+
+!\[printvis General Setup 17.jpg\](./assets/printvis General Setup 17.jpg)
+
+Setup s web service by using Object type **Codeunit** and Object ID **6010159**. It is essential to call the Service Name **RapidStart**! Use the SOAP URL from that entry as **Webservice URL** in the environment to connect to this environment.
+
+## Activate PrintVis Features
+
+In this section PrintVis features can be activated/disabled.
+
+| **Field** | **Description** |
+| --- | --- |
+| **Use feature Sales Order Integration** | This enables the PrintVis Sales Order Integration on the Business Central sales order page, to create PrintVis cases and job directly from a sales line. |
