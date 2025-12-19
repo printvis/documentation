@@ -255,18 +255,18 @@ The PrintVis General Setup page allows the company to set a number of standard p
 
 All settings are used to connect the current environment/company to import data from another environment for the **PrintVis Assisted Setup** and the function/action **Create from Reference Company**. Other setup than the default PrintVis RapidStart
 
-| **Field** |     | **Description** |     |
-| --- |     | --- |     |
-| **Type** | PrintVis=Connects to the default PrintVis RapidStart environment, to import templates machines and other setup. No other field for setup are required/visible in this section.<br>OnPrem= Select this option to connect to an OnPrem Business Central environment.<br>Cloud= Select this option to connect to a Business Central Cloud environment. |     |
-| **Webservice URL** | Specifies the URL from the PVS RAPID Web Service, for the environment to connect to for data import. |     |
-| **Enable OAuth2** | Enable this field to connect to the web service via OAuth 2.0. .&lt;br&gt;The credentials fields below are changing based on the setting. Data is still stored in the related fields. |     |
-| **Username** | To specify the username to connect to the webservice. |     |
-| **Password** | To specify the password or Web Service Access Key to connect to the web service. |     |
-| **Application (client) ID** | Tor specify the application (client) ID from the registration in Microsoft Entra ID. |     |
-| **Client Secret** | Click the three-dot button to enter a new client secret, generated in Microsoft Entra ID. |     |
-| **Tenant ID** | To specify the Directory (tenant) ID from the registration in Microsoft Entra ID. |     |
-| **Authorization Endpoint** | The Authorization Endpoint is being generated from a default URL and the tenant ID that was entered. |     |
-| **Redirect URI** | This field is pre-filled with the landing page for Business Central. |     |
+| **Field** | **Description** |
+| --- | --- |
+| **Type** | PrintVis=Connects to the default PrintVis RapidStart environment, to import templated machines and other setup. No other fields for setup are required/visible in this section.<br><br>OnPrem= Select this option to connect to an OnPrem Business Central environment.<br><br>Cloud= Select this option to connect to a Business Central Cloud environment. |
+| **Webservice URL** | Specifies the URL from the PVS RAPID Web Service, for the environment to connect to for data import. |
+| **Enable OAuth2** | Enable this field to connect to the web service via OAuth 2.0. .&lt;br&gt;The credentials fields below are changing based on the setting. Data is still stored in the related fields. |
+| **Username** | To specify the username to connect to the webservice. |
+| **Password** | To specify the password or Web Service Access Key to connect to the web service. |
+| **Application (client) ID** | Tor specify the application (client) ID from the registration in Microsoft Entra ID. |
+| **Client Secret** | Click the three-dot button to enter a new client secret, generated in Microsoft Entra ID. |
+| **Tenant ID** | To specify the Directory (tenant) ID from the registration in Microsoft Entra ID. |
+| **Authorization Endpoint** | The Authorization Endpoint is being generated from a default URL and the tenant ID that was entered. |
+| **Redirect URI** | This field is pre-filled with the landing page for Business Central. |
 
 **Where to find the webservice URL?**
 
