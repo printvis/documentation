@@ -47,19 +47,21 @@ Farthest to the right, the Normal Calculation and the Actual Job Costing are com
 | 1            | Quoted Price/Invoiced         | Offered Price from Quote / Order line. The invoice amount is shown after posting the invoice.       |
 | 2            | Estimated Sales Price         | Calculated price including profit.                                                                  |
 | 3            | Direct Cost: Materials        | Material Costs without surcharge.                                                                   |
-| 4            | Direct Cost: Sub Contracting  | Outwork/Sub-contracting Costs without surcharge.                                                    |
-| 5            | Contribution Margin 1         | Result of line No.: 1 - 3 - 4                                                                        |
-| 6            | Direct Cost: Hours            | Sum of direct costs (from Direct Cost setup at Cost Center rates per hour).                         |
-| 7            | Direct Cost Total             | Result of line No.: 6 + 3 + 4                                                                        |
-| 8            | Contribution Margin 2         | Result of line No.: 1 - 3 - 4 - 6                                                                    |
-| 9            | Total Cost                    | Line No. 6 + Overhead                                                                               |
-| 10           | Profit                        | Result of line No.: 1 - 9                                                                           |
-| 11           | Profit Ratio                  |                                                                                                     |
-| 12           | Total Hours                   | Sum of total hours                                                                                  |
-| 13           | Error, Cost Price             | Sum internal extra work direct costs                                                                |
-| 14           | Error, Price                  | Sum internal extra work sales price (12 + surcharge + profit)                                       |
-| 15           | Extra Work, Cost              | Sum customer extra work direct costs                                                                |
-| 16           | Extra Work, Sales Price       | Sum customer extra work sales price (15 + surcharge + profit)                                       |
+| 4            | Expected Cost: Materials        | Order material cost from pending invoice amounts.                                                      |
+| 5            | Direct Cost: Sub Contracting  | Outwork/Sub-contracting Costs without surcharge.                                                    |
+| 6            | Expected Cost: Sub Contracting | Outwork/Sub-contracting Costs from pending invoice amounts.                                        |
+| 7            | Contribution Margin 1         | Result of line No.: 1 - 3 - 4                                                                       |
+| 8            | Direct Cost: Hours            | Sum of direct costs (from Direct Cost setup at Cost Center rates per hour).                         |
+| 9            | Direct Cost Total             | Result of line No.: 6 + 3 + 4                                                                       |
+| 10           | Contribution Margin 2         | Result of line No.: 1 - 3 - 4 - 6                                                                   |
+| 11           | Total Cost                    | Line No. 6 + Overhead                                                                               |
+| 12           | Profit                        | Result of line No.: 1 - 9                                                                           |
+| 13           | Profit Ratio                  | Profit in percent                                                                                   |
+| 14           | Total Hours                   | Sum of total hours                                                                                  |
+| 15           | Error, Cost Price             | Sum internal extra work direct costs                                                                |
+| 16           | Error, Price                  | Sum internal extra work sales price (12 + surcharge + profit)                                       |
+| 17           | Extra Work, Cost              | Sum customer extra work direct costs                                                                |
+| 18           | Extra Work, Sales Price       | Sum customer extra work sales price (15 + surcharge + profit)                                       |
 
 
 
