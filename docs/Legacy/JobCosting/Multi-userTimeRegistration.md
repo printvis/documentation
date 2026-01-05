@@ -7,8 +7,19 @@ Most of the time there is a **single user** clocked into a **single Cost Center*
 However, there are scenarios where **multiple users** (helpers) record time on the same Cost Center and job.  
 With increased labor, the **labor cost increases**. This article discusses how to handle that scenario, including setup and examples.
 
+There are two options available:
+- **Option 1**: Each user / helper is clocking into the same Cost Center, same job, and at the same time. This option is used if wanting to keep track of each user that is registering time on the job. It will require that each user has a log in.
+- **Option 2**: The main production worker records time on the Cost Center and job using unit of measure setup for 1 helper, 2 helpers, etc. This option is used if having seasonal helpers and not wanting to keep track of each specific user clocking registering time on the job but still wanting to keep track of cost and time recorded on a job.
 
-## Setup
+## Setup Option 1
+
+Only setup that is required is that each user that will be clocking into the cost center / jobs. Each user will need to have their own job costing journal as well (even if it is just having that individual job costing journal passing time registration / item posting to a manager journal to be posted).
+
+With the setup above, each user will be able to clock into the same job, on the same cost center, and at the same time. Each user can clock into the same Unit of Measure, or different Unit of Measures on the job, depending on the requirements for the job.
+
+
+## Setup Option 2
+
 
 Several areas require setup:
 
