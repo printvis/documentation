@@ -14,7 +14,7 @@ There are two options available:
 
 ## Setup Option 1
 
-Only setup that is required is that each user that will be clocking into the cost center / jobs. Each user will need to have their own job costing journal as well (even if it is just having that individual job costing journal passing time registration / item posting to a manager journal to be posted).
+Only setup that is required is that each user that will be clocking into the cost center / jobs. **Each user will need to have their own job costing journal** as well (even if it is just having that individual job costing journal passing time registration / item posting to a manager journal to be posted).
 
 With the setup above, each user will be able to clock into the same job, on the same cost center, and at the same time. Each user can clock into the same Unit of Measure, or different Unit of Measures on the job, depending on the requirements for the job.
 
