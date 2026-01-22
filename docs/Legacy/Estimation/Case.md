@@ -61,14 +61,14 @@ F.  **Invoicing tab with basic information from Customer **
 
 G.  **Fact boxes with overview information about the case and project:**
 
-H.  ![Image](./assets/case7.png) 
+    ![Image](./assets/case7.png) 
     ![Image](./assets/case8.png)
     ![Image](./assets/case9.png)
 
-G. **Shipment Foreign Trade Group with some information about Foreign Shipments.** 
+H. **Shipment Foreign Trade Group with some information about Foreign Shipments.** 
     ![Image](./assets/case10.png)
 
-H. **Info Tab with some additional information about the case:** 
+I. **Info Tab with some additional information about the case:** 
     ![Image](./assets/case11.png)
 
 ## Case Menu
@@ -252,3 +252,4 @@ disappear from the list before you have solved it and sent it on in the
 Case flow. This is a critical component of a print company's success --
 to ensure the print job production flow is organized and job information
 is immediately accessible to each responsible party.
+
