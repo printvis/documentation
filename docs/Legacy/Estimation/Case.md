@@ -39,12 +39,11 @@ B.  **General tab (some main case information like customer,
 
 C.  **Jobs (see Job Line menu / fields)**
 
-D.  **Case description (Internal notes and divided by departments) **
+D.  **Case description (Internal notes and divided by departments)**
+
     ![Image](./assets/case4.png)
 
-E.  **This section is a Rich Text Editor with the ability to write
-    continuous text with word wrapping and formatting options assigned
-    to the departments.**
+    **This section is a Rich Text Editor with the ability to write continuous text with word wrapping and formatting options assigned to the departments.**
 
     This text information is available on the case card and the shop
     floor.
@@ -56,12 +55,12 @@ E.  **This section is a Rich Text Editor with the ability to write
     - Show a "Shop Floor Summary" which are all texts (line based) that
     has been entered from the shop floor staff.
 
-F.  **Invoicing tab with basic information from Customer **
+E.  **Invoicing tab with basic information from Customer **
     ![Image](./assets/case6.png)
 
-G.  **Fact boxes with overview information about the case and project:**
+F.  **Fact boxes with overview information about the case and project:**
 
-H.  ![Image](./assets/case7.png) 
+    ![Image](./assets/case7.png) 
     ![Image](./assets/case8.png)
     ![Image](./assets/case9.png)
 
@@ -252,3 +251,5 @@ disappear from the list before you have solved it and sent it on in the
 Case flow. This is a critical component of a print company's success --
 to ensure the print job production flow is organized and job information
 is immediately accessible to each responsible party.
+
+
