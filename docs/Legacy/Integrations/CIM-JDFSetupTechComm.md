@@ -19,7 +19,7 @@ the controllers/devices correctly!
 Additionally calculation data must be linked to specific values from the
 JDF CIP4 definition. Please find further information in the [PrintVis
 JDF Setup for Data
-Integration](https://learn.printvis.com/Legacy/Integrations/CIMSetupData) article.
+Integration](https://learn.printvis.com/Legacy/Integrations/CIM-JDFSetupData/) article.
 
 JDF Vendor Experience Overview
 
