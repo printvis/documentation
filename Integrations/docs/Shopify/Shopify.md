@@ -16,9 +16,13 @@ standard functionality. The integration consists of two main steps:
 Here is the flow of information from Shopify to PrintVis:
 
 Shopify Order
+
         ↓
+
 Business Central Sales Order (via Shopify Connector)
+
         ↓
+        
 PrintVis Case (via Template + Auto Create Case)
 
 ## Step 1: Connect Shopify to Business Central
