@@ -21,7 +21,8 @@ nav:
     - LoyaltyLoop overview: LoyaltyLoop/LLoverview.md
     - LoyaltyLoop setup: LoyaltyLoop/llsetup.md
     - LoyaltyLoop usage: LoyaltyLoop/llusage.md
-    
+  - Shopify:
+    - Shopify setup: Shopify/Shopify.md
 theme:
   name: material
   features:
