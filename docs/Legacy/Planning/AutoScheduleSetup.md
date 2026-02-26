@@ -53,5 +53,6 @@ To create or edit a specific auto scheduling scenario, select it and click "Deta
 | **Ruleset**            | The assigned ruleset for the capacity unit (via the capacity group setup).                                                      |
 | **Direction of Planning** | Sets the scheduling direction (From Start or From End). "From End" places units closer to the press run.                       |
 | **Direct Planning**    | When checked, plans the capacity unit ignoring the earliest start date/time and places units in priority order.                 |
+| **Always respect priority**    | When checked, plans the capacity units in priority order. Even though there is a gap big enough to fit a planning unit with a higher priority it will still put it after a lower priority unit.                 |
 
 After configuring the Auto Scheduling Detail page, the auto scheduling scenarios can be utilized on the Planning Board or Production Plan page.
