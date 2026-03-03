@@ -1,7 +1,7 @@
 # PrintVis Credit Limit Check
 
 The credit limit is always checked if any changes are made in the **Bill-To** field, and you will receive a warning if it changes to a customer with an exceeded credit limit. <br>
-_Please note_: Also selection/changing the customer is changing the **Bill-To** field!
+_Please note_: Also selecting/changing the customer is changing the **Bill-To** field!
 
 ![CreditLimitCheck01-CaseBillTo.png](./assets/CreditLimitCheck01-CaseBillTo.png)
 
