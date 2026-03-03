@@ -9,6 +9,7 @@ nav:
     - Setup overview: PrintVis/setup.md
     - General setup: PrintVis/generalsetup.md
     - User: PrintVis/user.md
+    - Credit Limit Check: PrintVis/PrintVisCreditLimitCheck.md
     - Feature Management: PrintVis/FeatureManagement.md
   - PrintVis usage:
     - Usage overview: PrintVis/index.md
