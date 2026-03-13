@@ -381,4 +381,4 @@ For an Offset Press for example, most likely only one job and one task can be pe
 However, in a PrePress department for example, multiple tasks may be progressing at the same time, and several people may work on the same job simultaneously.
 
 
-As the setting is set to 2 or more, the system now supports these tasks to start and stop individually — and even if someone presses 'Job Complete' while another person is still working on the job, it will not be marked as completed as long as someone is recording time against the Planning Unit.
+As the setting is set to 2 or more, the system now supports these tasks to start and stop individually — and even if someone presses 'Job Complete' while another person is still working on the job, it will not be marked as completed as long as someone is recording time against the Planning Unit.  
