@@ -10,21 +10,20 @@ handling for example:
 
 -   Communication between PrintVis and the PrintVis DCM/Moxa integration
 
-PrintVis Link was formerly known as PrintVis External Communication
-Service
 
-The CIM Setup should be done first before even starting to setup the
-PrintVis Link.
+
 
 To be able to use all functionality make sure the **PrintVis CIM app** is installed in BC and the field **Allow HttpClient Requests** is enabled. This is required for the app to be able to perfom HTTP requests; This option is by default disabled in a sandbox environment and must be manually enabled each time the app is installed!
 
 ![PrintVis CIM App](./assets/PVLink-CIMApp1.png)
 
+The CIM Setup should be done first before even starting to setup the
+PrintVis Link.
 
-Important fields to setup:  
-JMF Channel Port  
-HTTP Listener Port  
-HTTP Status Port  
+> Important fields to setup:  
+> - JMF Channel Port  
+> - HTTP Listener Port  
+> - HTTP Status Port  
   
 In case when the field **Disable Scheduler in PrintVis Link** is enabled
 then the field:  
