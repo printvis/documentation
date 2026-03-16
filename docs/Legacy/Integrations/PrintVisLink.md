@@ -10,12 +10,14 @@ handling for example:
 
 -   Communication between PrintVis and the PrintVis DCM/Moxa integration
 
-
+### CIM app
 
 
 To be able to use all functionality make sure the **PrintVis CIM app** is installed in BC and the field **Allow HttpClient Requests** is enabled. This is required for the app to be able to perfom HTTP requests; This option is by default disabled in a sandbox environment and must be manually enabled each time the app is installed!
 
 ![PrintVis CIM App](./assets/PVLink-CIMApp1.png)
+
+### CIM Setup
 
 The CIM Setup should be done first before even starting to setup the
 PrintVis Link.
@@ -55,6 +57,10 @@ Scheduler in PrintVis Link":
     -   This is only recommended in On Premises installations 
 
     -   Recommended to be protected by a firewall or a VPN
+
+### PrintVis Link
+
+Download the PrintVis Link installer, install on a server; *Typically* this is in the internal network.
 
 Credential types:
 
