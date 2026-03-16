@@ -16,6 +16,11 @@ Service
 The CIM Setup should be done first before even starting to setup the
 PrintVis Link.
 
+To be able to use all functionality make sure the **PrintVis CIM app** is installed in BC and the field **Allow HttpClient Requests** is enabled. This is required for the app to be able to perfom HTTP requests; This option is by default disabled in a sandbox environment and must be manually enabled each time the app is installed!
+
+![PrintVis CIM App](./assets/PVLink-CIMApp1.png)
+
+
 Important fields to setup:  
 JMF Channel Port  
 HTTP Listener Port  
