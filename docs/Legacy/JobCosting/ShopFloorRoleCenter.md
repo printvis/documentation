@@ -211,6 +211,7 @@ Users record time against a plan unit.
 
 Tiles are another way users can start/stop time registrations. The electronic job ticket is limited to 20 UOM tiles without customization.
 
+The number in the tiles show the amount of time that has been recorded for that planning unit on that cost center for that unit of measure. The number in the \*\*Stop Job\*\* and \*\*Complete Job\*\* tiles show the amount of time spent on all units of measure for that planning unit on that cost center.
 
 #### Case Description
 
