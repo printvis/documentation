@@ -16,22 +16,17 @@ The clock in/out area allows shop floor workers (registration or full PrintVis u
 ![Shop Floor Role Center 2.jpg](./assets/Shop Floor Role Center 2.jpg)
 
 
-| \*\*Action\*\*            | \*\*Description\*\*                                                                                                                                      |
-
+| **Action**            | **Description**                                                                                                                                      |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-
 | Clock In              | Enter the user-ID, password (if applicable), and cost center. Click OK to clock in.                                                                 |
-
 | Clock Out             | The selected user will be clocked out when the user clicks OK. (Password required when applicable).                                                 |
-
 | Select this user      | The bold user is the active shop floor clocked in. If you select another user and click this option, it will switch that user to the active user.   |
-
 | Change Cost Center    | A different cost center can be selected for the active user.                                                                                         |
 
 
 ### Activities
 
-The activities area shows the active shop floor user and cost center, the number of planning units scheduled on the cost center, \*\*Load Order\*\* field to scan or type an order number, and \*\*Indirect time recording\*\* options for this cost center.
+The activities area shows the active shop floor user and cost center, the number of planning units scheduled on the cost center, **Load Order** field to scan or type an order number, and **Indirect time recording** options for this cost center.
 
 
 ![Shop Floor Role Center 3.jpg](./assets/Shop Floor Role Center 3.jpg)
@@ -40,7 +35,7 @@ The activities area shows the active shop floor user and cost center, the number
 #### Tiles
 
 
-The \*\*Today\*\* and \*\*All\*\* tiles will load the list of planning units in a planning status scheduled either today or all units in plan status for the cost center. By default, the opening page will be displayed as a list, but the user can switch to tiles using the standard list option in the upper right corner.
+The **Today** and **All** tiles will load the list of planning units in a planning status scheduled either today or all units in plan status for the cost center. By default, the opening page will be displayed as a list, but the user can switch to tiles using the standard list option in the upper right corner.
 
 
 ![Shop Floor Role Center 4.jpg](./assets/Shop Floor Role Center 4.jpg)
@@ -54,26 +49,26 @@ The \*\*Today\*\* and \*\*All\*\* tiles will load the list of planning units in 
 
 #### Load Order
 
-When using the \*\*Load Order\*\* field, a barcode scanner set to \*tab\* or \*CR after entry\* can scan the order number on the top of our job ticket and load the electronic ticket for this order.
+When using the **Load Order** field, a barcode scanner set to *tab* or *CR after entry* can scan the order number on the top of our job ticket and load the electronic ticket for this order.
 
 #### Indirect Tiles
 
-Indirect time options are setup on the cost center. These are used for recording time on \*\*non-job related tasks\*\*.
+Indirect time options are setup on the cost center. These are used for recording time on **non-job related tasks**.
 
 
 ![Shop Floor Role Center 6.jpg](./assets/Shop Floor Role Center 6.jpg)
 
 
-The numbers in the tile show the amount of time that has been recorded for that indirect time for the day. The number in the \*\*Stop Job\*\* tile shows the amount of time spent on all indirect time for the day.
+The numbers in the tile show the amount of time that has been recorded for that indirect time for the day. The number in the **Stop Job** tile shows the amount of time spent on all indirect time for the day.
 
 
 ### Started
 
 
-The \*\*Started\*\* area shows the currently started time recordings.
+The **Started** area shows the currently started time recordings.
 
 
-Clicking the down arrow next to \*\*Started\*\* allows you to switch between:
+Clicking the down arrow next to **Started** allows you to switch between:
 
 - User  
 
@@ -93,7 +88,7 @@ This menu also allows you to load the selected Shop Floor electronic job ticket.
 
 ### Menu Actions
 
-There are several actions from the \*\*Shop Floor Role Center\*\*.
+There are several actions from the **Shop Floor Role Center**.
 
 
 #### Worksheet
@@ -101,7 +96,7 @@ There are several actions from the \*\*Shop Floor Role Center\*\*.
 
 The worksheet allows the user to review and post non-posted time recordings.  
 
-Used when the \*\*Cost Center Shop Floor Posting\*\* setting is \*\*not\*\* set to Real-time.
+Used when the **Cost Center Shop Floor Posting** setting is **not** set to Real-time.
 
 
 ![Shop Floor Role Center 8.jpg](./assets/Shop Floor Role Center 8.jpg)
@@ -109,15 +104,15 @@ Used when the \*\*Cost Center Shop Floor Posting\*\* setting is \*\*not\*\* set 
 
 #### Indirect Hours
 
-Similar to the worksheet, the \*\*Indirect Hours\*\* page allows review and posting of non-posted indirect hours.
+Similar to the worksheet, the **Indirect Hours** page allows review and posting of non-posted indirect hours.
 
 
 #### Time Recordings
 
 
-This page allows users to review their \*\*posted time recordings\*\*.  
+This page allows users to review their **posted time recordings**.  
 
-If the \*\*PrintVis User\*\* has the \*\*Allow Edit Time Recordings\*\* checkbox enabled, they can edit:
+If the **PrintVis User** has the **Allow Edit Time Recordings** checkbox enabled, they can edit:
 
 
 - Hours  
@@ -127,9 +122,9 @@ If the \*\*PrintVis User\*\* has the \*\*Allow Edit Time Recordings\*\* checkbox
 - Stop date/time  
 
 
-Editing the \*\*hours\*\* field adjusts the end date/time.  
+Editing the **hours** field adjusts the end date/time.  
 
-Editing \*\*start/stop date/time\*\* fields adjusts the hours.
+Editing **start/stop date/time** fields adjusts the hours.
 
 
 ![Shop Floor Role Center 9.jpg](./assets/Shop Floor Role Center 9.jpg)
@@ -152,7 +147,7 @@ Allows users to see cost centers and their status, including:
 - Operator  
 
 
-More info: \*See the Cost Center Monitor List article\*.
+More info: *See the Cost Center Monitor List article*.
 
 
 ![Shop Floor Role Center 10.jpg](./assets/Shop Floor Role Center 10.jpg)
@@ -163,7 +158,7 @@ More info: \*See the Cost Center Monitor List article\*.
 
 Lets users see the current zone and storage location of all production labels and where they need to move next.  
 
-More info: \*See the Production Tracking article\*.
+More info: *See the Production Tracking article*.
 
 
 ![Shop Floor Role Center 11.jpg](./assets/Shop Floor Role Center 11.jpg)
@@ -190,24 +185,24 @@ Where the user sees details about a planning unit and records:
 
 #### Menu Actions
 
-All menu actions can be shown or hidden based on \*\*cost center setup\*\*.
+All menu actions can be shown or hidden based on **cost center setup**.
 
 
 #### Job Information
 
 
-Shows the \*\*plan unit details\*\*.
+Shows the **plan unit details**.
 
 
 #### Job Time Registration
 
 Users record time against a plan unit.
 
-- The \*\*Scan UOM Barcode\*\* field allows scanning/typing a PrintVis Unit of Measure code to start time recording.
+- The **Scan UOM Barcode** field allows scanning/typing a PrintVis Unit of Measure code to start time recording.
 
-- In \*\*Shop Floor setup\*\*, you can set a \*\*Stop Job\*\* and \*\*Job Complete\*\* code for this field.
+- In **Shop Floor setup**, you can set a **Stop Job** and **Job Complete** code for this field.
 
-- On the \*\*Cost Center\*\*, there's a menu action to print a barcode sheet of the UOM codes.
+- On the **Cost Center**, there's a menu action to print a barcode sheet of the UOM codes.
 
 Tiles are another way users can start/stop time registrations. The electronic job ticket is limited to 20 UOM tiles without customization.
 
@@ -216,11 +211,11 @@ Tiles are another way users can start/stop time registrations. The electronic jo
 
 Shows internal notes from the case card.
 
-- Use the \*\*Department\*\* field to browse notes by department.
+- Use the **Department** field to browse notes by department.
 
-- Use \*\*Internal Summary\*\* to see all internal notes on one page (grouped by department).
+- Use **Internal Summary** to see all internal notes on one page (grouped by department).
 
-- Use \*\*Shop Floor Summary\*\* to see all shop floor comments made for an order.
+- Use **Shop Floor Summary** to see all shop floor comments made for an order.
 
 
 #### Quantities Factbox
@@ -239,7 +234,7 @@ For a sheet/process.
 #### Production Locations Factbox
 
 
-Shows all \*\*non-consumed production label locations\*\* for a specific job item.
+Shows all **non-consumed production label locations** for a specific job item.
 
 > If the label is not tied to a specific job item, this area will be blank.
 
