@@ -41,7 +41,7 @@ The **Info** section displays some statistics such as request completed date/tim
 - Shipments
 - Milestones
 - Product Versions
-- <a href="../Copilot/case-creation/" target="_self">Case Creation Assistance</a>
+- [Case Creation Assistance](../Copilot/case-creation.md)
 - <a href="../pvsqa/" target="_self">Quality Assurance</a>
 - Commission
 - <a href="../pvsordertype/" target="_self">Order Types</a>
