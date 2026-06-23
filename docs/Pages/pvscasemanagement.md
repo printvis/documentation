@@ -2,6 +2,8 @@
 
 PrintVis Case Management offers insights and serves as the central hub for daily administrative tasks for all job-related personnel. It provides comprehensive visibility into cases, offering detailed data on deadlines, delivery dates, customer details, and order history. Each case acts as a comprehensive repository, encapsulating all pertinent information from quotation to invoicing. Through Case Management, you wield control over and track the progression of jobs across your organization, with clear visibility into pending quotes, confirmed orders, and ongoing tasks.
 
+If you want Copilot help drafting a new case from prior work patterns, see [Case Creation Assistance](../Copilot/case-creation.md).
+
 ## Creating a case
 
 Select **New** to create a new case.
@@ -39,6 +41,7 @@ The **Info** section displays some statistics such as request completed date/tim
 - Shipments
 - Milestones
 - Product Versions
+- <a href="../Copilot/case-creation/" target="_self">Case Creation Assistance</a>
 - <a href="../pvsqa/" target="_self">Quality Assurance</a>
 - Commission
 - <a href="../pvsordertype/" target="_self">Order Types</a>

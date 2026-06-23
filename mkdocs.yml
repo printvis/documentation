@@ -59,6 +59,7 @@ nav:
     - BC Power BI Setup: PowerBI/BCPowerBISetup.md
   - Copilot:
     - Overview: Copilot/index.md
+    - Case Creation Assistance: Copilot/case-creation.md
     - Capacity Optimization: Copilot/capacity-optimization.md
   - Apparel:
     - Apparel overview: Apparel/index.md
