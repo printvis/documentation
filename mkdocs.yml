@@ -4,7 +4,6 @@ site_author: PrintVis, Inc.
 nav:
   - Welcome: 
     - PrintVis documentation: index.md
-    - Get started: getstart.md
   - PrintVis setup:
     - Setup overview: PrintVis/setup.md
     - General setup: PrintVis/generalsetup.md
