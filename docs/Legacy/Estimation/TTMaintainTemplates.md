@@ -21,6 +21,7 @@ The tool will:
 - **Update Estimates:** Reflect the newest price units in the estimate.
 - **Restore Unit Quantity and Hours:** Restore the unit quantity and hours on the price unit in the estimate.
 - **Retain Manual Changes:** Try to retain all manual changes on the calculation line if the new setup matches the old line.
+- **Keep Process Group settings:** Stores the process group setting on the calculation line and writes it back after re-inserting the calculation unit.
 - **Avoid Surcharge Dialog:** No surcharge dialog will pop up.
 - **Allow Changes to Archived Templates:** Archived templates are permitted to be updated.
 

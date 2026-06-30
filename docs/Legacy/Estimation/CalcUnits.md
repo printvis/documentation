@@ -97,6 +97,7 @@ A calculation can be also a list of calculation units which:
 1.  In the setup of the List of Units, it is important for the process
     calculations that the printing machine is the first line in the
     list!  
+    
     <img src="../assets/CalcUnitSetup1.png" style="width:6.5in;height:3.68472in"
     alt="CalcUnit" />
 
@@ -228,6 +229,11 @@ field is used to block the application of this calculation unit so that
 it cannot be used in the calculation.</td>
 </tr>
 <tr>
+<th>Lookup on Copy</th>
+<td>Specifies whether this calculation unit is looked up and re-inserted when copying, instead of being copied as-is.
+</td>
+</tr>
+<tr>
 <th>No Surcharge Configurations</th>
 <td>You select this field if you, via the unit, open a cost center where
 additional settings have been created and you do not want these to be
@@ -250,23 +256,23 @@ unit.</td>
 </tr>
 <tr>
 <th>Surcharge to</th>
-<td>The default for this field is Cost Center and in this case the
-surcharge unit can be used for the cost center on the calculation unit
-only. With a setting different to Cost Center it is possible to create
-free or "independent" surcharges. This means a surcharge can be used on
-different machines - like the same 3-knife cutter can be used for Saddle
-Stitcher 1, Saddle Stitcher 2 and Saddle Stitcher 3.<br />
-Field is only available on Calculation Units for Surcharge Units.</td>
+<td><p>This field defines where the surcharge unit should be available. It determines which basic configurations may have the option to select the surcharge unit when the corresponding calculation unit is added to an estimate.</p>
+<ul>
+<li>If set to Cost Center, all basic configurations linked to the same cost center will have the option to select the surcharge unit.</li>
+<li>If set to Department, all basic configurations linked to the same department will have the option to select the surcharge unit, even if they belong to different cost centers.</li>
+<li>If set to All, the surcharge unit will be available for all basic configurations.</li>
+</ul>
+<p>This field is used together with Surcharge To Unit, which can be used to further restrict the surcharge to one or more specific basic configurations.</p></td>
 </tr>
 <tr>
 <th>Surcharge to unit</th>
-<td>The default for this field is Cost Center and in this case the
-surcharge unit can be used for the cost center on the calculation unit
-only. With a setting different to Cost Center it is possible to create
-free or "independent" surcharges. This means if a surcharge can be used
-on different machines like the same 3-knife cutter can be used on Saddle
-Stitcher 1, Saddle Stitcher 2 and Saddle Stitcher 3.<br />
-Field is only available on Calculation Units for Surcharge Units.</td>
+<td><p>This field defines whether the surcharge unit should be available for a specific basic configuration. By default, it can be left blank.</p>
+<ul>
+<li>If left blank, the surcharge unit will be available for all valid basic configurations based on the Surcharge To setting.</li>
+<li>If one or more configurations are entered, only those specific basic configurations will have the option to select the surcharge unit when the corresponding basic calculation unit is added to an estimate.</li>
+<li>Multiple configurations can be entered by separating them with a pipe symbol (|).</li>
+</ul>
+<p>Note: The surcharge unit is only available when it matches the valid setup for the selected calculation context. If the required setup criteria are not met, the surcharge unit will not appear as an available option in the estimate.</p></td>
 </tr>
 <tr>
 <th>Default Planning Unit</th>

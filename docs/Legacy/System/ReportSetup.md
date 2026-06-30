@@ -450,7 +450,18 @@ field and then translate the fixed text only.</td>
 <tr>
 <th>Show</th>
 <td>Selects if a line should be displayed always or only if one of the
-fields 1-6 is containing a value.</td>
+fields 1-6 is containing a value.<BR>
+Options:
+<li><p>Always:
+<ul><li><p>Line shows always</ul>
+</ul></li>
+<li><p>If Not Empty:
+<ul><li><p>Shows only if field and descriptions field is empty</ul>
+</ul></li>
+<li><p>If Fields Not Empty:
+<ul><li><p>When this option is enabled, the line is excluded from the report dataset if all data field are empty — even if manual or static text has been entered on the same line.</ul>
+</ul></li>
+</td>
 </tr>
 <tr>
 <th>Field 1-6</th>

@@ -56,14 +56,18 @@ is.</td>
 </tr>
 <tr>
 <th>Deadline Period</th>
-<td><p>It may be an advantage to control the Deadline field on the Case
+<td><p>
+<ul>
+<li><p>It may be an advantage to control the Deadline field on the Case
 card, so that when a case changes to a given status, the system must
-automatically suggest a deadline which is not today.</p>
+automatically suggest a deadline which is not today.</li></p>
+<li><p>Deadlines respect the Base Calendar if setup on the Company Information (BC). If a deadline is calculated on a nonworking day, it will set the next available work day in the calendar.</li></p></ul>
+</p>
 <p>In this field, you can set up a date formula for calculation of a new
 deadline that will be calculated when changing to this status code.  For
 example:</p>
 <ul>
-<li><p>&lt;2D&gt;: gives a deadline 2 days from today</p></li>
+<li><p>&lt;2D&gt;: gives a deadline 2 days from today. It is recommended to only use the D formula with the BC Base Calender.</p></li>
 <li><p>&lt;1W&gt;: gives deadline 1 week from today</p></li>
 <li><p>&lt;1M&gt;: gives a deadline 1 month from today</p></li>
 <li><p>&lt;WD1&gt;: gives a deadline the next Monday (week day
@@ -338,6 +342,9 @@ Status Code for this purpose.</p>
 a check of whether job costing but not invoicing has been performed on
 the order - see the section on Requirements.</p></td>
 </tr>
+<th>Exclude from Copy Suggestions</th>
+<td><p>When assigned by selecting a status on a case with this field set you "Yes", the case becomes unavailable for copying.<br>
+This applies for the Copy-To, Copy-From and AI search on cases.</p>
 <tr>
 <th>Request Complete</th>
 <td>When a status code with this checked is reached, the Request

@@ -39,6 +39,7 @@ The page is divided into two main sections:
 | Scrap              | Open advanced technical specifications.                                                           |
 | Process Flow       | Display the process flow for the case.                                                            |
 | Userfields         | View/edit Job Userfields and Price Unit Userfields.                                                |
+| Consumables        | Opens the consumables page for the current sheet.                                                  |
 | Other              | Shorter access menu to frequently used functions.                                                |
 
 ### Table Fields

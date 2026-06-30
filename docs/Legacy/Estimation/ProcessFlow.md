@@ -40,7 +40,9 @@ The process flow can be corrected by using the "Process Group" field. Related pr
 
 ![Process Flow-Process Groups 7.jpg](./assets/Process Flow-Process Groups 7.jpg)
 
-**Note:** Changing the process flow via the Process Group will NOT affect planning units, which will continue to be planned based on Sorting Order in Estimating. The primary impact of the Process Group setting is the accurate scrap calculation for each process.
+**Note:** 
+1. Changing the process flow via the Process Group will NOT affect planning units, which will continue to be planned based on Sorting Order in Estimating. The primary impact of the Process Group setting is the accurate scrap calculation for each process.
+2. If a template contains a process group setting, these process groups will be kept on reinserting the calculation units from the “Maintain Templates” functionality. 
 
 #### Bypassing a Process in Final Finishing
 

@@ -27,3 +27,27 @@ In case many alternative versions are required, the Copy Alternatives action can
 Once a Job has been fully estimated, prepared, and scheduled, PrintVis offers an option to copy the job out into multiple new releases (new cases and jobs typically), for a Monthly issue of a magazine, for example.
 
 The function can be found from the Job Actions on the Case Card - under 'Copy' -> 'Copy Periodic Job'. Once opened, you will be required to fill in publication frequencies, etc.
+
+## Copy Protected Cases
+Cases can be marked as Copy Protected through the assigned Status Code. <br>
+The setup field on the status code setup is called "Exclude from Copy Suggestions".
+
+When a case is Copy Protected:
+- It is excluded from copy suggestions.
+- It cannot be copied by users.
+- A message is shown if a user attempts to copy the case.
+
+Use this feature for:
+
+- Unprofitable jobs
+- Jobs with special machinery setup
+- Jobs containing protected pricing information
+
+## Copy and Re-insert Calculation Units
+Selected calculation units can be configured to refresh automatically during copy. <br>
+The setup field on the Calculation unit setup is called "Lookup on Copy".
+
+When enabled:
+- The calculation unit is removed from the copied case.
+- The calculation unit is reinserted using current setup and master data.
+- Manual modifications in the source case are not transferred.
