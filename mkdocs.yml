@@ -2,21 +2,9 @@ site_name: PrintVis Documentation
 site_url: https://printvis.github.io/documentation
 site_author: PrintVis, Inc.
 nav:
-  - Welcome: 
-    - PrintVis documentation: index.md
-  - PrintVis setup:
-    - Setup overview: PrintVis/setup.md
-    - General setup: PrintVis/generalsetup.md
-    - User: PrintVis/user.md
-    - Credit Limit Check: PrintVis/PrintVisCreditLimitCheck.md
-    - Feature Management: PrintVis/FeatureManagement.md
-  - PrintVis usage:
-    - Usage overview: PrintVis/index.md
-    - Salesperson: PrintVis/sales.md
-    - Coordinator: PrintVis/coordinator.md
-    - Scheduler: PrintVis/scheduler.md
-    - Sales Order Integration: PrintVis/SalesOrderIntegration.md
-  - PrintVis pages:
+  - Welcome:
+    - PrintVis Documentation: index.md
+  - PrintVis Pages:
     - Pages overview: Pages/index.md
     - Opportunities/CRM: Pages/crm.md
     - Case management: Pages/pvscasemanagement.md
@@ -51,6 +39,109 @@ nav:
     - WIP Setup: Pages/pvswipsetup.md
     - WIP Journal: Pages/pvswipjournal.md
     - Posted WIP Entries: Pages/pvspostedwip.md
+  - PrintVis Documentation:
+    - Overview: PrintVis/index.md
+    - Overview & Getting Started:
+      - Print Industry: PrintVis/general/print-industry.md
+      - Business Central Touchpoints: PrintVis/general/bc-touchpoints.md
+      - Role Centers: PrintVis/general/role-centers.md
+      - Navigation & Tips: PrintVis/general/navigation.md
+    - Setup & Configuration:
+      - General Setup: PrintVis/setup/general-setup.md
+      - Feature Management: PrintVis/setup/feature-management.md
+      - PrintVis Assisted Setup: PrintVis/setup/assisted-setup.md
+      - Users: PrintVis/setup/users.md
+      - Permission Sets: PrintVis/setup/permission-sets.md
+      - Industry Captions: PrintVis/setup/industry-captions.md
+    - Case Management:
+      - Case Card: PrintVis/case-management/case-card.md
+      - Status Codes: PrintVis/case-management/status-codes.md
+      - Order Types: PrintVis/case-management/order-types.md
+      - Product Groups: PrintVis/case-management/product-groups.md
+      - Responsibility Areas: PrintVis/case-management/responsibility-areas.md
+      - Departments: PrintVis/case-management/departments.md
+      - Rejection Codes: PrintVis/case-management/rejection-codes.md
+      - Quality Assurance: PrintVis/case-management/qa.md
+    - Customers, Contacts & Vendors:
+      - Customers: PrintVis/customers/customers.md
+      - Customer Groups: PrintVis/customers/customer-groups.md
+      - Contacts: PrintVis/customers/contacts.md
+      - Vendors: PrintVis/customers/vendors.md
+      - Currency Management: PrintVis/customers/currency.md
+    - Estimation:
+      - Estimation Overview: PrintVis/estimation/overview.md
+      - Templates: PrintVis/estimation/templates.md
+      - Format Codes: PrintVis/estimation/format-codes.md
+      - Speed Tables: PrintVis/estimation/speed-tables.md
+      - Scrap: PrintVis/estimation/scrap.md
+      - Color Table: PrintVis/estimation/color-table.md
+      - Calculation Units: PrintVis/estimation/calculation-units.md
+      - Calculation Formulas: PrintVis/estimation/calculation-formulas.md
+      - Component Types: PrintVis/estimation/component-types.md
+      - Finishing Types: PrintVis/estimation/finishing-types.md
+      - Additional Rates: PrintVis/estimation/additional-rates.md
+      - Alternative Rates: PrintVis/estimation/alternative-rates.md
+      - Time Groups: PrintVis/estimation/time-groups.md
+      - Price Groups: PrintVis/estimation/price-groups.md
+      - Configuration Templates: PrintVis/estimation/configuration-templates.md
+      - Price Lists: PrintVis/estimation/price-lists.md
+      - Commission Setup: PrintVis/estimation/commission.md
+      - Quick Quote: PrintVis/estimation/quick-quote.md
+      - Creating an Estimate: PrintVis/estimation/creating-estimate.md
+      - Special Scenarios: PrintVis/estimation/special-scenarios.md
+      - Tips & Tricks: PrintVis/estimation/tips-tricks.md
+    - Planning & Scheduling:
+      - Planning Overview: PrintVis/planning/index.md
+      - Production Plan: PrintVis/planning/production-plan.md
+      - Planning Board: PrintVis/planning/planning-board.md
+      - Planning Units: PrintVis/planning/planning-units.md
+      - Milestones: PrintVis/planning/milestones.md
+      - Capacity Resources: PrintVis/planning/capacity-resources.md
+      - Opening Hours: PrintVis/planning/opening-hours.md
+      - Auto Scheduling: PrintVis/planning/auto-scheduling.md
+      - Bottleneck Planning: PrintVis/planning/bottleneck-planning.md
+    - Warehouse & Purchasing:
+      - Items: PrintVis/warehouse/items.md
+      - Item Type Codes: PrintVis/warehouse/item-type-codes.md
+      - Qualities: PrintVis/warehouse/qualities.md
+      - Material Requirements: PrintVis/warehouse/material-requirements.md
+      - Job Material Movement: PrintVis/warehouse/job-material-movement.md
+      - Purchase Guide: PrintVis/warehouse/purchase-guide.md
+      - Requisition Worksheet: PrintVis/warehouse/requisition-worksheet.md
+    - Shop Floor & Job Costing:
+      - Shop Floor: PrintVis/shop-floor/shop-floor.md
+      - Work Codes: PrintVis/shop-floor/work-codes.md
+      - Extra Work Codes: PrintVis/shop-floor/extra-work-codes.md
+      - WIP: PrintVis/shop-floor/wip.md
+      - Job Costing: PrintVis/shop-floor/job-costing.md
+    - Shipping:
+      - Shipments: PrintVis/shipping/shipments.md
+      - Shipping Agents: PrintVis/shipping/shipping-agents.md
+      - Shipping Integrations: PrintVis/shipping/shipping-integrations.md
+    - Invoicing & Finance:
+      - G/L Posting Setup: PrintVis/invoicing/gl-posting-setup.md
+      - Invoicing: PrintVis/invoicing/invoicing.md
+      - Complaints: PrintVis/invoicing/complaints.md
+    - Reports & Analysis:
+      - Report Setup: PrintVis/reports/report-setup.md
+      - Job Tickets: PrintVis/reports/job-tickets.md
+      - Analysis Pages: PrintVis/reports/analysis-pages.md
+    - System:
+      - Standard Units: PrintVis/system/standard-units.md
+      - Integrated Fields: PrintVis/system/integrated-fields.md
+      - Folder Groups: PrintVis/system/folder-groups.md
+      - Imposition Types: PrintVis/system/imposition-types.md
+      - PrintVis Tools: PrintVis/system/printvis-tools.md
+      - PrintVis Storage: PrintVis/system/storage.md
+      - Text Codes: PrintVis/system/text-codes.md
+    - Legacy Integrations:
+      - JDF: PrintVis/legacy-integrations/jdf.md
+      - PrintVis Link: PrintVis/legacy-integrations/printvis-link.md
+      - Web2PV REST API: PrintVis/legacy-integrations/web2pv.md
+      - Esko: PrintVis/legacy-integrations/esko.md
+      - XMPie: PrintVis/legacy-integrations/xmpie.md
+      - Dynaway: PrintVis/legacy-integrations/dynaway.md
+      - Kodak DPP: PrintVis/legacy-integrations/kodak.md
   - Power BI:
     - Overview: PowerBI/index.md
     - Sales App: PowerBI/SalesApp.md
@@ -64,7 +155,7 @@ nav:
     - Apparel setup: Apparel/apparelsetup.md
     - Apparel usage: Apparel/apparelusage.md
   - Integrations: ../Integrations/
-  - Support portal documentation:
+  - Legacy Documentation:
     - General:
       - PrintVis overview: Legacy/General/printvisoverview.md
       - Print industry: Legacy/General/printindustry.md
