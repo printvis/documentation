@@ -243,6 +243,7 @@ nav:
       - Product Groups: Legacy/Workflow/PG.md
       - Relationship between Order Types and Product Groups: Legacy/Workflow/OTandPG.md
       - Project Management: Legacy/Workflow/ProjectMgmt.md
+      - Using Power Automate with Folders: Legacy/Workflow/UsingPAPVFolder.md
     - Warehousing:
       - Item Card: Legacy/Warehouse/ItemCard.md
       - Item Type Codes and filters: Legacy/Warehouse/ItemTypeCodes.md
