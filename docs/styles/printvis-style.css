@@ -1,0 +1,8 @@
+:root {
+    --printvis-purple: #6941C6;
+}
+
+.md-nav__title,
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+    color: var(--printvis-purple) !important;
+}
