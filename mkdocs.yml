@@ -343,6 +343,7 @@ theme:
 
 extra_css: 
   - styles/printvis-footer.css
+  - styles/printvis-style.css
 
 extra:
   homepage: https://learn.printvis.com
