@@ -1,0 +1,8 @@
+:root {
+    --printvis-purple: #6941C6;
+}
+
+.md-nav__title,
+.md-nav__item--section > .md-nav__link .md-ellipsis {
+    color: var(--printvis-purple) !important;
+}
