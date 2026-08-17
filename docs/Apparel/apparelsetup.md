@@ -27,7 +27,7 @@ Here is an overview of the tables involved in the Apparel specific manufacturing
 ![Apparel Quantity](./assets/AppSetup3.jpg)
 2. New table: Style is for handling a certain garment in several sizes. For example, the Style can be ‘Short Sleeve Polo in blue’. This style can have several sizes from XS to 4L and these are all tied in with it from setup. If you pick a Style, you will get all items within this style presented on the Jobs/materials page.
 
-3. New use of the Products table, now called Designs and Decorations. A Design is a BOM of decorations. Decorations are also using the Product table and are the real placeholders for product information. A good deal of information is tied to the decoration, which will flow into the job item when chosen on a decoration/job item line.
+3. New use of the Products table, now called Designs and Decorations. A Design is a list of decorations. Decorations are also using the Product table and are the real placeholders for product information. A good deal of information is tied to the decoration, which will flow into the job item when chosen on a decoration/job item line.
    ![Figure 1: Example of Designs and Decorations, where Designs serve as BOMs for the decorations.](./assets/AppSetup4.jpg)
 
 4. Placements - This is a new table, explained below.
