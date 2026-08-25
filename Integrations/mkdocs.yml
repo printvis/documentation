@@ -23,6 +23,10 @@ nav:
     - LoyaltyLoop usage: LoyaltyLoop/llusage.md
   - Shopify:
     - Shopify setup: Shopify/Shopify.md
+  - Spencer Metrics:
+    - Spencer Metrics overview: SpencerMetrics/SMoverview.md
+    - Spencer Metrics setup: SpencerMetrics/SMsetup.md
+    - Spencer Metrics usage: SpencerMetrics/SMusage.md
 theme:
   name: material
   features:
