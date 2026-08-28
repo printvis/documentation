@@ -10,7 +10,7 @@ The PrintVis Sales Power BI App gives your sales team instant visibility into qu
 
 ## How to Setup the App
 
-1. If you haven't already installed the app follow the guidance on the <a href="../PowerBIOverview/" target="_self">Power BI Overview</a> page
+1. If you haven't already installed the app follow the guidance on the <a href="../" target="_self">Power BI Overview</a> page
 
 2. Open the App and click <b>Connect your data</b>
     - Connect your data can be found in the upper yellow ribbon at the top of the report
