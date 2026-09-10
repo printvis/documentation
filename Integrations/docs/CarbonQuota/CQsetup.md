@@ -20,9 +20,18 @@ These setup steps will make the overall connection to CarbonQuota for sending Pr
 ![CarbonQuota](./assets/CQSetup6.jpg)
 ![CarbonQuota](./assets/CQSetup7.jpg)
 
-- A message will appear with your free trial expiration date.
+- A message will appear stating that the subscription is pending activation and that you must complete the activation on the setup page. Clicking **Yes** redirects you to the CarbonQuota page, where you must complete the subscription creation.
 
-![CarbonQuota](./assets/CQSetup8.jpg)
+![CarbonQuota](./assets/CQSetup24.png)
+
+## Selecting your CarbonQuota Product Type
+
+On the CarbonQuota Service Setup page, in the Service section, there is a **Product Type** option that lets you choose which CarbonQuota product is used: **CarbonConnect** or **CarbonConnect+**.
+
+![CarbonQuota](./assets/CQSetup25.png)
+
+- **CarbonConnect**: [https://www.carbonquota.co.uk/methodology-carbonconnect/](https://www.carbonquota.co.uk/methodology-carbonconnect/)
+- **CarbonConnect+**: [https://www.carbonquota.co.uk/methodology-carbonconnect-plus/](https://www.carbonquota.co.uk/methodology-carbonconnect-plus/)
 
 ## Converting your free trial into a CarbonQuota subscription
 
