@@ -21,5 +21,5 @@ The PrintVis Power BI apps deliver interactive dashboards that transform your pr
     - Choose your workspace and click Install.
 
 5. To connect each report to your own data, follow the guides for each individual report
-    - <a href="../SalesApp/" target="_self">Sales App</a>
-    - <a href="../ProductionApp/" target="_self">Production App</a>
+    - <a href="../PowerBI/SalesApp/" target="_self">Sales App</a>
+    - <a href="../PowerBI/ProductionApp/" target="_self">Production App</a>
