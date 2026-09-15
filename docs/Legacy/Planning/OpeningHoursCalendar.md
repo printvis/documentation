@@ -139,7 +139,6 @@ Remember that generated calendar entries always use the higher of the two values
 Related Concepts
 No Capacity Check - a related Capacity Unit setting that overrides Simultaneous Jobs during auto-scheduling.
 
-
 The Opening Hours setup always displays a full month with a line for each day, including information about:
 
 - The week number
