@@ -303,3 +303,49 @@ However, in a PrePress department for example, multiple tasks may be progressing
 
 
 As the setting is set to 2 or more, the system now supports these tasks to start and stop individually — and even if someone presses 'Job Complete' while another person is still working on the job, it will not be marked as completed as long as someone is recording time against the Planning Unit.
+
+Simultaneous Jobs and Synchronous Jobs
+
+Simultaneous Jobs (set on the Capacity Unit) and Synchronous Jobs (set on Opening Hour Profile lines) both controls how many jobs can run in parallel on a capacity unit. They work together: the Capacity Unit's setting always sets the practical minimum once opening hours are applied to a calendar.
+
+Simultaneous Jobs (Capacity Unit)
+Found on the Capacity Unit Card.
+
+Defines how many different jobs can run at the same time on a single capacity unit. Useful for production areas where multiple jobs are processed in parallel - for example, a benchwork or tablework area in the finishing department where several operators work on different jobs at the same tables.
+
+Default value is 1 (only one job active at a time).
+
+Increasing this value affects:
+
+Capacity calculation - total open hours for the unit are multiplied by this value. A unit with 8 open hours/day and Simultaneous Jobs = 3 shows 24 available hours in capacity analysis. Blocked hours scale the same way.
+Auto-scheduling - the scheduler creates one scheduling track per simultaneous job, distributing jobs across tracks and assigning each to the earliest available one, so jobs plan in parallel instead of sequentially.
+Shop Floor time entry - If set to 1, starting a new time entry automatically stops any other running entry on the same cost center. Only one active entry allowed at a time.
+If set higher than 1, multiple time entries can run at the same time on the cost center.
+Note: If No Capacity Check is enabled on the capacity unit, the system treats Simultaneous Jobs as 100 during auto-scheduling - effectively removing any capacity limit for planning purposes.
+
+Synchronous Jobs (Opening Hour Profile Line)
+Found on the Opening Hours subpage of an Opening Hour Profile.
+
+Defines how many jobs can run in parallel during a specific opening-hour time slot. Since one Opening Hour Profile can be reused across several capacity units, this lets you set time-slot-specific parallelism - for example, allowing fewer parallel jobs on an evening shift than during the day - independent of any single unit's setup.
+
+Default value is 1.
+
+This field does not affect capacity-hour multipliers or Shop Floor stop behavior directly. Instead, it feeds into the Capacity Calendar when the profile is applied (see below).
+
+How they work together
+When an Opening Hour Profile is applied to build the Capacity Calendar:
+
+The profile line's Synchronous Jobs value is copied into the new calendar entry.
+It's then compared to the Capacity Unit's Simultaneous Jobs value.
+The higher of the two is used. The Capacity Unit's setting acts as a floor, so calendar entries are never generated with a lower parallelism than the unit itself allows.
+If the Capacity Unit on a calendar entry is changed later, the entry's job count is refreshed from the unit's current Simultaneous Jobs value.
+
+Tip: Use Synchronous Jobs on an Opening Hour Profile line only when you need finer, time-slot-specific control. The Capacity Unit's Simultaneous Jobs value will still act as the practical floor for scheduling, capacity hours, and Shop Floor concurrent entries.
+
+Best Practices
+Set Simultaneous Jobs to match the resource's real-world parallel capacity - this is the setting that drives capacity hours, auto-scheduling tracks, and Shop Floor behavior.
+Only use Synchronous Jobs on Opening Hour Profile lines when specific shifts or time windows need different parallelism than the unit's default.
+Remember that generated calendar entries always use the higher of the two values.
+
+Related Concepts
+No Capacity Check - a related Capacity Unit setting that overrides Simultaneous Jobs during auto-scheduling.
