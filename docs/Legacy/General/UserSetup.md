@@ -67,7 +67,7 @@ A Microsoft Dynamics 365 Business Central user must first be created, then assig
 
 This tab assigns special rights and functionality related to the system's use, different from general rights set in Microsoft Dynamics 365 BC.
 
-![Setting Up a PrintVis User 3.jpg](./assets/Setting Up a PrintVis User 3.jpg)
+![Setting Up a PrintVis User 3](./assets/Setting-Up-a-PrintVis-User-3-5c5f8937-5f6d-40ed-b47f-ee6fe01a9c72.png)
 
 | **Field**                                 | **Description** |
 |-------------------------------------------|-----------------|
@@ -75,9 +75,9 @@ This tab assigns special rights and functionality related to the system's use, d
 | **Allowed to edit Job Costing Journal Hour Entries** | If this field is turned on, the user has permission to make changes on the Job Costing Hour Entries page. The page can be found by selecting the Job Costing button on a Case Card and choosing Hour Entries. |
 | **Allow Journal Selection**               | Allows the user to enter registrations on all consumption journals manually. This means that the user has access to register in all company job costing journals. If access is not given to this item, the user should be assigned a personal journal. |
 | **Allow Journal Posting**                 | Select this field if the user may post a job costing journal. |
-| **Post Consumption Journal at Close Window** | If you select this field, a job costing journal is automatically posted when the user closes the journal window, i.e., without having chosen Post for the journal. |
+| **Post Consumption Journal at Close Window** | If you select this field, a job costing journal is automatically posted when the user closes the journal window, i.e., without having chosen Post for the journal. **Note**: *This setting has no effect on the consume lot page in shop floor* |
 | **Allow Edit Time Recordings**            | If this field is checked, the shop floor user has permission to make changes on the time recordings page. | 
-| **Allow manual change of status**         | Gives the user the right to perform manual status changes on orders. Without this right, status changes may only be performed by clicking the "Next Status" button, and the user must follow the procedure set up via Responsibility Areas. Example: A salesperson may only have the right to change status in an established sequence (e.g., Request, Quote sent, Order must be created). Other changes (e.g., Quote rejected) must be done by someone else. |
+| **Allow manual change of status**         | Gives the user the right to perform manual status changes on orders. Without this right, status changes may only be performed by clicking the "Next Status" button, and the user must follow the procedure set up via Responsibility Areas. Example: A salesperson may only have the right to change status in an established sequence (e.g., Request, Quote sent, Order must be created). Other changes (e.g., Quote rejected) must be made by someone else. |
 | **Allow manual responsible**              | Gives the user the right to change the 'responsible' code in the Case Card manually. If the user does not have this right, the 'responsible' code is set according to guidelines defined via Responsibility Areas. |
 | **Allow Archiving**                       | Gives the user the right to archive a case. |
 | **Allow Credit Limit Override**           | Gives the user the right to override the credit limit. If "Allow Credit Limit Override" is enabled and the user clicks Yes on the credit limit pop-up, the status will still change, even if the credit limit was exceeded. |
@@ -87,10 +87,6 @@ This tab assigns special rights and functionality related to the system's use, d
 | **Calc. Rate Total Cost**                 | If selected, the user may manually control which total cost applies to individual calculation details. |
 | **Calc. Rate Total Cost Markup**          | If selected, the user may manually control the additional percentage added to the total cost in individual calculation details. |
 | **Calc. Rate Sales Price**                | If selected, the user may manually control which price applies to individual calculation details. |
-| **Calc. Rate Sales Price Markup**         | If selected, the user may manually control the additional percentage added to the price in individual calculation details. |
-| **Calc. Rate Discount %**                 | If selected, the user may manually indicate a discount percentage for individual calculation details. |
-| **Allow manual change of Account**        | If selected, the user is allowed to build invoice lines manually and select which account number the invoicing is to be posted in. |
-| **Allow Invoice Posting**                 | Select this field if the user may post an invoice draft. If not selected, the case must be given a new status, assigning a new Current Responsible with access to post the invoice draft. |
 | **Sees only Salesperson orders**          | If selected, the user only has access to view cases in the case list where they are the salesperson. |
 | **Allow User Field Setup**                | If selected, the user can modify User Fields. If not marked, the "Setup" button on the User-Field-Card is not visible. |
 
