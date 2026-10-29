@@ -27,7 +27,7 @@ Scrap calculation in PrintVis is managed through tables attached to a cost cente
 | **Format Type**       | Select the format type for the format entered in the scrap table lines. **Available options include:**<br>- **Blank**: No format required.<br>- **Job Item Format**: Reads format from the job line (e.g., A formats), commonly for finishing processes.<br>- **Printed Sheet Format**: Reads the printed sheet format, used for printing machines. The format is read for each process line in the job.<br>- **Paper Sheet Format**: Reads the raw sheet format, typically for printing machines.<br>- **Plates**: Reads from the individual printing process line (rarely used).<br>- **Film**: Reads from the printing process line if films are attached to the sheet. |
 | **Weight Unit**       | Used for **Imperial paper weights** only. Select the weight unit for the weight entered into the table lines. Leave blank for **M-Weight**.                                                                                                         |
 | **Formula 1/2**       | Add up to two formulas if additional values or parameters are required. This is configured via the **Formula Principle** field.                                                                                                                     |
-| **Formula Principle** | Determines how formulas are applied. **Options include:**<br>- **Parameter**: Adds the formula's value as scrap quantity, allowing you to define custom scrap values.<br>- **Read from**: Uses the formula value to determine which line to use, such as "Quantity From" or "Scrap Group." |
+| **Formula Principle** | Determines how formulas are applied. **Options include:**<br>- **Parameter**: Adds the formula's value as scrap quantity, allowing you to define custom scrap values. If parameter is selected, then formula No. must be added to the PV Cost Center Configuration Calculation section in fields “Formula Misc. 1 to 3. And only one line in Scrap Table. See examples below.<br>- **Read from**: Uses the formula value to determine which line to use, such as "Quantity From" or "Scrap Group." |
 
 
  Fields in Scrap Table
@@ -72,7 +72,7 @@ Scrap calculation in PrintVis is managed through tables attached to a cost cente
 - For finishing operations, use "Per Processing" rather than "Per Sheet" to calculate scrap for the entire job.
 - Scrap is calculated for each process and totaled backward from the last to the first process.
 
-### Calculation of the "Quantity Fromm" Field
+### Calculation of the "Quantity From" Field
 
 - **Formula Principle = "Read From"**
 - **Formula 1 = 62**: Determines fixed scrap based on the number of colors.
@@ -84,6 +84,21 @@ If a job has:
 
 For different quantities, the "From Quantity" remains as per the formula used.
 
+![Scrap Table Setup 4](./assets/Scrap-Table-Setup-4-9a4a9305-3b0a-4437-9391-e823c3127075.png)
 
-![Scrap Table Setup 4.jpg](./assets/Scrap Table Setup 4.jpg)
+•   **Formula Principle = "Parameter”**
+If using Parameter, then formula setup must be inserted in PrintVis Cost Center Configuration Calculation section in fields Formula Misc. 1 to 3.
+
+![Scrap Table Setup 5](./assets/Scrap-Table-Setup-5-a5a57b99-f476-4a0e-81e9-2ea4a6b0a528.png)
+
+Based on the formula entered here, the value entered on the scrap table in Formula 1 field will be multiplied by the value on the Formula Misc 1 gathers. This is only the case when the option "Parameter" is selected on the scrap table.
+
+For your example, you would put formula 90 in Formula Misc 1 on the configuration. Based on the number of versions calculated for the job, it would be multiplied by the value entered in Formula 1 on the scrap table.
+
+This will only work if a single scrap table line is entered on the scrap table. If more than 1 scrap table line is filled out, then the last scrap table line will be used. It can also be combined with Scrap Group to be used and selected on the estimation page.
+
+![Scrap Table Setup 6](./assets/Scrap-Table-Setup-6-42baa2bb-8f7a-422b-80c9-7b2522fa3668.png)
+
+
+
 
