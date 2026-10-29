@@ -317,12 +317,7 @@ the Code.</td>
 
 ## Usage of a PrintVis Product on a case
 
-The PrintVis Products can be used as template and data carrier for
-re-runs, in case the product doesn't need to be put on stock and tracked
-as inventory. In case the product must be put on stock and tracked as
-inventory, a Business Central Item can be linked with the product and
-will be added to the case/job as well, to able to release finished goods
-to the inventory after the production is completed.
+The PrintVis Products can be used as template and data carrier for re-runs, in case the product doesn't need to be put on stock and tracked as inventory. In case the product must be put in stock and tracked as inventory, a Business Central Item can be linked with the product and will be added to the case/job as well, too able to release finished goods to the inventory after the production is completed.
 
 This is an example for a product that is linked with Template
 ID/Job/Version 399/1/1, see specification tab.
@@ -335,9 +330,9 @@ Selecting the product on a new PrintVis job
 
 Result:
 
-Template was copied and the user only need to enter the desired
-quantity. All related data for a re-run is copied from the template +
-data from the product specification.
+Template was copied and the user only needed to enter the desired quantity. All related data for a re-run is copied from the template + data from the product specification.
+
+*Note: Fields like imposition code, product group, etc are filled in only if the field is empty after importing the template to new case.*
 
 ![PrintVis Products](./assets/PP12.png)
 

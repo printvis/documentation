@@ -61,13 +61,14 @@ Action on Cost Center list and Cost Center Card.
 
 ![Cost Center Setup - Configuration - Rates - Groups 6.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 6.jpg)
 
-- Enter a new **CODE**, a new **Name**, and a new **List of Unit Names**, then select which configurations to copy.
+- Enter a new **CODE**, a new **Name**, and a new **List of Unit Names**
+- **Price Lists**, **Scrap Tables, Speed Tables, Planning Unit**, and **Capacity Unit** can be either:
+- 'Copy existing' - The system copies information from the original Cost Center and assigns a new Unit Code.
+- 'Re-use existing' - Uses already existing data in the new Cost Center.
 
 ![Cost Center Setup - Configuration - Rates - Groups 7.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 7.jpg)
 
-- Choose what should be kept or copied.
-
-![Cost Center Setup - Configuration - Rates - Groups 8.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 8.jpg)
+![Cost Center Setup - Configuration - Rates - Groups 7.5](./assets/Cost-Center-Setup---Configuration---Rates---Grou-83a91762-16c2-49f5-808a-c571b19dd05c.png)
 
 
 - **Price Lists, Scrap Tables, Speed Tables, Planning Unit, and Capacity Unit** can be either:
@@ -78,6 +79,12 @@ Action on Cost Center list and Cost Center Card.
 
 #### Export/Import Cost Center
 Actions on the Cost Center list.
+
+![Cost Center Setup - Configuration - Rates - Groups 8.5](./assets/Cost-Center-Setup---Configuration---Rates---Grou-1ee07bc8-fc38-4a3d-a630-03a70059e980.png)
+
+- Choose what should be kept or copied.
+
+![Cost Center Setup - Configuration - Rates - Groups 8.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 8.jpg)
 
 ![Cost Center Setup - Configuration - Rates - Groups 9.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 9.jpg)
 
@@ -96,6 +103,8 @@ Actions on the Cost Center list.
 
 ##### Import Cost Center
 - The `Import Cost Center` action asks for the XML `.txt` file to be uploaded.
+
+![Cost Center Setup - Configuration - Rates - Groups 12](./assets/Cost-Center-Setup---Configuration---Rates---Grou-2d8c3f8a-abbf-4ff4-ba83-2042436afdef.png)
 
 ![Cost Center Setup - Configuration - Rates - Groups 12.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 12.jpg)
 
@@ -148,6 +157,7 @@ The Cost Center card contains 4 major sections:
 | **Synchronization** | (Field description not provided). |
 | **Sorting Order** | By default, Cost Centers are sorted by Code. If another sorting is needed, enter a sorting number here. |
 | **Live Feed URL** | Enter a URL for a camera live feed to display on the Cost Center monitor list card. |
+| **Picture Flow** | Specifies the value of the Picture Code field |
 | **Blocked** | If the Cost Center is no longer in use but is referenced in calculations, do not delete it—block it instead. |
 
 #### FastTab Shop Floor
@@ -205,9 +215,11 @@ Setup Example
 
 Result
 
-![Cost Center Setup - Configuration - Rates - Groups 19.jpg](./assets/Cost Center Setup - Configuration - Rates - Groups 19.jpg)
+![Cost Center Setup - Configuration - Rates - Groups 19.](./assets/Cost-Center-Setup---Configuration---Rates---Grou-4b36564a-3bd3-4f67-a37a-7273add97806.png)
 
-#### Shop Floor Job Ticket Tile Setup
+#### FastTab Shop Floor Job Ticket Tile Setup
+
+Set up what information will be displayed on the electronic Job Ticket.
 
 Unit of Measure Setup
 
@@ -246,6 +258,15 @@ This tab is used in combination with a Manufacturing Integration/CIM/JDF setup a
 
 This factbox is used to add an image of the cost center. The image is used within the process flow diagram and on the tile list-view of the cost center monitor list.
 
+![Factbox Cost Center Picture 1](./assets/Factbox-Cost-Center-Picture-1-692bb663-46c2-4be0-a9f5-d9c7575d519b.png)
+
+Take/Import photo to the Cost Center Picture Factbox. (Photo will only be used for Process Details)
+
+![Factbox Cost Center Picture 2](./assets/Factbox-Cost-Center-Picture-2-4545cdf9-cc35-47a0-bbfc-a90bc42f2bdd.png)
+
+Will be shown when user click on default flow charge logo in process flow
+
+![Factbox Cost Center Picture 3](./assets/Factbox-Cost-Center-Picture-3-0127fe16-a50f-4d74-b352-f396ff94a1fc.png)
 
 ## Configuration
 
