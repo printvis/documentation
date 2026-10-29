@@ -3,6 +3,10 @@
 ## Summary
 When a price unit is changed and it is already used in a template, the template does not automatically update.
 
+## Note
+
+The **Maintain Template** function is designed to remove all calculation units from a template and re-add them, ensuring they are refreshed with the most current calculation unit setup. This will include (but not limited to) any manual adjustments to the calculation unit such as Process Group. Process Group can be added on the Calculation Unit card, and that information will be pulled in when readding the calculation unit is added back on the template case.
+
 ## Maintain/Update Templates
 
 To update existing templates, follow these steps:

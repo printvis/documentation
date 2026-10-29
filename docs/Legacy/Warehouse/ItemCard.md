@@ -115,12 +115,14 @@ The planning section is used by the requisition worksheet. Additional informatio
 | **Colors Front / Colors Back** | Display the number of colors on front/back.                                                                                                                                                                                                        |
 | **Reverse Printing**           | Displays if the current finished good item has an imposition applied (used for ESKO Label integration only).                                                                                                                                     |
 | **Imposition Code**            | Links a specific imposition type to the item (commonly used for label production).                                                                                                                                                                |
-| **Productgroup Code**          | Displays the selected product group for the item to link statistics properly.                                                                                                                                                                      |
+| **Product Group Code**          | Displays the selected product group for the item to link statistics properly.                                                                                                                                                                      |
 | **Intent Group Product Group** | Displays if an item is linked directly to a Product Configuration setup to allow estimation via the configuration or Quick Quote.                                                                                                                 |
 | **Paper No.**                  | Displays which paper item number is given for the current finished goods item.                                                                                                                                                                     |
 | **Finishing**                  | If a certain finishing type code is to be added to the estimation for the finished goods item, the required unit may be entered here.                                                                                                            |
 | **Unwind**                     | Displays unwinding.                                                                                                                                                                                                                                |
-| **Tools**                      | Displays up to 4 tools for the finished goods item to properly load the required tools when doing reruns of the item.                                                                                                                           |
+| **Tools**                      | Displays up to 4 tools for the finished goods item to properly load the required tools when doing reruns of the item.                                                                                                                         |
+
+*Fields like imposition code, product group, etc. are filled in only if the field is empty after importing the template case to new case.*
 
 ## PrintVis Board Specification
 

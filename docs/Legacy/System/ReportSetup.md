@@ -2,16 +2,9 @@
 
 ## Introduction
 
-PrintVis Report Setup is a tool for creating customer-facing documents
-by using PrintVis standard reports, a setup to build the data for the
-dataset, and a (custom) report layout. The cases are mainly used to run
-from a case or in combinatio with a case (Purchase Order report requires
-a case ID in the header). This is why they are also called PrintVis Case
-Reports.
+PrintVis Report Setup is a tool for creating customer-facing documents by using PrintVis standard reports, a setup to build the data for the dataset, and a (custom) report layout. The cases are mainly used to run from a case or in combination with a case (Purchase Order report can work with/without a case ID in the header). This is why they are also called PrintVis Case Reports.
 
-In this documentation, you'll find information on how to set up the text
-components to be transferred to the reports, and how to edit the report
-layout.
+In this documentation, you'll find information on how to set up the text components to be transferred to the reports, and how to edit the report layout.
 
 ## Setup Areas
 
@@ -22,7 +15,7 @@ report.
 
     -   Choose the report objects for the specific report type.
 
-    -   Setup for the PrintVis Purchase Order report by using the Report
+    -   Set up for the PrintVis Purchase Order report by using the Report
         Selection - Purchase.
 
 -   PrintVis Report Setup
@@ -32,13 +25,16 @@ report.
 
     -   This is building the data for the dataset for the report.
 
--   Custom Report Layouts / Report layouts
+-   Custom Report Layouts(*This will be obsolete by Microsoft*!)
 
     -   To edit the layout for the PDF and email.
 
     -   In simple words: This is where to place the data from the
         PrintVis Report Layout. Standard Business Central.
+-   Report Layout
 
+    -   To edit the layout for the PDF and email.
+    -   In simple words: This is where to place the data from the PrintVis Report Layout. Standard Business Central.
 -   Report Layout Selection
 
     -   To select the standard or custom layout. Standard Business
@@ -46,12 +42,7 @@ report.
 
 ## PrintVis Report Selection Setup
 
-The PrintVis report selection setup offers the user the choice of the
-report object ID for the selected report type. If more than one report
-is selected per type, PrintVis will come up with the question to choose
-the desired report. If only one report per type is selected, on most
-areas this selection will not be shown and the report started right
-away.
+The PrintVis report selection setup offers the user the choice of the report object ID for the selected report type. If more than one report is selected per type, PrintVis will come up with the question of choosing the desired report. If only one report per type is selected, in most areas this selection will not be shown, and the report starts right away.
 
 For setup, search for "PrintVis Report Selection Setup."
 
@@ -59,7 +50,7 @@ For setup, search for "PrintVis Report Selection Setup."
 
 These are the released Report Types:
 
-![Report Setup](./assets/RS2.png)
+![Report Setup 1](./assets/Report-Setup-1-9c41dffb-c25e-4fbf-a21f-2eb0c503ac24.png)
 
 ## Supported Report Objects
 
@@ -115,7 +106,7 @@ The actual available/supported standard reports are:
         order-specific purchases, to be able to integrate PVS Order
         information into the purchase document, that is e.g. sent to a
         sub-contractor who is doing lamination or other outsourced
-        tasks.
+        tasks. It can also be used on Purchase without linking to PrintVis order.
 
     -   It is based on the Business Central 365 Purchase Order report
         but might not support all functionality of the current BC
@@ -126,16 +117,13 @@ The actual available/supported standard reports are:
 
 ## PrintVis Report Setup
 
-The reports come with a dataset that is common for all reports, where
-fields such as document number or address can be chosen. Additionally,
-there are special sections that can be set up to build a detailed
-description on the report and for the product.
+The reports come with a dataset that is common for all reports, where fields such as document number or address can be chosen. Additionally, there are special sections that can be set up to build a detailed description of the report and for the product.
 
 PrintVis Report Setup List and PrintVis Report Setup Header
 
 The PrintVis Report Setup is the list of all existing report setups.
 
-![Report Setup](./assets/RS3.png)
+![PrintVis Report Setup 1](./assets/PrintVis-Report-Setup-1-9de27f64-f3eb-4d01-acd9-edddde4250f7.png)
 
 The fields from the PrintVis Report Setup List are also available on the
 header of the report setup:
@@ -243,8 +231,7 @@ desired.</td>
 <td>Choose if the file should be stored as a PDF or MS Word file.<br />
 <br />
 Please note: The MS Word file might not support all details from the
-layout. Please test your report layout if the layout looks identically
-to the MS Word output.</td>
+layout. Please test your report layout to see if the layout looks identically to the MS Word output.</td>
 </tr>
 </tbody>
 </table>
@@ -513,13 +500,13 @@ PrintVis Report Setup are the following:
 
 -   Price Columns
 
-    -   To build a pricing grid for all versions of a quote / or the
-        order job lines.
+    -   To build a pricing grid for all versions of a quote / or the order job lines.
+**Note**: Price columns only support job / case table fields and not detailed information from calculation units 
 
     -   Max. 6 columns can be used. Make sure you only have as many
         columns in the report layout that are setup in the report setup.
 
-    -   ![Report Setup](./assets/RS11.png) Result
+    -   ![Report Setup](./assets/Price-Columns-eca8a42e-5f72-4298-9e00-e7bb9c2cd02f.png) Result
 
     -   ![Report Setup](./assets/RS12.png)
 
