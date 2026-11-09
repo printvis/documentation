@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Color Kitchen app will manage Mixed Ink Recipes and track Base Component consumption in Mixed Ink production through LOT tracking in PrintVis. And ensure compliance with food-safe and eco-label standards that are already handled by the printvis Eco label setup. 
+The Color Kitchen app will manage Mixed Ink Recipes and track Base Component consumption in Mixed Ink production through LOT tracking in PrintVis, and ensure compliance with food-safe and eco-label standards that are already handled by the PrintVis Eco label setup.
 
 ## Using the Color Kitchen
 
