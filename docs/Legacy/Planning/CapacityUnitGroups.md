@@ -57,6 +57,27 @@ This allows for more flexible planning across departments and shared resources.
 | **Ongoing Shift Change** | Allows planning across team shifts as if production doesn't stop. If not selected, planning avoids job transitions across shifts. |
 | **Respect Open Hours** | Ensures **auto-planning** does not occur outside defined open hours. Manual planning outside is still allowed if not selected. |
 
+### Simultaneous Jobs
+
+This field defines how many different jobs can run at the same time on a single capacity unit. It is intended for production areas where multiple jobs can be processed in parallel — for example, a benchwork or tablework area in a finishing department where several operators work on different jobs at the same tables.
+
+The default value is **1**, meaning only one job can be active at a time. Increasing the value has the following effects throughout the system:
+
+### Capacity calculation
+
+The total available opening hours for the capacity unit are multiplied by the number set here. A unit with 8 open hours per day and Simultaneous Jobs = 3 will show 24 available hours in the capacity analysis. Blocked hours are scaled the same way.
+
+### Auto-scheduling
+
+When auto-scheduling runs for this capacity unit, the system creates one scheduling track per simultaneous job. Jobs are distributed across these tracks and are assigned to the earliest available track. This allows jobs to be planned in parallel rather than sequentially.
+
+### Shop Floor — time entry behavior
+
+- If Simultaneous Jobs is set to **1**, starting a new time entry on the Shop Floor automatically stops all other running entries on the same cost center. Only one active entry is allowed at a time.
+- If set to more than **1**, multiple time entries can run at the same time on the cost center.
+
+**Note:** If **No Capacity Check** is enabled on the capacity unit, the system treats Simultaneous Jobs as 100 during auto-scheduling, effectively removing any capacity limit for planning purposes.
+
 ![Capacity Units - Groups 1.jpg](./assets/Capacity Units - Groups 1.jpg)
 
 The Merge function is used when trying to remove a capacity unit without breaking all its existing connections.
