@@ -8,9 +8,9 @@ The Color Kitchen app will manage Mixed Ink Recipes and track Base Component con
 
 Access the Color Kitchen through the Electronic Ticket on the shopfloor role center for the Cost Center you setup as a Color Kitchen.
 
-![01 - Electronic Ticket](./assets/01---Electronic-Ticket-49a9f53b-59ff-4160-8cce-eb43fbfe72e8.png)
+![01 - Electronic Ticket](./img/01---Electronic-Ticket-49a9f53b-59ff-4160-8cce-eb43fbfe72e8.png)
 
-![02 - Color Kitchen Overview](./assets/02---Color-Kitchen-Overview-95e9bd07-e38c-41f3-8ca9-41352cd739bd.png)
+![02 - Color Kitchen Overview](./img/02---Color-Kitchen-Overview-95e9bd07-e38c-41f3-8ca9-41352cd739bd.png)
 
 On this page you will get an overview of all the inks that are to be mixed for the job. You can refresh quantities if anything was changed on the job since you started processing mixing jobs. You can also print a Picking List, LOT labels and Ink Trace report from this page.
 
@@ -37,7 +37,7 @@ On this page you will get an overview of all the inks that are to be mixed for t
 
 ### Mixing Order
 
-![03 - Mixing Order](./assets/03---Mixing-Order-30a902f9-d69f-4bc5-bf93-deca1c1c217c.png)
+![03 - Mixing Order](./img/03---Mixing-Order-30a902f9-d69f-4bc5-bf93-deca1c1c217c.png)
 
 |  |  |
 | --- | --- |
@@ -99,7 +99,7 @@ If “Use Stock” was selected, Ink is transferred to selected location on Post
 
 ## Setup
 
-![04 - Color Kitchen Setup](./assets/04---Color-Kitchen-Setup-10a6dcb4-ba7e-41da-9d3f-35f03a346f4b.png)
+![04 - Color Kitchen Setup](./img/04---Color-Kitchen-Setup-10a6dcb4-ba7e-41da-9d3f-35f03a346f4b.png)
 
 Here you will set up the base functions of Color Kitchen depending on your needs.	
 
@@ -121,23 +121,23 @@ You can select the base component items of the color code and define the percent
 
 To use the recipe functionality on the Color Table, you need to set the Color Code as Mixed Color. On the Item you must set the Color Code from the Color Table in the PrintVis Ink section.
 
-![05 - PrintVis Color Table](./assets/05---PrintVis-Color-Table-6f0912c2-d9cd-4a4e-91c2-ad7dff87a56a.png)
+![05 - PrintVis Color Table](./img/05---PrintVis-Color-Table-6f0912c2-d9cd-4a4e-91c2-ad7dff87a56a.png)
 
-![06 - Recipe](./assets/06---Recipe-cc389d55-ef05-49d5-bb86-424dd88319dd.png)
+![06 - Recipe](./img/06---Recipe-cc389d55-ef05-49d5-bb86-424dd88319dd.png)
 
-![07 - Item Card - Color Code](./assets/07---Item-Card---Color-Code-c0d97f38-700b-4193-999b-91835a920058.png)
+![07 - Item Card - Color Code](./img/07---Item-Card---Color-Code-c0d97f38-700b-4193-999b-91835a920058.png)
 
-![08 - Item Card - Recipe Action](./assets/08---Item-Card---Recipe-Action-3520f8f7-0966-4a89-9255-25424a0764c3.png)
+![08 - Item Card - Recipe Action](./img/08---Item-Card---Recipe-Action-3520f8f7-0966-4a89-9255-25424a0764c3.png)
 
 A Cost Center can now be set as a Color Kitchen. You can then access the Color Kitchen from the shopfloor electronic ticket, if you are logged into the cost center set as Color Kitchen.  
 Our suggestion is to create a dedicated cost center for the Color Kitchen, with its own Calculation Unit, Planning Unit etc. But any Cost Center can be used.  
 When a Cost Center is set as the Color Kitchen, it will grab ink information from the Material Requirements on the case and use this to create the mixing orders for the job. 
 
-![09 - Cost Center](./assets/09---Cost-Center-3877cd86-03c4-474d-8651-f91ba4035b4c.png)
+![09 - Cost Center](./img/09---Cost-Center-3877cd86-03c4-474d-8651-f91ba4035b4c.png)
 
 Color Kitchen Setup is now done. You now have an item with a Recipe and a cost center to use as the Color Kitchen. Add the ink to the job as you would normally do. In this case I am using Pantone 178 C and 188 C for a poster job.
 
-![10 - Colors and Glue on Job Item](./assets/10---Colors-and-Glue-on-Job-Item-b635bee9-a4f4-41ea-8934-d84fbc2f4089.png)
+![10 - Colors and Glue on Job Item](./img/10---Colors-and-Glue-on-Job-Item-b635bee9-a4f4-41ea-8934-d84fbc2f4089.png)
 
 ## New Pages
 

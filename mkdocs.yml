@@ -2,322 +2,321 @@ site_name: PrintVis Documentation
 site_url: https://printvis.github.io/documentation
 site_author: PrintVis, Inc.
 nav:
-  - Welcome:
-      - PrintVis documentation: index.md
+  - Welcome: 
+    - PrintVis documentation: index.md
   - PrintVis setup:
-      - Setup overview: PrintVis/setup.md
-      - General setup: PrintVis/generalsetup.md
-      - User: PrintVis/user.md
-      - Credit Limit Check: PrintVis/PrintVisCreditLimitCheck.md
-      - Feature Management: PrintVis/FeatureManagement.md
+    - Setup overview: PrintVis/setup.md
+    - General setup: PrintVis/generalsetup.md
+    - User: PrintVis/user.md
+    - Credit Limit Check: PrintVis/PrintVisCreditLimitCheck.md
+    - Feature Management: PrintVis/FeatureManagement.md
   - PrintVis usage:
-      - Usage overview: PrintVis/index.md
-      - Salesperson: PrintVis/sales.md
-      - Coordinator: PrintVis/coordinator.md
-      - Scheduler: PrintVis/scheduler.md
-      - Sales Order Integration: PrintVis/SalesOrderIntegration.md
+    - Usage overview: PrintVis/index.md
+    - Salesperson: PrintVis/sales.md
+    - Coordinator: PrintVis/coordinator.md
+    - Scheduler: PrintVis/scheduler.md
+    - Sales Order Integration: PrintVis/SalesOrderIntegration.md
   - PrintVis pages:
-      - Pages overview: Pages/index.md
-      - Opportunities/CRM: Pages/crm.md
-      - Case management: Pages/pvscasemanagement.md
-      - Copying a Case or Job: Pages/pvscasecopy.md
-      - Job Version / Product Parts: Pages/pvsversionparts.md
-      - Product Variants: Pages/pvsvariants.md
-      - Combined Sheets: Pages/pvscombinedsheets.md
-      - Plate Changes: Pages/pvsplatechanges.md
-      - Order Types: Pages/pvsordertype.md
-      - Status Codes: Pages/pvsstatuscode.md
-      - Responsibility Areas: Pages/pvsresponsibilityareas.md
-      - Quick Quote: Pages/pvsquickquote.md
-      - Quality Assurance: Pages/pvsqa.md
-      - Project Management: Pages/pvsprojectmanagement.md
-      - Product Groups: Pages/pvsproductgroups.md
-      - Industry Captions: Pages/pvsindustrycaptions.md
-      - Cost Center: Pages/pvscostcenter.md
-      - Cost Center Configurations: Pages/pvscostcenterconfig.md
-      - Calculation Units: Pages/pvscalculationunits.md
-      - Calculation Formulas: Pages/pvscalcformulas.md
-      - Tool Selection: Pages/pvstoolselection.md
-      - Complaints: Pages/pvscomplaints.md
-      - Location: Pages/location.md
-      - Items: Pages/item.md
-      - Item Type Code: Pages/itemtypecode.md
-      - Item Type Code Filter: Pages/itemtypefilter.md
-      - Tools: Pages/pvstools.md
-      - Material Requirements: Pages/pvsmaterialreq.md
-      - Price Lists: Pages/pvspricelists.md
-      - Purchase Guide: Pages/pvspurchaseguide.md
-      - Job Material Movement/Pick: Pages/pvsjobmaterialmove.md
-      - WIP Setup: Pages/pvswipsetup.md
-      - WIP Journal: Pages/pvswipjournal.md
-      - Posted WIP Entries: Pages/pvspostedwip.md
+    - Pages overview: Pages/index.md
+    - Opportunities/CRM: Pages/crm.md
+    - Case management: Pages/pvscasemanagement.md
+    - Copying a Case or Job: Pages/pvscasecopy.md
+    - Job Version / Product Parts: Pages/pvsversionparts.md
+    - Product Variants: Pages/pvsvariants.md
+    - Combined Sheets: Pages/pvscombinedsheets.md
+    - Plate Changes: Pages/pvsplatechanges.md
+    - Order Types: Pages/pvsordertype.md
+    - Status Codes: Pages/pvsstatuscode.md
+    - Responsibility Areas: Pages/pvsresponsibilityareas.md
+    - Quick Quote: Pages/pvsquickquote.md
+    - Quality Assurance: Pages/pvsqa.md
+    - Project Management: Pages/pvsprojectmanagement.md
+    - Product Groups: Pages/pvsproductgroups.md
+    - Industry Captions: Pages/pvsindustrycaptions.md
+    - Cost Center: Pages/pvscostcenter.md
+    - Cost Center Configurations: Pages/pvscostcenterconfig.md
+    - Calculation Units: Pages/pvscalculationunits.md
+    - Calculation Formulas: Pages/pvscalcformulas.md
+    - Tool Selection: Pages/pvstoolselection.md
+    - Complaints: Pages/pvscomplaints.md
+    - Location: Pages/location.md
+    - Items: Pages/item.md
+    - Item Type Code: Pages/itemtypecode.md
+    - Item Type Code Filter: Pages/itemtypefilter.md
+    - Tools: Pages/pvstools.md
+    - Material Requirements: Pages/pvsmaterialreq.md
+    - Price Lists: Pages/pvspricelists.md
+    - Purchase Guide: Pages/pvspurchaseguide.md
+    - Job Material Movement/Pick: Pages/pvsjobmaterialmove.md
+    - WIP Setup: Pages/pvswipsetup.md
+    - WIP Journal: Pages/pvswipjournal.md
+    - Posted WIP Entries: Pages/pvspostedwip.md
   - Power BI:
-      - Overview: PowerBI/index.md
-      - Sales App: PowerBI/SalesApp.md
-      - Production App: PowerBI/ProductionApp.md
-      - BC Power BI Setup: PowerBI/BCPowerBISetup.md
+    - Overview: PowerBI/index.md
+    - Sales App: PowerBI/SalesApp.md
+    - Production App: PowerBI/ProductionApp.md
+    - BC Power BI Setup: PowerBI/BCPowerBISetup.md
   - Copilot:
-      - Overview: Copilot/index.md
-      - Case Creation via AI Search: Copilot/ai-search-tool.md
-      - Capacity Optimization: Copilot/capacity-optimization.md
+    - Overview: Copilot/index.md
+    - Case Creation via AI Search: Copilot/ai-search-tool.md 
+    - Capacity Optimization: Copilot/capacity-optimization.md
   - Apparel:
-      - Apparel overview: Apparel/index.md
-      - Apparel setup: Apparel/apparelsetup.md
-      - Apparel usage: Apparel/apparelusage.md
+    - Apparel overview: Apparel/index.md
+    - Apparel setup: Apparel/apparelsetup.md
+    - Apparel usage: Apparel/apparelusage.md
   - Integrations: ../Integrations/
   - Support portal documentation:
-      - General:
-          - PrintVis overview: Legacy/General/printvisoverview.md
-          - Print industry: Legacy/General/printindustry.md
-          - BC PV Touchpoints Overview: Legacy/General/BCPV-Overview.md
-          - BC PV Touchpoints CRM: Legacy/General/BCPV-CRM.md
-          - BC PV Touchpoints GL Posting: Legacy/General/BCPV-GLPosting.md
-          - BC PV Touchpoints Items: Legacy/General/BCPV-Items.md
-          - BC PV Touchpoints Shipments: Legacy/General/BCPV-Shipments.md
-          - BC PV Touchpoints Invoice: Legacy/General/BCPV-Invoice.md
-          - BC PV Touchpoints Relationship Management: Legacy/General/BC-RelationMgmt.md
-          - Dynamic date filters: Legacy/General/DynamicDateFilters.md
-          - Find hidden fields: Legacy/General/HiddenFields.md
-          - Reset user customizations: Legacy/General/ResetUserCustom.md
-          - Searching in Business Central: Legacy/General/Searching.md
-          - Tile brick view: Legacy/General/TileBrickView.md
-          - Role Centers: Legacy/General/RoleCenters.md
-          - Opening finance in PrintVis: Legacy/General/Openingfinance.md
-          - General Setup: Legacy/General/GeneralSetup.md
-          - Industry Captions: Legacy/General/IndustryCaptions.md
-          - Permission Sets: Legacy/General/PermissionSets.md
-          - User Types: Legacy/General/UserTypes.md
-          - User Rights and Restrictions: Legacy/General/UserRandR.md
-          - User Setup: Legacy/General/UserSetup.md
-          - QA Setup: Legacy/General/QASetup.md
-          - Rejection Codes: Legacy/General/RejectionCodes.md
-          - Departments: Legacy/General/Departments.md
-          - Cost Center Configurations Rates Groups: Legacy/General/CC-Config-Rates-Groups.md
-          - How-to Simple Cost Center: Legacy/General/SimpleCC-Howto.md
-          - PrintVis Assisted Setup: Legacy/General/PrintVisAssistedSetup.md
-          - PrintVis Assisted Setup - Users: Legacy/General/PVUserSetup-AS.md
-          - PrintVis Assisted Setup - Status Codes: Legacy/General/StatusCodes-AS.md
-          - PrintVis Assisted Setup - Component Types: Legacy/General/ComponentTypes-AS.md
-          - PrintVis Assisted Setup - Format Codes: Legacy/General/FormatCodes-AS.md
-          - PrintVis Assisted Setup - Item Type Codes: Legacy/General/ItemTypeCodes-AS.md
-          - PrintVis Assisted Setup - Item Qualities: Legacy/General/ItemQualities-AS.md
-          - PrintVis Assisted Setup - Color Table: Legacy/General/ColorTable-AS.md
-          - PrintVis Assisted Setup - Order Type: Legacy/General/OrderType-AS.md
-          - PrintVis Assisted Setup - Product Groups: Legacy/General/ProductGroup-AS.md
-          - PrintVis Assisted Setup - Departments: Legacy/General/Departments-AS.md
-          - PrintVis Assisted Setup - Cost Center: Legacy/General/CostCenter-AS.md
-          - PrintVis Assisted Setup - Cost Center Rates: Legacy/General/CostCenterRates-AS.md
-          - PrintVis Assisted Setup - Additional Rates: Legacy/General/AdditionalRates-AS.md
-          - PrintVis Assisted Setup - Items: Legacy/General/Items-AS.md
-          - PrintVis Assisted Setup - Opening Hours: Legacy/General/OpeningHours-AS.md
-          - PrintVis Assisted Setup - Milestones: Legacy/General/Milestones-AS.md
-          - PrintVis Assisted Setup - Unit of Measure: Legacy/General/PVUOM-AS.md
-          - PrintVis Assisted Setup - Extra Work Codes: Legacy/General/ExtraWorkCodes-AS.md
-          - PrintVis Assisted Setup - Invoice Template: Legacy/General/InvoiceTemplate-AS.md
-          - PrintVis Assisted Setup - Configuration Packages: Legacy/General/ConfigPackage-AS.md
-          - PrintVis Assisted Setup - Data Mapping: Legacy/General/DataMapping-AS.md
-          - PrintVis Assisted Setup - Additional To Dos: Legacy/General/ToDo-AS.md
-          - PrintVis Onboarding: Legacy/General/PrintVisOnboarding.md
-          - PrintVis Onboarding Guide: Legacy/General/PrintVisOnboardingGuide.md
-      - Customers, Contacts, Vendors:
-          - Create a new Customer: Legacy/CustContVend/Customer.md
-          - Currency management: Legacy/CustContVend/Currency.md
-          - Customer Groups: Legacy/CustContVend/CustGroups.md
-          - Customer Userfields and Comments: Legacy/CustContVend/CustomerUFComments.md
-          - Create a new Contact: Legacy/CustContVend/Contact.md
-          - Create a PrintVis Case with Contact only: Legacy/CustContVend/ContactCase.md
-          - Create a new Vendor: Legacy/CustContVend/Vendor.md
-      - Estimation Tips & Tricks:
-          - Maintain / Update Templates: Legacy/Estimation/TTMaintainTemplates.md
-          - Specify PrintVis Quote Report: Legacy/Estimation/TTSpecifyQuote.md
-          - Mixed configuration for printing and finishing: Legacy/Estimation/TTMixedConfig.md
-          - Avoid extra surcharge popups when list of units is selected: Legacy/Estimation/TTSurchargesPopup.md
-          - How does PrintVis create a sheet layout and residual sheets: Legacy/Estimation/TTSheetLayoutResidual.md
-          - How to get the right make ready on residual sheets: Legacy/Estimation/TTMakeReadyResidual.md
-          - How to use more than 1 printing process for a sheet: Legacy/Estimation/TTOneSheetMultiPrint.md
-          - How to setup minimum hours for an operation: Legacy/Estimation/TTMinimumHours.md
-          - How to setup a speed table reduction: Legacy/Estimation/TTSpeedTableReduct.md
-          - Custom Formulas with additional quantities: Legacy/Estimation/TTCustomFormulaAddQty.md
-          - Custom Formula on a Speed Table: Legacy/Estimation/TTCustomFormulaSpeed.md
-          - Material counted in pcs but calculated in weight: Legacy/Estimation/TTMatPcsCalcWeight.md
-          - Consume more than 1 paper: Legacy/Estimation/TTConsumePaper.md
-          - Assign Inks to 2 or more print processes: Legacy/Estimation/TTInksPrint.md
-          - Calculate setup or cleanup for special inks: Legacy/Estimation/TTSpecialInks.md
-      - Estimation Setup:
-          - Introduction to Estimation: Legacy/Estimation/EstimationAutomationSetup.md
-          - Templates: Legacy/Estimation/Templates.md
-          - Template Filters: Legacy/Estimation/TemplateFilters.md
-          - Format Codes: Legacy/Estimation/FormatCodes.md
-          - Speed Tables: Legacy/Estimation/SpeedTable.md
-          - Scrap Groups: Legacy/Estimation/ScrapGroup.md
-          - Scrap Tables: Legacy/Estimation/ScrapTable.md
-          - Color Table: Legacy/Estimation/ColorTable.md
-          - Calculation Units: Legacy/Estimation/CalcUnits.md
-          - Calculation Formulas: Legacy/Estimation/Formulas.md
-          - Component Types: Legacy/Estimation/ComponentTypes.md
-          - Finishing Types: Legacy/Estimation/FinishingTypes.md
-          - Additional Rates: Legacy/Estimation/AddRates.md
-          - Alternative Rates: Legacy/Estimation/AltRates.md
-          - Time Groups: Legacy/Estimation/TimeGroup.md
-          - Price Groups: Legacy/Estimation/PriceGroups.md
-          - Configuration Templates: Legacy/Estimation/ConfigTemplates.md
-          - Calculation Unit Userfields: Legacy/Estimation/CalcUnitUF.md
-          - Price List setup: Legacy/Estimation/PriceListSetup.md
-          - Paper Price lists: Legacy/Estimation/PaperPriceLists.md
-          - Price List import/export: Legacy/Estimation/PricelistImpExp.md
-          - Commission setup: Legacy/Estimation/CommissionSetup.md
-          - Decision Overview: Legacy/Estimation/DecisionOverview.md
-          - ECO label setup: Legacy/Estimation/ECOSetup.md
-          - Subcontracting setup: Legacy/Estimation/Subcontracting.md
-          - Flexo setup: Legacy/Estimation/Flexo.md
-          - Calculation without printing: Legacy/Estimation/NoPrint.md
-          - Digital print click cost setup: Legacy/Estimation/DigitalPrintClickCost.md
-      - Estimating:
-          - Creating an estimate: Legacy/Estimation/Estimate.md
-          - Working with templates: Legacy/Estimation/WorkTemplates.md
-          - PrintVis Case: Legacy/Estimation/Case.md
-          - Advanced Case Card: Legacy/Estimation/AdvancedCase.md
-          - Estimate Master Data: Legacy/Estimation/EstimateMasterData.md
-          - Job Card: Legacy/Estimation/JobCard.md
-          - Userfields: Legacy/Estimation/UF.md
-          - Estimating page: Legacy/Estimation/Estimating.md
-          - Specification page: Legacy/Estimation/Spec.md
-          - Scrap page: Legacy/Estimation/Scrap.md
-          - Versioning: Legacy/Estimation/Version.md
-          - Residual Sheets: Legacy/Estimation/ResidualSheets.md
-          - Plate changes: Legacy/Estimation/Plates.md
-          - Process flow diagram: Legacy/Estimation/ProcessFlow.md
-          - Estimation Automation: Legacy/Estimation/EstAuto.md
-          - Copy periodic/repeat runs: Legacy/Estimation/PeriodicRepeat.md
-          - No. of pages vs pages with print: Legacy/Estimation/Pages.md
-      - Quick Quote:
-          - Setup Quick Quote: Legacy/Estimation/SetupQuickQuote.md
-          - Use Quick Quote: Legacy/Estimation/UseQuickQuote.md
-      - Special Scenarios:
-          - Combined Sheets: Legacy/Estimation/Combinedsheets.md
-          - Continuous fed press setup: Legacy/Estimation/ContFedPress.md
-          - Multipart NCR setup: Legacy/Estimation/MultipartNCR.md
-          - Ganged Production: Legacy/Estimation/Gangedprod.md
-          - Newspaper setup: Legacy/Estimation/Newspapersetup.md
-          - Price concepts: Legacy/Estimation/PriceConcepts.md
-          - Prepress orders: Legacy/Estimation/Prepressorders.md
-          - Quantity variations and over delivery: Legacy/Estimation/QtyVarOverDelv.md
-          - Tool selection: Legacy/Estimation/Toolselection.md
-          - Publications and editions: Legacy/Estimation/PubsEds.md
-          - Hourly Rate Scenarios: Legacy/Estimation/HourlyRateScenarios.md
-      - Planning:
-          - Capacity blockings and blocking codes: Legacy/Planning/CapacityBlockings.md
-          - Capacity Resources: Legacy/Planning/CapacityResources.md
-          - Capacity Groups: Legacy/Planning/CapacityUnitGroups.md
-          - Customer follow-up: Legacy/Planning/CustomerFollowUp.md
-          - One surcharge multiple cost centers: Legacy/Planning/SurchargeMultiCC.md
-          - Change status: Legacy/Planning/NextStatus.md
-          - Comment text: Legacy/Planning/CommentText.md
-          - HTML Tags in tooltips: Legacy/Planning/HTMLTagTooltips.md
-          - Milestones setup and usage: Legacy/Planning/MilestoneSetupUsage.md
-          - Planning around milestones: Legacy/Planning/PlanningAroundMilestones.md
-          - Case milestones on production plan: Legacy/Planning/CaseMilestonesProdPlan.md
-          - Opening hours calendar maintenance: Legacy/Planning/OpeningHoursCalendar.md
-          - Sheet ganging: Legacy/Planning/SheetGanging.md
-          - Planning per signature: Legacy/Planning/PlanningPerSig.md
-          - Planning report: Legacy/Planning/PlanningReport.md
-          - Planning Units: Legacy/Planning/PlanningUnits.md
-          - Planning unit status code: Legacy/Planning/PlanUnitStatusCode.md
-          - Production plan: Legacy/Planning/ProductionPlan.md
-          - Planning board: Legacy/Planning/PlanningBoard.md
-          - Planning link: Legacy/Planning/PlanningLink.md
-          - Bottleneck planning: Legacy/Planning/BottleneckPlanning.md
-          - Ruleset setup: Legacy/Planning/RulesetSetup.md
-          - Auto scheduling setup: Legacy/Planning/AutoScheduleSetup.md
-          - Auto scheduling scenarios: Legacy/Planning/AutoScheduleScenarios.md
-          - Job queue auto scheduling: Legacy/Planning/JobQueueAutoSchedule.md
-          - Placeholders: Legacy/Planning/Placeholder.md
-      - Purchasing:
-          - Purchase Guide: Legacy/Purchasing/PurchaseGuide.md
-          - Requisition Worksheet: Legacy/Purchasing/ReqWorksheet.md
-          - Item Reservations: Legacy/Purchasing/ItemRes.md
-      - Workflow:
-          - Status Codes: Legacy/Workflow/StatusCodes.md
-          - Responsibility Areas: Legacy/Workflow/RespArea.md
-          - Order Types: Legacy/Workflow/OrderTypes.md
-          - Product Groups: Legacy/Workflow/PG.md
-          - Relationship between Order Types and Product Groups: Legacy/Workflow/OTandPG.md
-          - Project Management: Legacy/Workflow/ProjectMgmt.md
-          - Using Power Automate with Folders: Legacy/Workflow/UsingPAPVFolder.md
-      - Warehousing:
-          - Item Card: Legacy/Warehouse/ItemCard.md
-          - Item Type Codes and filters: Legacy/Warehouse/ItemTypeCodes.md
-          - Qualities: Legacy/Warehouse/Qualities.md
-          - Material requirements: Legacy/Warehouse/MaterialRequirements.md
-          - Job material movement and pick: Legacy/Warehouse/JobMaterialMovement.md
-      - Shop Floor and Job Costing:
-          - Work Code setup: Legacy/JobCosting/WorkCodeSetup.md
-          - Extra work codes: Legacy/JobCosting/ExtraWorkCodes.md
-          - Indirect time: Legacy/JobCosting/IndirectTime.md
-          - PrintVis Unit of Measure setup: Legacy/JobCosting/PrintVisUOM.md
-          - Shop Floor Role Center: Legacy/JobCosting/ShopFloorRoleCenter.md
-          - Shop Floor: Legacy/JobCosting/ShopFloor.md
-          - Production Tracking: Legacy/JobCosting/ProductionTracking.md
-          - Barcode scan lot: Legacy/JobCosting/BarcodeScanLot.md
-          - Produced output: Legacy/JobCosting/ProducedOutput.md
-          - Multi-user time registration: Legacy/JobCosting/Multi-userTimeRegistration.md
-          - Move worksheet for approval: Legacy/JobCosting/MoveWorksheetforApproval.md
-          - Cost Center Monitor List: Legacy/JobCosting/CostCenterMonitor.md
-          - Shop Floor Monitor: Legacy/JobCosting/ShopFloorMonitor.md
-          - WIP Posting: Legacy/JobCosting/WIPPosting.md
-          - Posted Purchase Order - Subcontracting: Legacy/JobCosting/PostedPOOutwork.md
-          - Auto job costing: Legacy/JobCosting/AutoJobCosting.md
-          - Job Costing: Legacy/JobCosting/JobCosting.md
-          - Job Costing journal setup: Legacy/JobCosting/JobCostingjournalsetup.md
-          - Job Costing report: Legacy/JobCosting/JobCostingreport.md
-      - Shipping:
-          - Shipment: Legacy/Shipping/Shipment.md
-          - Shipping Agents: Legacy/Shipping/ShippingAgent.md
-          - Combined shipments: Legacy/Shipping/CombinePrintVisShipments.md
-          - Import PrintVis shipments: Legacy/Shipping/ImportPVShipments.md
-          - Register receipts in PrintVis: Legacy/Shipping/RegisterReceiptsinPrintVis.md
-          - Release Finished Goods: Legacy/Shipping/ReleaseFinishedGoods.md
-          - Invoice template shipment on invoice lines: Legacy/Shipping/InvoiceTemplateShipmentonInvoicelines.md
-          - EasyPost integration: Legacy/Shipping/EasyPost.md
-          - nShift Delivery integration: Legacy/Shipping/nShiftDelivery.md
-          - nShift Ship integration: Legacy/Shipping/nShiftShip.md
-      - Invoicing:
-          - PrintVis G/L Posting Setup: Legacy/Invoicing/PrintVisGLPostingSetup.md
-          - Invoicing based on templates: Legacy/Invoicing/Invoicingbasedontemplates.md
-          - Invoicing per job line: Legacy/Invoicing/Invoicingperjobline.md
-          - Combined invoicing: Legacy/Invoicing/CombinedInvoicing.md
-          - Invoice dimension allocation: Legacy/Invoicing/InvoiceDimensionAllocation.md
-          - Complaints: Legacy/Invoicing/Complaints.md
-      - Reports and Analysis:
-          - Analysis Pages: Legacy/Reports/AnalysisPages.md
-          - Report Selection: Legacy/Reports/ReportSelection.md
-          - Job Ticket Setup: Legacy/Reports/JTSetup.md
-          - Job Ticket and Estimate Reports: Legacy/Reports/JTandEstReports.md
-          - Order Deviation Report: Legacy/Reports/DeviationReport.md
-      - System:
-          - Standard Units: Legacy/System/StandardUnits.md
-          - Integrated Fields: Legacy/System/IntegratedFields.md
-          - Folder Groups: Legacy/System/FolderGroups.md
-          - Imposition Types: Legacy/System/ImpositionTypes.md
-          - PrintVis Tools: Legacy/System/PrintVisTools.md
-          - PrintVis Products: Legacy/System/PrintVisProducts.md
-          - Report Setup: Legacy/System/ReportSetup.md
-          - Report Setup Shipping Documents: Legacy/System/ReportSetupShipping.md
-          - PrintVis Storage: Legacy/System/PrintVisStorage.md
-          - Text Codes Setup: Legacy/System/TextCodesSetup.md
-      - Integrations:
-          - JDF Setup Data: Legacy/Integrations/CIM-JDFSetupData.md
-          - JDF Technical Communications: Legacy/Integrations/CIM-JDFSetupTechComm.md
-          - PrintVis Link: Legacy/Integrations/PrintVisLink.md
-          - Web2PV REST API: Legacy/Integrations/Web2PVREST.md
-          - Esko Folding Carton: Legacy/Integrations/EskoFoldingCarton.md
-          - Esko Label: Legacy/Integrations/EskoLabel.md
-          - XMPie: Legacy/Integrations/XMPie.md
-          - Dynaway: Legacy/Integrations/Dynaway.md
-          - Kodak DPP: Legacy/Integrations/KodakDPP.md
-          - Color Kitchen: Support-portal-documentation/Integrations/Color-Kitchen.md
+    - General:
+      - PrintVis overview: Legacy/General/printvisoverview.md
+      - Print industry: Legacy/General/printindustry.md
+      - BC PV Touchpoints Overview: Legacy/General/BCPV-Overview.md
+      - BC PV Touchpoints CRM: Legacy/General/BCPV-CRM.md
+      - BC PV Touchpoints GL Posting: Legacy/General/BCPV-GLPosting.md
+      - BC PV Touchpoints Items: Legacy/General/BCPV-Items.md
+      - BC PV Touchpoints Shipments: Legacy/General/BCPV-Shipments.md
+      - BC PV Touchpoints Invoice: Legacy/General/BCPV-Invoice.md
+      - BC PV Touchpoints Relationship Management: Legacy/General/BC-RelationMgmt.md
+      - Dynamic date filters: Legacy/General/DynamicDateFilters.md
+      - Find hidden fields: Legacy/General/HiddenFields.md
+      - Reset user customizations: Legacy/General/ResetUserCustom.md
+      - Searching in Business Central: Legacy/General/Searching.md
+      - Tile brick view: Legacy/General/TileBrickView.md
+      - Role Centers: Legacy/General/RoleCenters.md
+      - Opening finance in PrintVis: Legacy/General/Openingfinance.md
+      - General Setup: Legacy/General/GeneralSetup.md
+      - Industry Captions: Legacy/General/IndustryCaptions.md
+      - Permission Sets: Legacy/General/PermissionSets.md
+      - User Types: Legacy/General/UserTypes.md
+      - User Rights and Restrictions: Legacy/General/UserRandR.md
+      - User Setup: Legacy/General/UserSetup.md
+      - QA Setup: Legacy/General/QASetup.md
+      - Rejection Codes: Legacy/General/RejectionCodes.md
+      - Departments: Legacy/General/Departments.md
+      - Cost Center Configurations Rates Groups: Legacy/General/CC-Config-Rates-Groups.md
+      - How-to Simple Cost Center: Legacy/General/SimpleCC-Howto.md
+      - PrintVis Assisted Setup: Legacy/General/PrintVisAssistedSetup.md
+      - PrintVis Assisted Setup - Users: Legacy/General/PVUserSetup-AS.md
+      - PrintVis Assisted Setup - Status Codes: Legacy/General/StatusCodes-AS.md
+      - PrintVis Assisted Setup - Component Types: Legacy/General/ComponentTypes-AS.md
+      - PrintVis Assisted Setup - Format Codes: Legacy/General/FormatCodes-AS.md
+      - PrintVis Assisted Setup - Item Type Codes: Legacy/General/ItemTypeCodes-AS.md
+      - PrintVis Assisted Setup - Item Qualities: Legacy/General/ItemQualities-AS.md
+      - PrintVis Assisted Setup - Color Table: Legacy/General/ColorTable-AS.md
+      - PrintVis Assisted Setup - Order Type: Legacy/General/OrderType-AS.md
+      - PrintVis Assisted Setup - Product Groups: Legacy/General/ProductGroup-AS.md
+      - PrintVis Assisted Setup - Departments: Legacy/General/Departments-AS.md
+      - PrintVis Assisted Setup - Cost Center: Legacy/General/CostCenter-AS.md
+      - PrintVis Assisted Setup - Cost Center Rates: Legacy/General/CostCenterRates-AS.md
+      - PrintVis Assisted Setup - Additional Rates: Legacy/General/AdditionalRates-AS.md
+      - PrintVis Assisted Setup - Items: Legacy/General/Items-AS.md
+      - PrintVis Assisted Setup - Opening Hours: Legacy/General/OpeningHours-AS.md
+      - PrintVis Assisted Setup - Milestones: Legacy/General/Milestones-AS.md
+      - PrintVis Assisted Setup - Unit of Measure: Legacy/General/PVUOM-AS.md
+      - PrintVis Assisted Setup - Extra Work Codes: Legacy/General/ExtraWorkCodes-AS.md
+      - PrintVis Assisted Setup - Invoice Template: Legacy/General/InvoiceTemplate-AS.md
+      - PrintVis Assisted Setup - Configuration Packages: Legacy/General/ConfigPackage-AS.md
+      - PrintVis Assisted Setup - Data Mapping: Legacy/General/DataMapping-AS.md
+      - PrintVis Assisted Setup - Additional To Dos: Legacy/General/ToDo-AS.md
+      - PrintVis Onboarding: Legacy/General/PrintVisOnboarding.md
+      - PrintVis Onboarding Guide: Legacy/General/PrintVisOnboardingGuide.md
+    - Customers, Contacts, Vendors:
+      - Create a new Customer: Legacy/CustContVend/Customer.md
+      - Currency management: Legacy/CustContVend/Currency.md
+      - Customer Groups: Legacy/CustContVend/CustGroups.md
+      - Customer Userfields and Comments: Legacy/CustContVend/CustomerUFComments.md
+      - Create a new Contact: Legacy/CustContVend/Contact.md
+      - Create a PrintVis Case with Contact only: Legacy/CustContVend/ContactCase.md
+      - Create a new Vendor: Legacy/CustContVend/Vendor.md
+    - Estimation Tips & Tricks:
+      - Maintain / Update Templates: Legacy/Estimation/TTMaintainTemplates.md
+      - Specify PrintVis Quote Report: Legacy/Estimation/TTSpecifyQuote.md
+      - Mixed configuration for printing and finishing: Legacy/Estimation/TTMixedConfig.md
+      - Avoid extra surcharge popups when list of units is selected: Legacy/Estimation/TTSurchargesPopup.md
+      - How does PrintVis create a sheet layout and residual sheets: Legacy/Estimation/TTSheetLayoutResidual.md
+      - How to get the right make ready on residual sheets: Legacy/Estimation/TTMakeReadyResidual.md
+      - How to use more than 1 printing process for a sheet: Legacy/Estimation/TTOneSheetMultiPrint.md
+      - How to setup minimum hours for an operation: Legacy/Estimation/TTMinimumHours.md
+      - How to setup a speed table reduction: Legacy/Estimation/TTSpeedTableReduct.md
+      - Custom Formulas with additional quantities: Legacy/Estimation/TTCustomFormulaAddQty.md
+      - Custom Formula on a Speed Table: Legacy/Estimation/TTCustomFormulaSpeed.md
+      - Material counted in pcs but calculated in weight: Legacy/Estimation/TTMatPcsCalcWeight.md
+      - Consume more than 1 paper: Legacy/Estimation/TTConsumePaper.md
+      - Assign Inks to 2 or more print processes: Legacy/Estimation/TTInksPrint.md
+      - Calculate setup or cleanup for special inks: Legacy/Estimation/TTSpecialInks.md
+    - Estimation Setup:
+      - Introduction to Estimation: Legacy/Estimation/EstimationAutomationSetup.md
+      - Templates: Legacy/Estimation/Templates.md
+      - Template Filters: Legacy/Estimation/TemplateFilters.md
+      - Format Codes: Legacy/Estimation/FormatCodes.md
+      - Speed Tables: Legacy/Estimation/SpeedTable.md
+      - Scrap Groups: Legacy/Estimation/ScrapGroup.md
+      - Scrap Tables: Legacy/Estimation/ScrapTable.md
+      - Color Table: Legacy/Estimation/ColorTable.md
+      - Calculation Units: Legacy/Estimation/CalcUnits.md
+      - Calculation Formulas: Legacy/Estimation/Formulas.md
+      - Component Types: Legacy/Estimation/ComponentTypes.md
+      - Finishing Types: Legacy/Estimation/FinishingTypes.md
+      - Additional Rates: Legacy/Estimation/AddRates.md
+      - Alternative Rates: Legacy/Estimation/AltRates.md
+      - Time Groups: Legacy/Estimation/TimeGroup.md
+      - Price Groups: Legacy/Estimation/PriceGroups.md
+      - Configuration Templates: Legacy/Estimation/ConfigTemplates.md
+      - Calculation Unit Userfields: Legacy/Estimation/CalcUnitUF.md
+      - Price List setup: Legacy/Estimation/PriceListSetup.md
+      - Paper Price lists: Legacy/Estimation/PaperPriceLists.md
+      - Price List import/export: Legacy/Estimation/PricelistImpExp.md
+      - Commission setup: Legacy/Estimation/CommissionSetup.md
+      - Decision Overview: Legacy/Estimation/DecisionOverview.md
+      - ECO label setup: Legacy/Estimation/ECOSetup.md
+      - Subcontracting setup: Legacy/Estimation/Subcontracting.md
+      - Flexo setup: Legacy/Estimation/Flexo.md
+      - Calculation without printing: Legacy/Estimation/NoPrint.md
+      - Digital print click cost setup: Legacy/Estimation/DigitalPrintClickCost.md
+    - Estimating:
+      - Creating an estimate: Legacy/Estimation/Estimate.md
+      - Working with templates: Legacy/Estimation/WorkTemplates.md
+      - PrintVis Case: Legacy/Estimation/Case.md
+      - Advanced Case Card: Legacy/Estimation/AdvancedCase.md
+      - Estimate Master Data: Legacy/Estimation/EstimateMasterData.md
+      - Job Card: Legacy/Estimation/JobCard.md
+      - Userfields: Legacy/Estimation/UF.md
+      - Estimating page: Legacy/Estimation/Estimating.md
+      - Specification page: Legacy/Estimation/Spec.md
+      - Scrap page: Legacy/Estimation/Scrap.md
+      - Versioning: Legacy/Estimation/Version.md
+      - Residual Sheets: Legacy/Estimation/ResidualSheets.md
+      - Plate changes: Legacy/Estimation/Plates.md
+      - Process flow diagram: Legacy/Estimation/ProcessFlow.md
+      - Estimation Automation: Legacy/Estimation/EstAuto.md
+      - Copy periodic/repeat runs: Legacy/Estimation/PeriodicRepeat.md
+      - No. of pages vs pages with print: Legacy/Estimation/Pages.md
+    - Quick Quote:
+      - Setup Quick Quote: Legacy/Estimation/SetupQuickQuote.md
+      - Use Quick Quote: Legacy/Estimation/UseQuickQuote.md
+    - Special Scenarios:
+      - Combined Sheets: Legacy/Estimation/Combinedsheets.md
+      - Continuous fed press setup: Legacy/Estimation/ContFedPress.md
+      - Multipart NCR setup: Legacy/Estimation/MultipartNCR.md
+      - Ganged Production: Legacy/Estimation/Gangedprod.md
+      - Newspaper setup: Legacy/Estimation/Newspapersetup.md
+      - Price concepts: Legacy/Estimation/PriceConcepts.md
+      - Prepress orders: Legacy/Estimation/Prepressorders.md
+      - Quantity variations and over delivery: Legacy/Estimation/QtyVarOverDelv.md
+      - Tool selection: Legacy/Estimation/Toolselection.md
+      - Publications and editions: Legacy/Estimation/PubsEds.md
+      - Hourly Rate Scenarios: Legacy/Estimation/HourlyRateScenarios.md
+    - Planning:
+      - Capacity blockings and blocking codes: Legacy/Planning/CapacityBlockings.md
+      - Capacity Resources: Legacy/Planning/CapacityResources.md
+      - Capacity Groups: Legacy/Planning/CapacityUnitGroups.md
+      - Customer follow-up: Legacy/Planning/CustomerFollowUp.md
+      - One surcharge multiple cost centers: Legacy/Planning/SurchargeMultiCC.md
+      - Change status: Legacy/Planning/NextStatus.md
+      - Comment text: Legacy/Planning/CommentText.md
+      - HTML Tags in tooltips: Legacy/Planning/HTMLTagTooltips.md
+      - Milestones setup and usage: Legacy/Planning/MilestoneSetupUsage.md
+      - Planning around milestones: Legacy/Planning/PlanningAroundMilestones.md
+      - Case milestones on production plan: Legacy/Planning/CaseMilestonesProdPlan.md
+      - Opening hours calendar maintenance: Legacy/Planning/OpeningHoursCalendar.md
+      - Sheet ganging: Legacy/Planning/SheetGanging.md
+      - Planning per signature: Legacy/Planning/PlanningPerSig.md
+      - Planning report: Legacy/Planning/PlanningReport.md
+      - Planning Units: Legacy/Planning/PlanningUnits.md
+      - Planning unit status code: Legacy/Planning/PlanUnitStatusCode.md
+      - Production plan: Legacy/Planning/ProductionPlan.md
+      - Planning board: Legacy/Planning/PlanningBoard.md
+      - Planning link: Legacy/Planning/PlanningLink.md
+      - Bottleneck planning: Legacy/Planning/BottleneckPlanning.md
+      - Ruleset setup: Legacy/Planning/RulesetSetup.md
+      - Auto scheduling setup: Legacy/Planning/AutoScheduleSetup.md
+      - Auto scheduling scenarios: Legacy/Planning/AutoScheduleScenarios.md
+      - Job queue auto scheduling: Legacy/Planning/JobQueueAutoSchedule.md
+      - Placeholders: Legacy/Planning/Placeholder.md
+    - Purchasing:
+      - Purchase Guide: Legacy/Purchasing/PurchaseGuide.md
+      - Requisition Worksheet: Legacy/Purchasing/ReqWorksheet.md
+      - Item Reservations: Legacy/Purchasing/ItemRes.md
+    - Workflow:
+      - Status Codes: Legacy/Workflow/StatusCodes.md
+      - Responsibility Areas: Legacy/Workflow/RespArea.md
+      - Order Types: Legacy/Workflow/OrderTypes.md
+      - Product Groups: Legacy/Workflow/PG.md
+      - Relationship between Order Types and Product Groups: Legacy/Workflow/OTandPG.md
+      - Project Management: Legacy/Workflow/ProjectMgmt.md
+      - Using Power Automate with Folders: Legacy/Workflow/UsingPAPVFolder.md
+    - Warehousing:
+      - Item Card: Legacy/Warehouse/ItemCard.md
+      - Item Type Codes and filters: Legacy/Warehouse/ItemTypeCodes.md
+      - Qualities: Legacy/Warehouse/Qualities.md
+      - Material requirements: Legacy/Warehouse/MaterialRequirements.md
+      - Job material movement and pick: Legacy/Warehouse/JobMaterialMovement.md
+    - Shop Floor and Job Costing:
+      - Work Code setup: Legacy/JobCosting/WorkCodeSetup.md
+      - Extra work codes: Legacy/JobCosting/ExtraWorkCodes.md
+      - Indirect time: Legacy/JobCosting/IndirectTime.md
+      - PrintVis Unit of Measure setup: Legacy/JobCosting/PrintVisUOM.md
+      - Shop Floor Role Center: Legacy/JobCosting/ShopFloorRoleCenter.md
+      - Shop Floor: Legacy/JobCosting/ShopFloor.md
+      - Production Tracking: Legacy/JobCosting/ProductionTracking.md
+      - Barcode scan lot: Legacy/JobCosting/BarcodeScanLot.md
+      - Produced output: Legacy/JobCosting/ProducedOutput.md
+      - Multi-user time registration: Legacy/JobCosting/Multi-userTimeRegistration.md
+      - Move worksheet for approval: Legacy/JobCosting/MoveWorksheetforApproval.md
+      - Cost Center Monitor List: Legacy/JobCosting/CostCenterMonitor.md
+      - Shop Floor Monitor: Legacy/JobCosting/ShopFloorMonitor.md
+      - WIP Posting: Legacy/JobCosting/WIPPosting.md
+      - Posted Purchase Order - Subcontracting: Legacy/JobCosting/PostedPOOutwork.md
+      - Auto job costing: Legacy/JobCosting/AutoJobCosting.md
+      - Job Costing: Legacy/JobCosting/JobCosting.md
+      - Job Costing journal setup: Legacy/JobCosting/JobCostingjournalsetup.md
+      - Job Costing report: Legacy/JobCosting/JobCostingreport.md
+    - Shipping:
+      - Shipment: Legacy/Shipping/Shipment.md
+      - Shipping Agents: Legacy/Shipping/ShippingAgent.md
+      - Combined shipments: Legacy/Shipping/CombinePrintVisShipments.md
+      - Import PrintVis shipments: Legacy/Shipping/ImportPVShipments.md
+      - Register receipts in PrintVis: Legacy/Shipping/RegisterReceiptsinPrintVis.md
+      - Release Finished Goods: Legacy/Shipping/ReleaseFinishedGoods.md
+      - Invoice template shipment on invoice lines: Legacy/Shipping/InvoiceTemplateShipmentonInvoicelines.md
+      - EasyPost integration: Legacy/Shipping/EasyPost.md
+      - nShift Delivery integration: Legacy/Shipping/nShiftDelivery.md
+      - nShift Ship integration: Legacy/Shipping/nShiftShip.md
+    - Invoicing:
+      - PrintVis G/L Posting Setup: Legacy/Invoicing/PrintVisGLPostingSetup.md
+      - Invoicing based on templates: Legacy/Invoicing/Invoicingbasedontemplates.md
+      - Invoicing per job line: Legacy/Invoicing/Invoicingperjobline.md
+      - Combined invoicing: Legacy/Invoicing/CombinedInvoicing.md
+      - Invoice dimension allocation: Legacy/Invoicing/InvoiceDimensionAllocation.md
+      - Complaints: Legacy/Invoicing/Complaints.md
+    - Reports and Analysis:
+      - Analysis Pages: Legacy/Reports/AnalysisPages.md
+      - Report Selection: Legacy/Reports/ReportSelection.md
+      - Job Ticket Setup: Legacy/Reports/JTSetup.md
+      - Job Ticket and Estimate Reports: Legacy/Reports/JTandEstReports.md
+      - Order Deviation Report: Legacy/Reports/DeviationReport.md
+    - System:
+      - Standard Units: Legacy/System/StandardUnits.md
+      - Integrated Fields: Legacy/System/IntegratedFields.md
+      - Folder Groups: Legacy/System/FolderGroups.md
+      - Imposition Types: Legacy/System/ImpositionTypes.md
+      - PrintVis Tools: Legacy/System/PrintVisTools.md
+      - PrintVis Products: Legacy/System/PrintVisProducts.md
+      - Report Setup: Legacy/System/ReportSetup.md
+      - Report Setup Shipping Documents: Legacy/System/ReportSetupShipping.md
+      - PrintVis Storage: Legacy/System/PrintVisStorage.md
+      - Text Codes Setup: Legacy/System/TextCodesSetup.md
+    - Integrations:
+      - JDF Setup Data: Legacy/Integrations/CIM-JDFSetupData.md
+      - JDF Technical Communications: Legacy/Integrations/CIM-JDFSetupTechComm.md
+      - PrintVis Link: Legacy/Integrations/PrintVisLink.md
+      - Web2PV REST API: Legacy/Integrations/Web2PVREST.md
+      - Esko Folding Carton: Legacy/Integrations/EskoFoldingCarton.md
+      - Esko Label: Legacy/Integrations/EskoLabel.md
+      - XMPie: Legacy/Integrations/XMPie.md
+      - Dynaway: Legacy/Integrations/Dynaway.md
+      - Kodak DPP: Legacy/Integrations/KodakDPP.md
   - PrintVis User Group: pug.md
-
+    
 theme:
   name: material
   custom_dir: docs/overrides
@@ -344,7 +343,7 @@ theme:
   logo: img/logo.png
   favicon: img/bee.jpg
 
-extra_css:
+extra_css: 
   - styles/printvis-footer.css
   - styles/printvis-style.css
 
